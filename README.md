@@ -2,16 +2,15 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) ![GitHub](https://img.shields.io/badge/License-MIT-lightgrey.svg) ![GitHub](https://img.shields.io/badge/Languages-MULTI-blue.svg) ![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) ![ ](https://img.shields.io/github/last-commit/JGalego/awesome-safety-critical-ai)
 
-
 **Welcome to Awesome Safety Critical AI!**
 
 This repository contains a curated list of references on the role of AI in **safety-critical systems**, systems whose failure can result in loss of life, significant property damage or damage to the environment.
 
 In here, you'll find references on safe and responsible AI, reliable ML, AI testing, V&V in AI, real-world case studies, and much, much more.
 
-You can keep up to date by watching this GitHub repo 🤩
+You can keep up to date by watching this GitHub repo
 
-<img src="images/ai4sc.png" width="70%">
+![AI for Safety Critical](images/ai4sc.png)
 
 ## Table of Contents
 
@@ -49,7 +48,7 @@ You can keep up to date by watching this GitHub repo 🤩
 
 If you're in a hurry or just don't like reading, here's a podcast-style breakdown created with [NotebookLM](https://notebooklm.google/) (courtesy of [Pedro Nunes](https://github.com/pedrosaunu) 🙏)
 
-<a href="https://soundcloud.com/safety-critical-podcasts/safety-critical-ai-101-podcast"><img src="images/safety_critical_ai_podcast.png"/></a>
+[![Safety Critical AI Podcast](images/safety_critical_ai_podcast.png)](https://soundcloud.com/safety-critical-podcasts/safety-critical-ai-101-podcast)
 
 ## <a id="articles"></a>📝 Articles
 
@@ -158,6 +157,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [ISO/IEC 23894:2023](https://www.iso.org/standard/77304.html) > Information technology — Artificial intelligence — Guidance on risk management
 * [ISO/IEC 38507:2022](https://www.iso.org/standard/56641.html) > Information technology — Governance of IT — Governance implications of the use of artificial intelligence by organizations
 * [ISO/IEC 42001:2023](https://www.iso.org/standard/81230.html) > Information technology — Artificial intelligence — Management system
+* [NIST AI 100-1](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10) > Artificial Intelligence Risk Management Framework
 * [SAE G-34](https://standardsworks.sae.org/standards-committees/g-34-artificial-intelligence-aviation) > Artificial Intelligence in Aviation
 
 ## <a id="tools"></a>🛠️ Tools
@@ -231,7 +231,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
 * [CISA's Roadmap for Artificial Intelligence](https://www.cisa.gov/ai)
-* [MITRE ATLAS to navigate threats to AI systems through real-world insights]()
+* [MITRE ATLAS to navigate threats to AI systems through real-world insights](https://atlas.mitre.org/)
 * [OWASP's Top 10 LLM Applications & Generative AI](https://genai.owasp.org/)
 * [Responsible AI at Stanford](https://uit.stanford.edu/security/responsibleai)
 * [RobustML](https://robust-ml.github.io/): community-run hub for learning about robust ML
@@ -259,7 +259,7 @@ If it's true that *"everything fails all the time"*, the stuff we do has to fail
 
 > **Are you ready to begin your Critical adventure?** 🚀 Check out our [open roles](https://careers.criticalsoftware.com/).
 
-<img src="images/what_makes_us.png"/>
+![What Makes Us](images/what_makes_us.png)
 
 ## Contributions
 
