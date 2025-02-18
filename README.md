@@ -15,27 +15,36 @@ You can keep up to date by watching this GitHub repo 🤩
 
 ## Table of Contents
 
-* [🌟 Editor's Choice](#top-picks)
-* [🏃 TLDR](#tldr)
-* [📝 Articles](#articles)
-* [✍️ Blogs](#blogs)
-* [📚 Books](#books)
-* [📜 Certifications](#certifications)
-* [🎤 Conferences](#conferences)
-* [👩‍🏫 Courses](#courses)
-* [📰 News](#news)
-* [🤝 Initiatives](#initiatives)
-* [📋 Reports](#reports)
-* [📐 Standards](#standards)
-* [🛠️ Tools](#tools)
-* [📺 Videos](#videos)
-* [📄 Whitepapers](#whitepapers)
-* [👷🏼 Working Groups](#working-groups)
-* [👾 Miscellaneous](#miscellaneous)
-* [🏁 Meta](#meta)
-* [About Us](#about-us)
-* [Contributions](#contributions)
-* [Citation](#citation)
+- [Awesome Safety-Critical AI](#awesome-safety-critical-ai)
+  - [Table of Contents](#table-of-contents)
+  - [🌟 Editor's Choice](#-editors-choice)
+  - [🏃 TLDR](#-tldr)
+  - [📝 Articles](#-articles)
+  - [✍️ Blogs](#️-blogs)
+  - [📚 Books](#-books)
+  - [📜 Certifications](#-certifications)
+  - [📰 News](#-news)
+  - [🤝 Initiatives](#-initiatives)
+  - [📋 Reports](#-reports)
+  - [📐 Standards](#-standards)
+  - [🛠️ Tools](#️-tools)
+    - [Adversarial Attacks](#adversarial-attacks)
+    - [Model Evaluation](#model-evaluation)
+    - [Model Fairness \& Privacy](#model-fairness--privacy)
+    - [Model Intepretability](#model-intepretability)
+    - [Model Lifecycle](#model-lifecycle)
+    - [Model Security](#model-security)
+    - [Model Testing \& Validation](#model-testing--validation)
+  - [🎤 Conferences](#-conferences)
+  - [👩‍🏫 Courses](#-courses)
+  - [📺 Videos](#-videos)
+  - [📄 Whitepapers](#-whitepapers)
+  - [👷🏼 Working Groups](#-working-groups)
+  - [👾 Miscellaneous](#-miscellaneous)
+  - [🏁 Meta](#-meta)
+  - [About Us](#about-us)
+  - [Contributions](#contributions)
+  - [Citation](#citation)
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
@@ -245,6 +254,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Awesome Trustworthy AI](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning): list covering different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, &c.
 * [Awesome Responsible AI](https://github.com/AthenaCore/AwesomeResponsibleAI): a curated list of awesome academic research, books, code of ethics, courses, data sets, frameworks, institutes, maturity models, newsletters, principles, podcasts, reports, tools, regulations and standards related to Responsible, Trustworthy, and Human-Centered AI
 * [Awesome Safety Critical](https://github.com/stanislaw/awesome-safety-critical): a list of resources about programming practices for writing safety-critical software
+* [Common Weakness Enumeration](https://cwe.mitre.org): discover AI common weaknesses such as improper validation of generative AI output
 
 ## About Us
 
