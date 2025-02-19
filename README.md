@@ -246,6 +246,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Awesome Responsible AI](https://github.com/AthenaCore/AwesomeResponsibleAI): a curated list of awesome academic research, books, code of ethics, courses, data sets, frameworks, institutes, maturity models, newsletters, principles, podcasts, reports, tools, regulations and standards related to Responsible, Trustworthy, and Human-Centered AI
 * [Awesome Safety Critical](https://github.com/stanislaw/awesome-safety-critical): a list of resources about programming practices for writing safety-critical software
 * [Common Weakness Enumeration](https://cwe.mitre.org): discover AI common weaknesses such as improper validation of generative AI output
+* [FDA Draft Guidance on AI](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing): regulatory draft guidance from the US Food & Drug Association, which regulates the development and marketing of Medical Devices in the US (open for comments until April 7th 2025)
 
 ## About Us
 
