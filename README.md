@@ -39,8 +39,9 @@ You can keep up to date by watching this GitHub repo
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
-* 🧰 An awesome set of [tools for production-ready ML](https://github.com/EthicalML/awesome-production-machine-learning)(use them wisely and remember that *"a sword is only as good as the man who wields it"*)
-* 😈 A collection of [scary use cases of AI](https://github.com/daviddao/awful-ai), hoping to raise awareness to its misuses in society
+* 🧰 An awesome set of [tools for production-ready ML](https://github.com/EthicalML/awesome-production-machine-learning)
+    > ☝️ Use them wisely and remember that *"a sword is only as good as the man [or woman] who wields it"*
+* 😈 A collection of [scary use cases of AI](https://github.com/daviddao/awful-ai), which will hopefully raise awareness to its misuses in society
 * 💳 The now-classic [high-interest credit card of technical debt](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf) paper by Google
 * 🤝 An introduction to [trustworthy AI](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-1-Mariani-Rossi/2e550e23511711dae2689322741f9c113c6c506f) by NVIDIA
 * 🚩 Lessons-learned from [red teaming hundreds of generative AI products](https://arxiv.org/abs/2501.07238) by Microsoft
