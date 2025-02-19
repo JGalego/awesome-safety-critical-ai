@@ -167,6 +167,15 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`bethgelab/foolbox`](https://github.com/bethgelab/foolbox): fast adversarial attacks to benchmark the robustness of ML models in PyTorch, TensorFlow and JAX
 * [`Trusted-AI/adversarial-robustness-toolbox`](https://github.com/Trusted-AI/adversarial-robustness-toolbox): a Python library for ML security - evasion, poisoning, extraction, inference - red and blue teams
 
+### Data Management
+
+* [`cleanlab/cleanlab`](https://github.com/cleanlab/cleanlab): data-centric AI package for data quality and ML with messy, real-world data and labels.
+* [`facebook/Ax`](https://github.com/facebook/Ax): an accessible, general-purpose platform for understanding, managing, deploying, and automating adaptive experiments
+* [`great-expectations/great_expectations`](https://github.com/great-expectations/great_expectations): always know what to expect from your data
+* [`iterative/dvc`](https://github.com/iterative/dvc): a command line tool and VS Code Extension to help you develop reproducible ML projects
+* [`tensorflow/data-validation`](https://github.com/tensorflow/data-validation): a library for exploring and validating ML data 
+* [`unionai-oss/pandera`](https://github.com/unionai-oss/pandera): data validation for scientists, engineers, and analysts seeking correctness
+
 ### Model Evaluation
 
 * [`confident-ai/deepeval`](https://github.com/confident-ai/deepeval): a simple-to-use, open-source LLM evaluation framework, for evaluating and testing LLM systems
@@ -240,6 +249,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 ## <a id="meta"></a>🏁 Meta
 
 * [safety-critical-systems](https://github.com/topics/safety-critical-systems) GitHub topic
+* [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science)
 * [Awesome MLOps](https://github.com/kelvins/awesome-mlops): a curated list of awesome MLOps tools
 * [Awesome Production ML](https://github.com/EthicalML/awesome-production-machine-learning): a curated list of awesome open source libraries that will help you deploy, monitor, version, scale, and secure your production machine learning
 * [Awesome Trustworthy AI](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning): list covering different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, &c.
