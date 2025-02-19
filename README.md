@@ -22,8 +22,9 @@ You can keep up to date by watching this GitHub repo
 * [📜 Certifications](#certifications)
 * [🎤 Conferences](#conferences)
 * [👩‍🏫 Courses](#courses)
-* [📰 News](#news)
+* [📙 Guidelines](#guidelines)
 * [🤝 Initiatives](#initiatives)
+* [📰 News](#news)
 * [📋 Reports](#reports)
 * [📐 Standards](#standards)
 * [🛠️ Tools](#tools)
@@ -38,11 +39,12 @@ You can keep up to date by watching this GitHub repo
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
+* 🧰 An awesome set of [tools for production-ready ML](https://github.com/EthicalML/awesome-production-machine-learning)(use them wisely and remember that *"a sword is only as good as the man who wields it"*)
 * 😈 A collection of [scary use cases of AI](https://github.com/daviddao/awful-ai), hoping to raise awareness to its misuses in society
 * 💳 The now-classic [high-interest credit card of technical debt](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf) paper by Google
 * 🤝 An introduction to [trustworthy AI](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-1-Mariani-Rossi/2e550e23511711dae2689322741f9c113c6c506f) by NVIDIA
 * 🚩 Lessons-learned from [red teaming hundreds of generative AI products](https://arxiv.org/abs/2501.07238) by Microsoft
-* 🚨 Yet another [top 10 risks for LLM applications and Generative AI](https://genai.owasp.org/) by OWASP
+* 🚨 Last but not least, the top 10 [risks for LLM applications and Generative AI](https://genai.owasp.org/) by OWASP
 
 ## <a id="tldr"></a>🏃 TLDR
 
@@ -52,6 +54,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="articles"></a>📝 Articles
 
+* (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
 * (Bach *et al.*, 2024) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://ieeexplore.ieee.org/document/10620168)
 * (Belani, Vukovic & Car, 2019) [Requirements Engineering Challenges in Building AI-Based Complex Systems](https://arxiv.org/abs/1908.11791)
 * (Bolchini, Cassano & Miele, 2024) [Resilience of Deep Learning applications: a systematic literature review of analysis and hardening techniques](https://arxiv.org/abs/2309.16733)
@@ -69,6 +72,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Lwakatare *et al.*, 2020) [Large-scale machine learning systems in real-world industrial settings: A review of challenges and solutions](https://www.sciencedirect.com/science/article/abs/pii/S0950584920301373)
 * (Mach *et al.*, 2021) [Architectural Patterns for Integrating AI Technology into Safety-Critical System](https://dl.acm.org/doi/fullHtml/10.1145/3489449.3490014)
 * (Mariani *et al.*, 2023) [Trustworthy AI - Part I](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-1-Mariani-Rossi/2e550e23511711dae2689322741f9c113c6c506f), [II](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-II-Mariani-Rossi/9f354b3a88e6d6512d22ec152e6c6131a1e44cab) and [III](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-III-Mariani-Rossi/ff446b46c5b9b4c0d18849d479fe5645f6182a36)
+* (Papernot *et al.*, 2018) [SoK: Security and Privacy in Machine Learning](https://ieeexplore.ieee.org/document/8406613)
 * (Pereira & Thomas, 2024) [Challenges of Machine Learning Applied to Safety-Critical Cyber-Physical Systems](https://www.mdpi.com/2504-4990/2/4/31)
 * (Perez-Cerrolaza *et al.*, 2024) [Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey](https://dl.acm.org/doi/10.1145/3626314)
 * (Picardi *et al.*, 2020) [Assurance Argument Patterns and Processes for Machine Learning in Safety-Related Systems](https://ceur-ws.org/Vol-2560/paper17.pdf)
@@ -85,6 +89,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 ## <a id="blogs"></a>✍️ Blogs
 
 * (CleverHans Lab, 2016) [Breaking things is easy](https://cleverhans.io/security/privacy/ml/2016/12/16/breaking-things-is-easy.html)
+* (Ground Truths, 2025) [When Doctors With AI Are Outperformed by AI Alone](https://erictopol.substack.com/p/when-doctors-with-ai-are-outperformed)
 * (MathWorks, 2023) [The Road to AI Certification: The importance of Verification and Validation in AI](https://blogs.mathworks.com/deep-learning/2023/07/11/the-road-to-ai-certification-the-importance-of-verification-and-validation-in-ai)
 * (restack, 2025) [Safety In Critical AI Systems](https://www.restack.io/p/ai-application-safety-protocols-answer-safety-in-critical-ai-systems-cat-ai)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
@@ -95,6 +100,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Huang, Jin & Ruan, 2023) [Machine Learning Safety](https://link.springer.com/book/10.1007/978-981-19-6814-3)
 * (Huyen, 2022) [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969?&_encoding=UTF8&tag=chiphuyen-20&linkCode=ur2&linkId=0a1dbab0e76f5996e29e1a97d45f14a5&camp=1789&creative=9325)
 * (Joseph *et al.*, 2019) [Adversarial Machine Learning](https://www.amazon.com/Adversarial-Machine-Learning-Anthony-Joseph/dp/1107043468)
+* (Pelillo & Scantamburlo, 2021) [Machines We Trust: Perspectives on Dependable AI](https://direct.mit.edu/books/edited-volume/5173/Machines-We-TrustPerspectives-on-Dependable-AI)
 * (Tran, 2024) [Artificial Intelligence for Safety and Reliability Engineering: Methods, Applications, and Challenges](https://link.springer.com/book/10.1007/978-3-031-71495-5)
 * (Varshney, 2021) [Trust in Machine Learning](https://www.manning.com/books/trust-in-machine-learning-cx)
 
@@ -113,13 +119,34 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 ## <a id="courses"></a>👩‍🏫 Courses
 
 * [AI for Good Specialization](https://www.deeplearning.ai/courses/ai-for-good/) @ DeepLearning.AI
+* [Dependable AI Systems](https://courses.grainger.illinois.edu/ece598rki/fa2023/) @ University of Illinois Urbana-Champaign
+* [Limits to Prediction](https://msalganik.github.io/soc555-cos598J_s2024/) @ Princeton University
 * [Machine Learning for Healthcare](https://mlhcmit.github.io/) @ MIT
 * [Machine Learning in Production](https://mlip-cmu.github.io/) @ Carnegie-Mellon University
+* [Machine Learning Security](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State University
 * [Responsible AI](https://github.com/aws-samples/aws-machine-learning-university-responsible-ai) @ Amazon MLU
 * [Robustness in Machine Learning](https://jerryzli.github.io/robust-ml-fall19.html) @ University of Washington
 * [Security and Privacy of Machine Learning](https://secml.github.io/) @ University of Virginia
 * [Trustworthy Artificial Intelligence](https://trustworthy-ml-course.github.io/) @ University of Michigan, Dearborn
+* [Trustworthy Machine Learning](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State University
 * [Trustworthy Machine Learning](https://scalabletrustworthyai.github.io) @ University of Tübingen
+
+## <a id="guidelines"></a>📙 Guidelines
+
+* (CAIDP) [Universal Guidelines for AI](https://www.caidp.org/universal-guidelines-for-ai/)
+* (DIU) [Reponsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines)
+* (European Commission) [Ethics guidelines for trustworthy AI ](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
+* (European Union) [The EU AI Act](https://artificialintelligenceact.eu/)
+* (Google) [AI Principles](https://ai.google/responsibility/principles/)
+* (Harvard University) [Initial guidelines for the use of Generative AI tools at Harvard](https://www.huit.harvard.edu/ai/guidelines)
+* (Homeland Security) [Roles and Responsibilities Framework for Artificial Intelligence in Critical Infrastructure](https://www.dhs.gov/publication/roles-and-responsibilities-framework-artificial-intelligence-critical-infrastructure)
+* (Inter-Parliamentary Union) [Guidelines for AI in Parliaments](https://www.ipu.org/ai-guidelines)
+* (Microsoft) [Responsible AI: Principles and Approach](https://www.microsoft.com/en-us/ai/principles-and-approach)
+* (Ministry of Defense) [JSP 936: Dependable Artificial Intelligence (AI) in defence (part 1: directive) ](https://www.gov.uk/government/publications/jsp-936-dependable-artificial-intelligence-ai-in-defence-part-1-directive)
+* (NCSC) [Guidelines for secure AI system development](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development)
+* (OECD) [AI Principles](https://oecd.ai/en/ai-principles)
+* (Stanford) [Responsible AI at Stanford](https://uit.stanford.edu/security/responsibleai)
+* (UNESCO) [Ethics of Artificial Intelligence](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
 
 ## <a id="initiatives"></a>🤝 Initiatives
 
@@ -226,7 +253,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="whitepapers"></a>📄 Whitepapers
 
-* (Homeland Security) [Roles and Responsibilities Framework for Artificial Intelligence in Critical Infrastructure](https://www.dhs.gov/publication/roles-and-responsibilities-framework-artificial-intelligence-critical-infrastructure)
+* (Fraunhofer) [Dependable AI: How to use Artificial Intelligence even in critical applications?](https://www.iese.fraunhofer.de/en/services/dependable-ai.html)
 * (IET) [The Application of Artificial Intelligence in Functional Safety](https://electrical.theiet.org/guidance-and-codes-of-practice/publications-by-category/artificial-intelligence/the-application-of-artificial-intelligence-in-functional-safety/)
 * (Thales) [The Challenges of using AI in Critical Systems](https://www.thalesgroup.com/en/worldwide/group/magazine/challenges-using-ai-critical-systems)
 
@@ -238,13 +265,20 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="miscellaneous"></a>👾 Miscellaneous
 
+* [AI Snake Oil, debunking hype about AI’s capabilities and transformative effects](https://www.aisnakeoil.com/)
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
+* [CO/AI, actionable resources & strategies for the AI era](https://getcoai.com/)
 * [CISA's Roadmap for Artificial Intelligence](https://www.cisa.gov/ai)
 * [MITRE ATLAS to navigate threats to AI systems through real-world insights](https://atlas.mitre.org/)
 * [OWASP's Top 10 LLM Applications & Generative AI](https://genai.owasp.org/)
-* [Responsible AI at Stanford](https://uit.stanford.edu/security/responsibleai)
 * [RobustML](https://robust-ml.github.io/): community-run hub for learning about robust ML
 * [SEBoK Verification and Validation of Systems in Which AI is a Key Element](https://sebokwiki.org/wiki/Verification_and_Validation_of_Systems_in_Which_AI_is_a_Key_Element)
+* The gospel of Trustworthy AI according to
+    - [Deloitte](https://www2.deloitte.com/us/en/pages/deloitte-analytics/solutions/ethics-of-ai-framework.html)
+    - [IBM](https://research.ibm.com/topics/trustworthy-ai)
+    - [Microsoft](https://blogs.microsoft.com/blog/2024/09/24/microsoft-trustworthy-ai-unlocking-human-potential-starts-with-trust/)
+    - [NIST](https://www.nist.gov/trustworthy-and-responsible-ai)
+    - [NVIDIA](https://www.nvidia.com/en-us/ai-data-science/trustworthy-ai/)
 
 ## <a id="meta"></a>🏁 Meta
 
