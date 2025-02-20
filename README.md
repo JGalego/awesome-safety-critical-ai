@@ -1,6 +1,6 @@
 # Awesome Safety-Critical AI
 
-[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) ![GitHub](https://img.shields.io/badge/License-MIT-lightgrey.svg) ![GitHub](https://img.shields.io/badge/Languages-MULTI-blue.svg) ![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) ![ ](https://img.shields.io/github/last-commit/JGalego/awesome-safety-critical-ai)
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) ![mission](https://img.shields.io/badge/mission-build_a_better_and_safer_world-purple) ![license](https://img.shields.io/badge/license-MIT-lightgrey.svg) ![languages](https://img.shields.io/badge/languages-MULTI-blue.svg) ![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) ![last commit](https://img.shields.io/github/last-commit/JGalego/awesome-safety-critical-ai)
 
 **Welcome to Awesome Safety Critical AI!**
 
