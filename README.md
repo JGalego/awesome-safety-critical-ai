@@ -154,14 +154,14 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (CAIDP) [Universal Guidelines for AI](https://www.caidp.org/universal-guidelines-for-ai/)
 * (DIU) [Reponsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines)
-* (European Commission) [Ethics guidelines for trustworthy AI ](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
+* (European Commission) [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
 * (European Union) [The EU AI Act](https://artificialintelligenceact.eu/)
 * (Google) [AI Principles](https://ai.google/responsibility/principles/)
 * (Harvard University) [Initial guidelines for the use of Generative AI tools at Harvard](https://www.huit.harvard.edu/ai/guidelines)
 * (Homeland Security) [Roles and Responsibilities Framework for Artificial Intelligence in Critical Infrastructure](https://www.dhs.gov/publication/roles-and-responsibilities-framework-artificial-intelligence-critical-infrastructure)
 * (Inter-Parliamentary Union) [Guidelines for AI in Parliaments](https://www.ipu.org/ai-guidelines)
 * (Microsoft) [Responsible AI: Principles and Approach](https://www.microsoft.com/en-us/ai/principles-and-approach)
-* (Ministry of Defense) [JSP 936: Dependable Artificial Intelligence (AI) in defence (part 1: directive) ](https://www.gov.uk/government/publications/jsp-936-dependable-artificial-intelligence-ai-in-defence-part-1-directive)
+* (Ministry of Defense) [JSP 936: Dependable Artificial Intelligence (AI) in defense (part 1: directive)](https://www.gov.uk/government/publications/jsp-936-dependable-artificial-intelligence-ai-in-defence-part-1-directive)
 * (NCSC) [Guidelines for secure AI system development](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development)
 * (OECD) [AI Principles](https://oecd.ai/en/ai-principles)
 * (Stanford) [Responsible AI at Stanford](https://uit.stanford.edu/security/responsibleai)
@@ -223,7 +223,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`facebook/Ax`](https://github.com/facebook/Ax): an accessible, general-purpose platform for understanding, managing, deploying, and automating adaptive experiments
 * [`great-expectations/great_expectations`](https://github.com/great-expectations/great_expectations): always know what to expect from your data
 * [`iterative/dvc`](https://github.com/iterative/dvc): a command line tool and VS Code Extension to help you develop reproducible ML projects
-* [`tensorflow/data-validation`](https://github.com/tensorflow/data-validation): a library for exploring and validating ML data 
+* [`tensorflow/data-validation`](https://github.com/tensorflow/data-validation): a library for exploring and validating ML data
 * [`unionai-oss/pandera`](https://github.com/unionai-oss/pandera): data validation for scientists, engineers, and analysts seeking correctness
 
 ### Model Evaluation
@@ -254,6 +254,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ### Model Security
 
+* [`azure/PyRIT`](https://github.com/Azure/PyRIT): risk identification tool to assess the security and safety issues of generative AI systems
 * [`ffhibnese/Model-Inversion-Attack-ToolBox`](https://github.com/ffhibnese/Model-Inversion-Attack-ToolBox): a comprehensive toolbox for model inversion attacks and defenses
 * [`protectai/llm-guard`](https://github.com/protectai/llm-guard): a comprehensive tool designed to fortify the security of LLMs
 
@@ -334,11 +335,11 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [RobustML](https://robust-ml.github.io/): community-run hub for learning about robust ML
 * [SEBoK Verification and Validation of Systems in Which AI is a Key Element](https://sebokwiki.org/wiki/Verification_and_Validation_of_Systems_in_Which_AI_is_a_Key_Element)
 * The gospel of Trustworthy AI according to
-    - [Deloitte](https://www2.deloitte.com/us/en/pages/deloitte-analytics/solutions/ethics-of-ai-framework.html)
-    - [IBM](https://research.ibm.com/topics/trustworthy-ai)
-    - [Microsoft](https://blogs.microsoft.com/blog/2024/09/24/microsoft-trustworthy-ai-unlocking-human-potential-starts-with-trust/)
-    - [NIST](https://www.nist.gov/trustworthy-and-responsible-ai)
-    - [NVIDIA](https://www.nvidia.com/en-us/ai-data-science/trustworthy-ai/)
+  * [Deloitte](https://www2.deloitte.com/us/en/pages/deloitte-analytics/solutions/ethics-of-ai-framework.html)
+  * [IBM](https://research.ibm.com/topics/trustworthy-ai)
+  * [Microsoft](https://blogs.microsoft.com/blog/2024/09/24/microsoft-trustworthy-ai-unlocking-human-potential-starts-with-trust/)
+  * [NIST](https://www.nist.gov/trustworthy-and-responsible-ai)
+  * [NVIDIA](https://www.nvidia.com/en-us/ai-data-science/trustworthy-ai/)
 
 ## <a id="meta"></a>🏁 Meta
 
