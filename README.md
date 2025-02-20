@@ -265,11 +265,33 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ### Under Assessment ⚗️
 
+> **Just a quick note** 📌 This section includes some of the promising, bleeding edge, open-source tools we're evaluating at Critical Software. We prioritize minimal, reliable, security-first, `prod`-ready, open-source tools/frameworks with support for local deployment. If you know better ones, feel free to reach out to one of the maintainers or open a PR.
+
+* [`agno-agi/agno`](https://github.com/agno-agi/agno): a lightweight library for building multi-modal agents
+* [`Arize-ai/phoenix`](https://github.com/Arize-ai/phoenix): an open-source AI observability platform designed for experimentation, evaluation, and troubleshooting
+* [`BerriAI/litellm`](https://github.com/BerriAI/litellm): aall all LLM APIs using the OpenAI format [Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, Groq, &c.]
 * [`browser-use/browser-use`](https://github.com/browser-use/browser-use): make websites accessible for AI agents
-* [`langgenius/dify`](https://github.com/langgenius/dify): an open-source LLM app development platform, which combines agentic AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production
+* [`Cinnamon/kotaemon`](https://github.com/Cinnamon/kotaemon): an open-source RAG-based tool for chatting with your documents
+* [`ComposioHQ/composio`](https://github.com/ComposioHQ/composio): equip's your AI agents & LLMs with 100+ high-quality integrations via function calling
+* [`deepset-ai/haystack`](https://github.com/deepset-ai/haystack): orchestration framework to build customizable, production-ready LLM applications
+* [`DS4SD/docling`](https://github.com/DS4SD/docling): get your documents ready for gen AI
 * [`exo-explore/exo`](https://github.com/exo-explore/exo): run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
+* [`groq/groq-python`](https://github.com/groq/groq-python): the official Python library for the Groq API
+* [`hiyouga/LLaMA-Factory`](https://github.com/hiyouga/LLaMA-Factory): unified efficient fine-tuning of 100+ LLMs and VLMs
 * [`keephq/keep`](https://github.com/keephq/keep): open-source AIOps and alert management platform
+* [`khoj-ai/khoj`](https://github.com/khoj-ai/khoj): a self-hostable AI second brain
+* [`ItzCrazyKns/Perplexica`](https://github.com/ItzCrazyKns/Perplexica): an AI-powered search engine and open source alternative to Perplexity AI
+* [`langfuse/langfuse`](https://github.com/langfuse/langfuse): an open source LLM engineering platform with support for LLM observability, metrics, evals, prompt management, playground, datasets
+* [`langgenius/dify`](https://github.com/langgenius/dify): an open-source LLM app development platform, which combines agentic AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production
+* [`latitude-dev/latitude-llm`](https://github.com/latitude-dev/latitude-llm): open-source prompt engineering platform to build, evaluate, and refine your prompts with AI
 * [`microsoft/data-formulator`](https://github.com/microsoft/data-formulator): transform data and create rich visualizations iteratively with AI 🪄
+* [`Mintplex-Labs/anything-llm`](https://github.com/Mintplex-Labs/anything-llm): all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, and more
+* [`ollama/ollama`](https://github.com/ollama/ollama): get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large LMs
+* [`promptfoo/promptfoo`](https://github.com/promptfoo/promptfoo): a developer-friendly local tool for testing LLM applications
+* [`run-llama/llama_index`](https://github.com/run-llama/llama_index): the leading framework for building LLM-powered agents over your data
+* [`stanfordnlp/dspy`](https://github.com/stanfordnlp/dspy): the framework for programming - not prompting - language models
+* [`topoteretes/cognee`](https://github.com/topoteretes/cognee): reliable LLM memory for AI applications and AI agents
+* [`unslothai/unsloth`](https://github.com/unslothai/unsloth): finetune Llama 3.3, DeepSeek-R1 and reasoning LLMs 2x faster with 70% less memory! 🦥
 
 ## <a id="videos"></a>📺 Videos
 
@@ -323,7 +345,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * [safety-critical-systems](https://github.com/topics/safety-critical-systems) GitHub topic
-* [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science)
+* [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps): a collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models
+* [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science): (probably) the best curated list of data science software in Python
 * [Awesome MLOps](https://github.com/kelvins/awesome-mlops): a curated list of awesome MLOps tools
 * [Awesome Production ML](https://github.com/EthicalML/awesome-production-machine-learning): a curated list of awesome open source libraries that will help you deploy, monitor, version, scale, and secure your production machine learning
 * [Awesome Trustworthy AI](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning): list covering different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, &c.
