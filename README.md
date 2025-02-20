@@ -34,6 +34,7 @@ You can keep up to date by watching this GitHub repo
 * [🏁 Meta](#meta)
 * [About Us](#about-us)
 * [Contributions](#contributions)
+* [Contributors](#contributors)
 * [Citation](#citation)
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
@@ -264,9 +265,9 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`explodinggradients/ragas`](https://github.com/explodinggradients/ragas): objective metrics, intelligent test generation, and data-driven insights for LLM apps
 * [`pytorchfi/pytorchfi`](https://github.com/pytorchfi/pytorchfi): a runtime fault injection tool for PyTorch 🔥
 
-### Under Assessment ⚗️
+### Bleeding Edge ⚗️
 
-> **Just a quick note** 📌 This section includes some of the promising, bleeding edge, open-source tools we're evaluating at Critical Software. We prioritize minimal, reliable, security-first, `prod`-ready, open-source tools/frameworks with support for local deployment. If you know better ones, feel free to reach out to one of the maintainers or open a PR.
+> **Just a quick note** 📌 This section includes some promising, open-source tools we're currently testing and evaluating at Critical Software. We prioritize minimal, reliable, security-first, `prod`-ready tools with support for local deployment. **If you know better ones, feel free to reach out to one of the maintainers or open a pull request.**
 
 * [`agno-agi/agno`](https://github.com/agno-agi/agno): a lightweight library for building multi-modal agents
 * [`Arize-ai/phoenix`](https://github.com/Arize-ai/phoenix): an open-source AI observability platform designed for experimentation, evaluation, and troubleshooting
@@ -376,9 +377,15 @@ If it's true that *"everything fails all the time"*, the stuff we do has to fail
 
 <small>[🔼 Back to top](#toc)</small>
 
-📣 We're actively looking for maintainers and contributors: we welcome [issues](https://github.com/JGalego/awesome-safety-critical-ai/issues) and [pull requests](https://github.com/JGalego/awesome-safety-critical-ai/pulls)!
+📣 **We're actively looking for maintainers and contributors!**
 
-If you'd like to contribute to this repository, please read our **guidelines**.
+AI is a rapidly developing field and we are extremely open to contributions, whether it be in the form of [issues](https://github.com/JGalego/awesome-safety-critical-ai/issues), [pull requests](https://github.com/JGalego/awesome-safety-critical-ai/pulls) or [discussions](https://github.com/JGalego/awesome-safety-critical-ai/discussions).
+
+For detailed information on how to contribute, please read our **guidelines**.
+
+## Contributors
+
+[![contributors](https://contrib.rocks/image?repo=JGalego/awesome-safety-critical-ai&max=100)](https://github.com/JGalego/awesome-safety-critical-ai/graphs/contributors)
 
 ## Citation
 
