@@ -225,6 +225,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * [`aimhubio/aim`](https://github.com/aimhubio/aim): an easy-to-use and supercharged open-source experiment tracker
 * [`comet-ml/opik`](https://github.com/comet-ml/opik): an open-source platform for evaluating, testing and monitoring LLM applications
+* [`evidentlyai/evidently`](https://github.com/evidentlyai/evidently): an open-source ML and LLM observability framework
 * [`IDSIA/sacred`](https://github.com/IDSIA/sacred): a tool to help you configure, organize, log and reproduce experiments
 * [`mlflow/mlflow`](https://github.com/mlflow/mlflow): an open-source platform for the ML lifecycle
 * [`wandb/wandfb`](https://github.com/wandb/wandb): a fully-featured AI developer platform
