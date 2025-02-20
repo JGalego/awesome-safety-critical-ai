@@ -12,7 +12,7 @@ You can keep up to date by watching this GitHub repo
 
 ![AI for Safety Critical](images/ai4sc.png)
 
-## Table of Contents
+## <a id="toc"></a>Table of Contents
 
 * [🌟 Editor's Choice](#top-picks)
 * [🏃 TLDR](#tldr)
@@ -24,7 +24,6 @@ You can keep up to date by watching this GitHub repo
 * [👩‍🏫 Courses](#courses)
 * [📙 Guidelines](#guidelines)
 * [🤝 Initiatives](#initiatives)
-* [📰 News](#news)
 * [📋 Reports](#reports)
 * [📐 Standards](#standards)
 * [🛠️ Tools](#tools)
@@ -39,6 +38,8 @@ You can keep up to date by watching this GitHub repo
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
+<small>[🔼 Back to top](#toc)</small>
+
 * 🧰 An awesome set of [tools for production-ready ML](https://github.com/EthicalML/awesome-production-machine-learning)
     > **A word of caution** ☝️ Use them wisely and remember that *"a sword is only as good as the man [or woman] who wields it"*
 * 😈 A collection of [scary use cases of AI](https://github.com/daviddao/awful-ai), which will hopefully raise awareness to its misuses in society
@@ -49,11 +50,15 @@ You can keep up to date by watching this GitHub repo
 
 ## <a id="tldr"></a>🏃 TLDR
 
+<small>[🔼 Back to top](#toc)</small>
+
 If you're in a hurry or just don't like reading, here's a podcast-style breakdown created with [NotebookLM](https://notebooklm.google/) (courtesy of [Pedro Nunes](https://github.com/pedrosaunu) 🙏)
 
 [![Safety Critical AI Podcast](images/safety_critical_ai_podcast.png)](https://soundcloud.com/safety-critical-podcasts/safety-critical-ai-101-podcast)
 
 ## <a id="articles"></a>📝 Articles
+
+<small>[🔼 Back to top](#toc)</small>
 
 * (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
 * (Bach *et al.*, 2024) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://ieeexplore.ieee.org/document/10620168)
@@ -89,6 +94,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="blogs"></a>✍️ Blogs
 
+<small>[🔼 Back to top](#toc)</small>
+
 * (CleverHans Lab, 2016) [Breaking things is easy](https://cleverhans.io/security/privacy/ml/2016/12/16/breaking-things-is-easy.html)
 * (Ground Truths, 2025) [When Doctors With AI Are Outperformed by AI Alone](https://www.nytimes.com/2025/02/02/opinion/ai-doctors-medicine.html?unlocked_article_code=1.t04.AeZg.kT0qka6kerAi&smid=url-share)
 * (MathWorks, 2023) [The Road to AI Certification: The importance of Verification and Validation in AI](https://blogs.mathworks.com/deep-learning/2023/07/11/the-road-to-ai-certification-the-importance-of-verification-and-validation-in-ai)
@@ -96,6 +103,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
 
 ## <a id="books"></a>📚 Books
+
+<small>[🔼 Back to top](#toc)</small>
 
 * (Chen *et al.*, 2022) [Reliable Machine Learning: Applying SRE Principles to ML in Production](https://www.amazon.com/Reliable-Machine-Learning-Principles-Production/dp/1098106229)
 * (Huang, Jin & Ruan, 2023) [Machine Learning Safety](https://link.springer.com/book/10.1007/978-981-19-6814-3)
@@ -107,10 +116,14 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="certifications"></a>📜 Certifications
 
+<small>[🔼 Back to top](#toc)</small>
+
 * (ISTQB) [Certified Tester AI Testing (CT-AI)](https://www.istqb.org/certifications/certified-tester-ai-testing-ct-ai/)
 * (USAII) [Certified AI Scientist (CAIS)](https://www.usaii.org/artificial-intelligence-certifications/certified-artificial-intelligence-scientist)
 
 ## <a id="conferences"></a>🎤 Conferences
+
+<small>[🔼 Back to top](#toc)</small>
 
 * (ELLIS) [Robust ML Workshop 2024](https://sites.google.com/view/robustml2024/home)
 * (MLOps Community) [AI in Production 2024](https://home.mlops.community/public/collections/ai-in-production-2024-02-18)
@@ -118,6 +131,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Robust Intelligence) [ML:Integrity 2022](https://www.mlintegrityconference.com/)
 
 ## <a id="courses"></a>👩‍🏫 Courses
+
+<small>[🔼 Back to top](#toc)</small>
 
 * [AI for Good Specialization](https://www.deeplearning.ai/courses/ai-for-good/) @ DeepLearning.AI
 * [Dependable AI Systems](https://courses.grainger.illinois.edu/ece598rki/fa2023/) @ University of Illinois Urbana-Champaign
@@ -133,6 +148,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Trustworthy Machine Learning](https://scalabletrustworthyai.github.io) @ University of Tübingen
 
 ## <a id="guidelines"></a>📙 Guidelines
+
+<small>[🔼 Back to top](#toc)</small>
 
 * (CAIDP) [Universal Guidelines for AI](https://www.caidp.org/universal-guidelines-for-ai/)
 * (DIU) [Reponsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines)
@@ -151,6 +168,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="initiatives"></a>🤝 Initiatives
 
+<small>[🔼 Back to top](#toc)</small>
+
 * (Data, Responsible) [Foundations of responsible data management](https://dataresponsibly.github.io/)
 * (DEEL) [Dependable, Certifiable & Explainable Artificial Intelligence for Critical Systems](https://www.deel.ai/)
 * (FUTURE-AI) [Best practices for trustworthy AI in medicine](https://future-ai.eu/)
@@ -162,12 +181,9 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Responsible AI Institute](https://www.responsible.ai/)
 * [Center for Responsible AI](https://centerforresponsible.ai/)
 
-## <a id="news"></a>📰 News
-
-* (elewit, 2024) [Are you aware of the challenges around AI in critical infrastructure management? Discover how it's transforming the industry](https://www.elewit.ventures/en/news/are-you-aware-of-challenges-around-ia-in-critical-infraestructure-management-discover-how-it-transforming-industry)
-* (Water Power Magazine, 2024) [DHS releases framework to guide AI use in critical infrastructure](https://www.waterpowermagazine.com/news/dhs-releases-framework-to-guide-ai-use-in-critical-infrastructure/)
-
 ## <a id="reports"></a>📋 Reports
+
+<small>[🔼 Back to top](#toc)</small>
 
 * (Air Street Capital) [State of AI Report 2024](https://www.stateof.ai/)
 * (Google) [Responsible AI Progress Report 2025](https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf)
@@ -189,6 +205,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [SAE G-34](https://standardsworks.sae.org/standards-committees/g-34-artificial-intelligence-aviation) > Artificial Intelligence in Aviation
 
 ## <a id="tools"></a>🛠️ Tools
+
+<small>[🔼 Back to top](#toc)</small>
 
 ### Adversarial Attacks
 
@@ -243,7 +261,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="videos"></a>📺 Videos
 
-<!-- TODO: include video summary -->
+<small>[🔼 Back to top](#toc)</small>
 
 * (ESSS, 2024) [AI Revolution Transforming Safety-Critical Systems EXPLAINED!](https://www.youtube.com/watch?v=jD8vHgpm0Zw) with Raghavendra Bhat
 * (IVA, 2023) [AI in Safety-Critical Systems](https://www.youtube.com/watch?v=KOEdRK69t9g)
@@ -255,17 +273,23 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="whitepapers"></a>📄 Whitepapers
 
+<small>[🔼 Back to top](#toc)</small>
+
 * (Fraunhofer) [Dependable AI: How to use Artificial Intelligence even in critical applications?](https://www.iese.fraunhofer.de/en/services/dependable-ai.html)
 * (IET) [The Application of Artificial Intelligence in Functional Safety](https://electrical.theiet.org/guidance-and-codes-of-practice/publications-by-category/artificial-intelligence/the-application-of-artificial-intelligence-in-functional-safety/)
 * (Thales) [The Challenges of using AI in Critical Systems](https://www.thalesgroup.com/en/worldwide/group/magazine/challenges-using-ai-critical-systems)
 
 ## <a id="working-groups"></a>👷🏼 Working Groups
 
+<small>[🔼 Back to top](#toc)</small>
+
 * (CWE) [Artificial Intelligence WG](https://cwe.mitre.org/community/working_groups.html)
 * (EUROCAE) [WG-114 / Artificial Intelligence](https://eurocae.net/news/posts/2019/june/new-working-group-wg-114-artificial-intelligence/)
 * (Linux Foundation) [ONNX Safety-Related Profile](https://github.com/ericjenn/working-groups/tree/ericjenn-srpwg-wg1/safety-related-profile)
 
 ## <a id="miscellaneous"></a>👾 Miscellaneous
+
+<small>[🔼 Back to top](#toc)</small>
 
 * [AI Snake Oil, debunking hype about AI’s capabilities and transformative effects](https://www.aisnakeoil.com/)
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
@@ -284,6 +308,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="meta"></a>🏁 Meta
 
+<small>[🔼 Back to top](#toc)</small>
+
 * [safety-critical-systems](https://github.com/topics/safety-critical-systems) GitHub topic
 * [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science)
 * [Awesome MLOps](https://github.com/kelvins/awesome-mlops): a curated list of awesome MLOps tools
@@ -295,6 +321,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [FDA Draft Guidance on AI](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing): regulatory draft guidance from the US Food & Drug Association, which regulates the development and marketing of Medical Devices in the US (open for comments until April 7th 2025)
 
 ## About Us
+
+<small>[🔼 Back to top](#toc)</small>
 
 [Critical Software](https://criticalsoftware.com/en) is a Portuguese company that specializes in safety- and mission-critical software.
 
@@ -310,11 +338,15 @@ If it's true that *"everything fails all the time"*, the stuff we do has to fail
 
 ## Contributions
 
+<small>[🔼 Back to top](#toc)</small>
+
 📣 We're actively looking for maintainers and contributors: we welcome [issues](https://github.com/JGalego/awesome-safety-critical-ai/issues) and [pull requests](https://github.com/JGalego/awesome-safety-critical-ai/pulls)!
 
 If you'd like to contribute to this repository, please read our **guidelines**.
 
 ## Citation
+
+<small>[🔼 Back to top](#toc)</small>
 
 If you found this repository helpful, please consider citing it using the following:
 
