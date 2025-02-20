@@ -262,6 +262,14 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`explodinggradients/ragas`](https://github.com/explodinggradients/ragas): objective metrics, intelligent test generation, and data-driven insights for LLM apps
 * [`pytorchfi/pytorchfi`](https://github.com/pytorchfi/pytorchfi): a runtime fault injection tool for PyTorch 🔥
 
+### Others
+
+* [`browser-use/browser-use`](https://github.com/browser-use/browser-use): make websites accessible for AI agents
+* [`langgenius/dify`](https://github.com/langgenius/dify): an open-source LLM app development platform, which combines agentic AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production
+* [`exo-explore/exo`](https://github.com/exo-explore/exo): run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
+* [`keephq/keep`](https://github.com/keephq/keep): open-source AIOps and alert management platform
+* [`microsoft/data-formulator`](https://github.com/microsoft/data-formulator): transform data and create rich visualizations iteratively with AI 🪄
+
 ## <a id="videos"></a>📺 Videos
 
 <small>[🔼 Back to top](#toc)</small>
