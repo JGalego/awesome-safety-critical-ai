@@ -203,6 +203,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [ISO/IEC 23894:2023](https://www.iso.org/standard/77304.html) > Information technology — Artificial intelligence — Guidance on risk management
 * [ISO/IEC 38507:2022](https://www.iso.org/standard/56641.html) > Information technology — Governance of IT — Governance implications of the use of artificial intelligence by organizations
 * [ISO/IEC 42001:2023](https://www.iso.org/standard/81230.html) > Information technology — Artificial intelligence — Management system
+* [ISO/IEC JTC 1/SC 42](https://www.iso.org/committee/6794475/x/catalogue/) > Artificial intelligence
 * [NIST AI 100-1](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10) > Artificial Intelligence Risk Management Framework
 * [SAE G-34](https://standardsworks.sae.org/standards-committees/g-34-artificial-intelligence-aviation) > Artificial Intelligence in Aviation
 
