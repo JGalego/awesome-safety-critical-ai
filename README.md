@@ -195,6 +195,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="standards"></a>📐 Standards
 
+<small>[🔼 Back to top](#toc)</small>
+
 * [ANSI/UL 4600](https://users.ece.cmu.edu/~koopman/ul4600/index.html) > Standard for Evaluation of Autonomous Products
 * [IEEE 7009-2024](https://standards.ieee.org/ieee/7009/7096/) > IEEE Standard for Fail-Safe Design of Autonomous and Semi-Autonomous Systems
 * [ISO/IEC 23053:2022](https://www.iso.org/standard/74438.html) > Framework for Artificial Intelligence (AI) Systems Using Machine Learning (ML)
