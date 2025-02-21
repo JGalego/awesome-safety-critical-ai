@@ -128,6 +128,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * (ELLIS) [Robust ML Workshop 2024](https://sites.google.com/view/robustml2024/home)
+* (KDD2023) [Trustworthy machine learning](https://mltrust.github.io/)
 * (MLOps Community) [AI in Production 2024](https://home.mlops.community/public/collections/ai-in-production-2024-02-18)
 * (MLOps Community) [LLMs in Production 2023](https://home.mlops.community/public/collections/llms-in-production-conference-part-iii-2023)
 * (Robust Intelligence) [ML:Integrity 2022](https://www.mlintegrityconference.com/)
@@ -265,6 +266,10 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`explodinggradients/ragas`](https://github.com/explodinggradients/ragas): objective metrics, intelligent test generation, and data-driven insights for LLM apps
 * [`pytorchfi/pytorchfi`](https://github.com/pytorchfi/pytorchfi): a runtime fault injection tool for PyTorch 🔥
 
+### Miscellaneous
+
+* [`microsoft/robustlearn`](https://github.com/microsoft/robustlearn): a unified library for research on robust ML
+
 ### Bleeding Edge ⚗️
 
 > **Just a quick note** 📌 This section includes some promising, open-source tools we're currently testing and evaluating at Critical Software. We prioritize minimal, reliable, security-first, `prod`-ready tools with support for local deployment. **If you know better ones, feel free to reach out to one of the maintainers or open a pull request.**
@@ -386,6 +391,8 @@ AI is a rapidly developing field and we are extremely open to contributions, whe
 For detailed information on how to contribute, please read our **guidelines**.
 
 ## Contributors
+
+<small>[🔼 Back to top](#toc)</small>
 
 [![contributors](https://contrib.rocks/image?repo=JGalego/awesome-safety-critical-ai&max=100)](https://github.com/JGalego/awesome-safety-critical-ai/graphs/contributors)
 
