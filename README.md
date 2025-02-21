@@ -294,6 +294,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`langgenius/dify`](https://github.com/langgenius/dify): an open-source LLM app development platform, which combines agentic AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production
 * [`latitude-dev/latitude-llm`](https://github.com/latitude-dev/latitude-llm): open-source prompt engineering platform to build, evaluate, and refine your prompts with AI
 * [`microsoft/data-formulator`](https://github.com/microsoft/data-formulator): transform data and create rich visualizations iteratively with AI 🪄
+* [`microsoft/prompty`](https://github.com/microsoft/prompty): an asset class and format for LLM prompts designed to enhance observability, understandability, and portability for developers
 * [`Mintplex-Labs/anything-llm`](https://github.com/Mintplex-Labs/anything-llm): all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, and more
 * [`ollama/ollama`](https://github.com/ollama/ollama): get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large LMs
 * [`promptfoo/promptfoo`](https://github.com/promptfoo/promptfoo): a developer-friendly local tool for testing LLM applications
