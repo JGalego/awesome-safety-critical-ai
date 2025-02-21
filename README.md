@@ -278,7 +278,9 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`deepset-ai/haystack`](https://github.com/deepset-ai/haystack): orchestration framework to build customizable, production-ready LLM applications
 * [`DS4SD/docling`](https://github.com/DS4SD/docling): get your documents ready for gen AI
 * [`exo-explore/exo`](https://github.com/exo-explore/exo): run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
+* [`FlowiseAI/Flowise`](https://github.com/FlowiseAI/Flowise): Drag & drop UI to build your customized LLM flow
 * [`groq/groq-python`](https://github.com/groq/groq-python): the official Python library for the Groq API
+* [`h2oai/h2o-llmstudio`](https://github.com/h2oai/h2o-llmstudio): a framework and no-code GUI for fine-tuning LLMs
 * [`hiyouga/LLaMA-Factory`](https://github.com/hiyouga/LLaMA-Factory): unified efficient fine-tuning of 100+ LLMs and VLMs
 * [`keephq/keep`](https://github.com/keephq/keep): open-source AIOps and alert management platform
 * [`khoj-ai/khoj`](https://github.com/khoj-ai/khoj): a self-hostable AI second brain
