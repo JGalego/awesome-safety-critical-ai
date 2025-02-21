@@ -301,6 +301,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`run-llama/llama_index`](https://github.com/run-llama/llama_index): the leading framework for building LLM-powered agents over your data
 * [`stanfordnlp/dspy`](https://github.com/stanfordnlp/dspy): the framework for programming - not prompting - language models
 * [`topoteretes/cognee`](https://github.com/topoteretes/cognee): reliable LLM memory for AI applications and AI agents
+* [`unitaryai/detoxify`](https://github.com/unitaryai/detoxify): trained models and code to predict toxic comments
 * [`unslothai/unsloth`](https://github.com/unslothai/unsloth): finetune Llama 3.3, DeepSeek-R1 and reasoning LLMs 2x faster with 70% less memory! 🦥
 
 ## <a id="videos"></a>📺 Videos
