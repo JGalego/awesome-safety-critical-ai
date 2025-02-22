@@ -138,6 +138,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * [AI for Good Specialization](https://www.deeplearning.ai/courses/ai-for-good/) @ DeepLearning.AI
+* [AI Red Teaming](https://learn.microsoft.com/en-us/security/ai-red-team/) @ Microsoft
 * [Dependable AI Systems](https://courses.grainger.illinois.edu/ece598rki/fa2023/) @ University of Illinois Urbana-Champaign
 * [Limits to Prediction](https://msalganik.github.io/soc555-cos598J_s2024/) @ Princeton University
 * [Machine Learning for Healthcare](https://mlhcmit.github.io/) @ MIT
