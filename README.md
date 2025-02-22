@@ -281,10 +281,13 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`Cinnamon/kotaemon`](https://github.com/Cinnamon/kotaemon): an open-source RAG-based tool for chatting with your documents
 * [`ComposioHQ/composio`](https://github.com/ComposioHQ/composio): equip's your AI agents & LLMs with 100+ high-quality integrations via function calling
 * [`deepset-ai/haystack`](https://github.com/deepset-ai/haystack): orchestration framework to build customizable, production-ready LLM applications
+* [`dottxt-ai/outlines`](https://github.com/dottxt-ai/outlines): make LLMs speak the language of every application
 * [`DS4SD/docling`](https://github.com/DS4SD/docling): get your documents ready for gen AI
+* [`eth-sri/lmql`](https://github.com/eth-sri/lmql): a programming language for LLMs based on a superset of Python
 * [`exo-explore/exo`](https://github.com/exo-explore/exo): run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
 * [`FlowiseAI/Flowise`](https://github.com/FlowiseAI/Flowise): Drag & drop UI to build your customized LLM flow
 * [`groq/groq-python`](https://github.com/groq/groq-python): the official Python library for the Groq API
+* [`guidance-ai/guidance`](https://github.com/guidance-ai/guidance): 
 * [`h2oai/h2o-llmstudio`](https://github.com/h2oai/h2o-llmstudio): a framework and no-code GUI for fine-tuning LLMs
 * [`hiyouga/LLaMA-Factory`](https://github.com/hiyouga/LLaMA-Factory): unified efficient fine-tuning of 100+ LLMs and VLMs
 * [`keephq/keep`](https://github.com/keephq/keep): open-source AIOps and alert management platform
