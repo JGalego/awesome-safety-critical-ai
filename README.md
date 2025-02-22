@@ -276,7 +276,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * [`agno-agi/agno`](https://github.com/agno-agi/agno): a lightweight library for building multi-modal agents
 * [`Arize-ai/phoenix`](https://github.com/Arize-ai/phoenix): an open-source AI observability platform designed for experimentation, evaluation, and troubleshooting
-* [`BerriAI/litellm`](https://github.com/BerriAI/litellm): aall all LLM APIs using the OpenAI format [Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, Groq, &c.]
+* [`BerriAI/litellm`](https://github.com/BerriAI/litellm): all LLM APIs using the OpenAI format [Bedrock, Huggingface, VertexAI, TogetherAI, Azure, OpenAI, Groq, &c.]
 * [`browser-use/browser-use`](https://github.com/browser-use/browser-use): make websites accessible for AI agents
 * [`Cinnamon/kotaemon`](https://github.com/Cinnamon/kotaemon): an open-source RAG-based tool for chatting with your documents
 * [`ComposioHQ/composio`](https://github.com/ComposioHQ/composio): equip's your AI agents & LLMs with 100+ high-quality integrations via function calling
@@ -285,7 +285,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`DS4SD/docling`](https://github.com/DS4SD/docling): get your documents ready for gen AI
 * [`eth-sri/lmql`](https://github.com/eth-sri/lmql): a programming language for LLMs based on a superset of Python
 * [`exo-explore/exo`](https://github.com/exo-explore/exo): run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
-* [`FlowiseAI/Flowise`](https://github.com/FlowiseAI/Flowise): Drag & drop UI to build your customized LLM flow
+* [`FlowiseAI/Flowise`](https://github.com/FlowiseAI/Flowise): drag & drop UI to build your customized LLM flow
 * [`groq/groq-python`](https://github.com/groq/groq-python): the official Python library for the Groq API
 * [`guidance-ai/guidance`](https://github.com/guidance-ai/guidance): 
 * [`h2oai/h2o-llmstudio`](https://github.com/h2oai/h2o-llmstudio): a framework and no-code GUI for fine-tuning LLMs
