@@ -129,6 +129,9 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (ELLIS) [Robust ML Workshop 2024](https://sites.google.com/view/robustml2024/home)
 * (KDD2023) [Trustworthy machine learning](https://mltrust.github.io/)
+* (MITRE) [FAA Artificial Intelligence Safety Assurance: Roadmap and Technical Exchange Meetings](https://na.eventscloud.com/ereg/inactive.php?eventid=768017)
+  - [AI/ML Components in Safety-Critical Aviation Systems: Selected Concepts and Underlying Principles](https://ntrs.nasa.gov/citations/20240009355)
+  - [Developing Standards for AI/ML Systems in Civil Aviation: Challenges and Barriers](https://ntrs.nasa.gov/citations/20240000822)
 * (MLOps Community) [AI in Production 2024](https://home.mlops.community/public/collections/ai-in-production-2024-02-18)
 * (MLOps Community) [LLMs in Production 2023](https://home.mlops.community/public/collections/llms-in-production-conference-part-iii-2023)
 * (Robust Intelligence) [ML:Integrity 2022](https://www.mlintegrityconference.com/)
@@ -155,6 +158,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+* (APT Research) [Artificial Intelligence/Machine Learning System Safety](https://www.apt-research.com/capabilities/artificial-intelligence-machine-learning-system-safety/)
 * (CAIDP) [Universal Guidelines for AI](https://www.caidp.org/universal-guidelines-for-ai/)
 * (DIU) [Reponsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines)
 * (European Commission) [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
@@ -162,6 +166,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Google) [AI Principles](https://ai.google/responsibility/principles/)
 * (Harvard University) [Initial guidelines for the use of Generative AI tools at Harvard](https://www.huit.harvard.edu/ai/guidelines)
 * (Homeland Security) [Roles and Responsibilities Framework for Artificial Intelligence in Critical Infrastructure](https://www.dhs.gov/publication/roles-and-responsibilities-framework-artificial-intelligence-critical-infrastructure)
+* (Homeland Security) [Safety and Security Guidelines for Critical Infrastructure Owners and Operators](https://www.dhs.gov/publication/safety-and-security-guidelines-critical-infrastructure-owners-and-operators)
 * (Inter-Parliamentary Union) [Guidelines for AI in Parliaments](https://www.ipu.org/ai-guidelines)
 * (Microsoft) [Responsible AI: Principles and Approach](https://www.microsoft.com/en-us/ai/principles-and-approach)
 * (Ministry of Defense) [JSP 936: Dependable Artificial Intelligence (AI) in defense (part 1: directive)](https://www.gov.uk/government/publications/jsp-936-dependable-artificial-intelligence-ai-in-defence-part-1-directive)
