@@ -189,6 +189,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (SustainML) [Sustainable Machine Learning](https://sustainml.eu/)
 * [Responsible AI Institute](https://www.responsible.ai/)
 * [Center for Responsible AI](https://centerforresponsible.ai/)
+* [WASP WARA Public Safety](https://wasp-sweden.org/industrial-cooperation/research-arenas/wara-ps-public-safety/)
 
 ## <a id="reports"></a>📋 Reports
 
