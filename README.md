@@ -408,7 +408,7 @@ For detailed information on how to contribute, please read our **guidelines**.
 
 <small>[🔼 Back to top](#toc)</small>
 
-[![contributors](https://contrib.rocks/image?repo=JGalego/awesome-safety-critical-ai&max=100)](https://github.com/JGalego/awesome-safety-critical-ai/graphs/contributors)
+[![contributors](https://contrib.rocks/image?repo=JGalego/awesome-safety-critical-ai)](https://github.com/JGalego/awesome-safety-critical-ai/graphs/contributors)
 
 ## Citation
 
