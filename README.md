@@ -99,7 +99,9 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * (CleverHans Lab, 2016) [Breaking things is easy](https://cleverhans.io/security/privacy/ml/2016/12/16/breaking-things-is-easy.html)
+* (Embedded, 2024) [The impact of AI/ML on qualifying safety-critical software](https://www.embedded.com/the-impact-of-ai-ml-on-qualifying-safety-critical-software/)
 * (Ground Truths, 2025) [When Doctors With AI Are Outperformed by AI Alone](https://www.nytimes.com/2025/02/02/opinion/ai-doctors-medicine.html?unlocked_article_code=1.t04.AeZg.kT0qka6kerAi&smid=url-share)
+* (Homeland Security, 2022) [Artificial Intelligence, Critical Systems, and the Control Problem](https://www.hstoday.us/featured/artificial-intelligence-critical-systems-and-the-control-problem/)
 * (MathWorks, 2023) [The Road to AI Certification: The importance of Verification and Validation in AI](https://blogs.mathworks.com/deep-learning/2023/07/11/the-road-to-ai-certification-the-importance-of-verification-and-validation-in-ai)
 * (restack, 2025) [Safety In Critical AI Systems](https://www.restack.io/p/ai-application-safety-protocols-answer-safety-in-critical-ai-systems-cat-ai)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
@@ -128,6 +130,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * (ELLIS) [Robust ML Workshop 2024](https://sites.google.com/view/robustml2024/home)
+* (IJCAI-24) [AI for Critical Infrastructure](https://sites.google.com/view/aiforci-ijcai24/home)
 * (KDD2023) [Trustworthy machine learning](https://mltrust.github.io/)
 * (MITRE) [FAA Artificial Intelligence Safety Assurance: Roadmap and Technical Exchange Meetings](https://na.eventscloud.com/ereg/inactive.php?eventid=768017)
   - [AI/ML Components in Safety-Critical Aviation Systems: Selected Concepts and Underlying Principles](https://ntrs.nasa.gov/citations/20240009355)
@@ -164,6 +167,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (European Commission) [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
 * (European Union) [The EU AI Act](https://artificialintelligenceact.eu/)
 * (Google) [AI Principles](https://ai.google/responsibility/principles/)
+* (Google) [SAIF // Secure AI Framework: A practitioner’s guide to navigating AI security](https://saif.google/)
 * (Harvard University) [Initial guidelines for the use of Generative AI tools at Harvard](https://www.huit.harvard.edu/ai/guidelines)
 * (Homeland Security) [Roles and Responsibilities Framework for Artificial Intelligence in Critical Infrastructure](https://www.dhs.gov/publication/roles-and-responsibilities-framework-artificial-intelligence-critical-infrastructure)
 * (Homeland Security) [Safety and Security Guidelines for Critical Infrastructure Owners and Operators](https://www.dhs.gov/publication/safety-and-security-guidelines-critical-infrastructure-owners-and-operators)
@@ -232,6 +236,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`facebook/Ax`](https://github.com/facebook/Ax): an accessible, general-purpose platform for understanding, managing, deploying, and automating adaptive experiments
 * [`great-expectations/great_expectations`](https://github.com/great-expectations/great_expectations): always know what to expect from your data
 * [`iterative/dvc`](https://github.com/iterative/dvc): a command line tool and VS Code Extension to help you develop reproducible ML projects
+* [`pydantic/pydantic`](https://github.com/pydantic/pydantic): data validation using Python type hints
 * [`tensorflow/data-validation`](https://github.com/tensorflow/data-validation): a library for exploring and validating ML data
 * [`unionai-oss/pandera`](https://github.com/unionai-oss/pandera): data validation for scientists, engineers, and analysts seeking correctness
 
@@ -352,6 +357,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
 * [CO/AI, actionable resources & strategies for the AI era](https://getcoai.com/)
 * [CISA's Roadmap for Artificial Intelligence](https://www.cisa.gov/ai)
+* [Google's Responsible Generative AI Toolkit](https://ai.google.dev/responsible)
 * [MITRE ATLAS to navigate threats to AI systems through real-world insights](https://atlas.mitre.org/)
 * [OWASP's Top 10 LLM Applications & Generative AI](https://genai.owasp.org/)
 * [RobustML](https://robust-ml.github.io/): community-run hub for learning about robust ML
