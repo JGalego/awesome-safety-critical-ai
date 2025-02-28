@@ -125,6 +125,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Homeland Security, 2022) [Artificial Intelligence, Critical Systems, and the Control Problem](https://www.hstoday.us/featured/artificial-intelligence-critical-systems-and-the-control-problem/)
 * (Lynx) [How is AI being used in Aviation?](https://www.lynx.com/executive-blog/artificial-intelligence-in-avionics)
 * (MathWorks, 2023) [The Road to AI Certification: The importance of Verification and Validation in AI](https://blogs.mathworks.com/deep-learning/2023/07/11/the-road-to-ai-certification-the-importance-of-verification-and-validation-in-ai)
+* (RC Kennedy Consulting, 2021) [The Surprising Brittleness of AI](https://www.rckennedysc.com/news/the-surprising-brittleness-of-ai)
 * (restack, 2025) [Safety In Critical AI Systems](https://www.restack.io/p/ai-application-safety-protocols-answer-safety-in-critical-ai-systems-cat-ai)
 * (Safety4Sea, 2024) [The risks and benefits of AI translations in safety-critical industries](https://safety4sea.com/the-risks-and-benefits-of-ai-translations-in-safety-critical-industries/)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
@@ -204,7 +205,6 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (NCSC) [Guidelines for secure AI system development](https://www.ncsc.gov.uk/collection/guidelines-secure-ai-system-development)
 * (OECD) [AI Principles](https://oecd.ai/en/ai-principles)
 * (Stanford) [Responsible AI at Stanford](https://uit.stanford.edu/security/responsibleai)
-* (UNESCO) [Ethics of Artificial Intelligence](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
 
 ## <a id="initiatives"></a>🤝 Initiatives
 
