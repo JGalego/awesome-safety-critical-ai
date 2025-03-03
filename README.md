@@ -63,6 +63,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
 * (Bach *et al.*, 2024) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://ieeexplore.ieee.org/document/10620168)
+* (Becker *et al.*, 2021) [AI at work – Mitigating safety and discriminatory risk with technical standards](https://www.interface-eu.org/publications/ai-work-mitigating-safety-and-discriminatory-risk-technical-standards)
 * (Belani, Vukovic & Car, 2019) [Requirements Engineering Challenges in Building AI-Based Complex Systems](https://arxiv.org/abs/1908.11791)
 * (Beyers *et al.*, 2019) [Quantification of the Impact of Random Hardware Faults on Safety-Critical AI Applications: CNN-Based Traffic Sign Recognition Case Study](https://ieeexplore.ieee.org/document/8990333)
 * (Bolchini, Cassano & Miele, 2024) [Resilience of Deep Learning applications: a systematic literature review of analysis and hardening techniques](https://arxiv.org/abs/2309.16733)
@@ -76,6 +77,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Endres *et al.*, 2023) [Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions?](https://nl2postcond.github.io/)
 * (Farahmand & Neu, 2025) [AI Safety for Physical Infrastructures: A Collaborative and Interdisciplinary Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/ffe.14575)
 * (Faria, 2018) [Machine learning safety: An overview](https://scsc.uk/e503prog)
+* (Feather & Pinto, 2023) [Assurance for Autonomy – JPL’s past research, lessons learned, and future directions](https://arxiv.org/abs/2305.11902)
 * (Gursel *et al.*, 2025) [The role of AI in detecting and mitigating human errors in safety-critical industries: A review](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007531)
 * (Habli, Lawton & Porter, 2020) [Artificial intelligence in health care: accountability and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC7133468/)
 * (Hasani *et al.*, 2022) [Trustworthy Artificial Intelligence in Medical Imaging](https://pmc.ncbi.nlm.nih.gov/articles/PMC8785402/)
@@ -107,6 +109,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Wang & Chung, 2021) [Artificial intelligence in safety-critical systems: a systematic review](https://www.semanticscholar.org/paper/Artificial-intelligence-in-safety-critical-systems%3A-Wang-Chung/dd56d26b7efd78651f9abf530741da8de7ca1a69)
 * (Webster *et al.*, 2019) [A corroborative approach to verification and validation of human-robot teams](https://arxiv.org/pdf/1608.07403)
 * (Weiding *et al.*. 2024) [Holistic Safety and Responsibility Evaluations of Advanced AI Models](https://arxiv.org/abs/2404.14068v1)
+* (Woodburn, 2021) [Machine Learning and Software Product Assurance: Bridging the Gap](https://ecss.nl/wp-content/uploads/2017/02/ESA-TECQQS-TN-022868_1_1.pdf)
 * (Yu *et al.*, 2024) [A Survey on Failure Analysis and Fault Injection in AI Systems](https://arxiv.org/abs/2407.00125)
 * (Zhang & Li, 2020) [Testing and verification of neural-network-based safety-critical control software: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S0950584920300471)
 * (Zhang *et al.*, 2020) [Machine Learning Testing: Survey, Landscapes and Horizons](https://ieeexplore.ieee.org/document/9000651)
@@ -388,10 +391,13 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * [AI Incident Database](https://incidentdatabase.ai/): dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of AI systems
 * [AI Snake Oil](https://www.aisnakeoil.com/): debunking hype about AI's capabilities and transformative effects
+* [DARPA's Assured Autonomy Tools Portal](https://assured-autonomy.org/)
 * [Avid](https://avidml.org/): AI vulnerability database, an open-source, extensible knowledge base of AI failures
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
 * [CO/AI](https://getcoai.com/): actionable resources & strategies for the AI era
-* [CISA's Roadmap for Artificial Intelligence](https://www.cisa.gov/ai)
+* [CISA's Roadmap for Artificial Intelligence](https://www.cisa.gov/ai): a whole-of-agency plan aligned with national AI strategy
+* [ECSS's Space engineering – Machine learning qualification handbook](https://ecss.nl/home/public-review-of-ecss-e-hb-40-02a-dir1-space-engineering-machine-learning-qualification-handbook-due-date-8-september-2023/)
+* [EASA's AI Roadmap](https://www.easa.europa.eu/en/domains/research-innovation/ai): a human-centric approach to AI in aviation
 * [Google's Responsible Generative AI Toolkit](https://ai.google.dev/responsible)
 * [Hacker News on The Best Language for Safety-Critical Software](https://news.ycombinator.com/item?id=3943556)
 * [MITRE ATLAS to navigate threats to AI systems through real-world insights](https://atlas.mitre.org/)
