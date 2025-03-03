@@ -73,6 +73,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Cummings, 2021) [Rethinking the Maturity of Artificial Intelligence in Safety-Critical Settings](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/7394)
 * (Dalrymple *et al.*, 2025) [Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/abs/2405.06624)
 * (Dutta *et al.*, 2017) [Output range analysis for deep feedforward neural networks](https://arxiv.org/abs/1709.09130)
+* (Endres *et al.*, 2023) [Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions?](https://nl2postcond.github.io/)
 * (Farahmand & Neu, 2025) [AI Safety for Physical Infrastructures: A Collaborative and Interdisciplinary Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/ffe.14575)
 * (Faria, 2018) [Machine learning safety: An overview](https://scsc.uk/e503prog)
 * (Gursel *et al.*, 2025) [The role of AI in detecting and mitigating human errors in safety-critical industries: A review](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007531)
@@ -85,6 +86,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Kuwajima, Yasuoka & Nakae, 2020) [Engineering problems in machine learning systems](https://link.springer.com/article/10.1007/s10994-020-05872-w)
 * (Leofante *et al.*, 2018) [Automated Verification of Neural Networks: Advances, Challenges and Perspectives](https://arxiv.org/abs/1805.09938)
 * (Li *et al.*, 2022) [Trustworthy AI: From Principles to Practices](https://arxiv.org/abs/2110.01167)
+* (Li *et al.*, 2024) [Formal-LLM: Integrating Formal Language and Natural Language for Controllable LLM-based Agents](https://arxiv.org/abs/2402.00798)
 * (Lubana, 2024) [Understanding and Identifying Challenges in Design of Safety-Critical AI Systems](https://deepblue.lib.umich.edu/handle/2027.42/196092)
 * (Luckcuck *et al.*, 2019) [Formal Specification and Verification of Autonomous Robotic Systems: A Survey](https://arxiv.org/abs/1807.00048)
 * (Lwakatare *et al.*, 2020) [Large-scale machine learning systems in real-world industrial settings: A review of challenges and solutions](https://www.sciencedirect.com/science/article/abs/pii/S0950584920301373)
@@ -108,6 +110,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Yu *et al.*, 2024) [A Survey on Failure Analysis and Fault Injection in AI Systems](https://arxiv.org/abs/2407.00125)
 * (Zhang & Li, 2020) [Testing and verification of neural-network-based safety-critical control software: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S0950584920300471)
 * (Zhang *et al.*, 2020) [Machine Learning Testing: Survey, Landscapes and Horizons](https://ieeexplore.ieee.org/document/9000651)
+* (Zhang *et al.*, 2024) [The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap](https://arxiv.org/abs/2412.06512)
 
 ## <a id="blogs"></a>✍️ Blogs
 
