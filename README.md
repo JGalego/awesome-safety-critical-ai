@@ -43,7 +43,7 @@ You can keep up to date by watching this GitHub repo
 
 * 🧰 An awesome set of [tools for production-ready ML](https://github.com/EthicalML/awesome-production-machine-learning)
     > **A word of caution** ☝️ Use them wisely and remember that *"a sword is only as good as the man [or woman] who wields it"*
-* 😈 A collection of [scary use cases of AI](https://github.com/daviddao/awful-ai), which will hopefully raise awareness to its misuses in society
+* 😈 A collection of scary [use cases](https://github.com/daviddao/awful-ai), [incidents](https://incidentdatabase.ai/) and [failures](https://avidml.org/) of AI, which will hopefully raise awareness to its misuses
 * 💳 The now-classic [high-interest credit card of technical debt](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43146.pdf) paper by Google
 * 🤝 An introduction to [trustworthy AI](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-1-Mariani-Rossi/2e550e23511711dae2689322741f9c113c6c506f) by NVIDIA
 * 🚩 Lessons-learned from [red teaming hundreds of generative AI products](https://arxiv.org/abs/2501.07238) by Microsoft
@@ -386,9 +386,11 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
-* [AI Snake Oil, debunking hype about AI’s capabilities and transformative effects](https://www.aisnakeoil.com/)
+* [AI Incident Database](https://incidentdatabase.ai/): dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of AI systems
+* [AI Snake Oil](https://www.aisnakeoil.com/): debunking hype about AI's capabilities and transformative effects
+* [Avid](https://avidml.org/): AI vulnerability database, an open-source, extensible knowledge base of AI failures
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
-* [CO/AI, actionable resources & strategies for the AI era](https://getcoai.com/)
+* [CO/AI](https://getcoai.com/): actionable resources & strategies for the AI era
 * [CISA's Roadmap for Artificial Intelligence](https://www.cisa.gov/ai)
 * [Google's Responsible Generative AI Toolkit](https://ai.google.dev/responsible)
 * [Hacker News on The Best Language for Safety-Critical Software](https://news.ycombinator.com/item?id=3943556)
