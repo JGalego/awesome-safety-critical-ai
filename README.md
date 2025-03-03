@@ -331,13 +331,14 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`exo-explore/exo`](https://github.com/exo-explore/exo): run your own AI cluster at home with everyday devices 📱💻 🖥️⌚
 * [`FlowiseAI/Flowise`](https://github.com/FlowiseAI/Flowise): drag & drop UI to build your customized LLM flow
 * [`groq/groq-python`](https://github.com/groq/groq-python): the official Python library for the Groq API
+* [`Giskard-AI/giskard`](https://github.com/Giskard-AI/giskard): control risks of performance, bias and security issues in AI systems
 * [`guidance-ai/guidance`](https://github.com/guidance-ai/guidance): 
 * [`h2oai/h2o-llmstudio`](https://github.com/h2oai/h2o-llmstudio): a framework and no-code GUI for fine-tuning LLMs
 * [`hiyouga/LLaMA-Factory`](https://github.com/hiyouga/LLaMA-Factory): unified efficient fine-tuning of 100+ LLMs and VLMs
 * [`instructor-ai/instructor`](https://github.com/instructor-ai/instructor): the most popular Python library for working with structured outputs from LLMs
+* [`ItzCrazyKns/Perplexica`](https://github.com/ItzCrazyKns/Perplexica): an AI-powered search engine and open source alternative to Perplexity AI
 * [`keephq/keep`](https://github.com/keephq/keep): open-source AIOps and alert management platform
 * [`khoj-ai/khoj`](https://github.com/khoj-ai/khoj): a self-hostable AI second brain
-* [`ItzCrazyKns/Perplexica`](https://github.com/ItzCrazyKns/Perplexica): an AI-powered search engine and open source alternative to Perplexity AI
 * [`langfuse/langfuse`](https://github.com/langfuse/langfuse): an open source LLM engineering platform with support for LLM observability, metrics, evals, prompt management, playground, datasets
 * [`langgenius/dify`](https://github.com/langgenius/dify): an open-source LLM app development platform, which combines agentic AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production
 * [`latitude-dev/latitude-llm`](https://github.com/latitude-dev/latitude-llm): open-source prompt engineering platform to build, evaluate, and refine your prompts with AI
