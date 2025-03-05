@@ -6,5 +6,7 @@ aliveStatusCodes:
 dirs:
   - .
 ignorePatterns:
-  # ignore ToC links
+  # ToC links
   - pattern: "^#[-a-z]*"
+  # MLOps community // ERR_NAME_NOT_RESOLVED
+  - pattern: "^https://home.mlops.community.*"
