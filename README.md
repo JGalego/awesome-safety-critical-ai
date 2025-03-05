@@ -180,12 +180,16 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [AI for Good Specialization](https://www.deeplearning.ai/courses/ai-for-good/) @ DeepLearning.AI
 * [AI Red Teaming](https://learn.microsoft.com/en-us/security/ai-red-team/) @ Microsoft
 * [Dependable AI Systems](https://courses.grainger.illinois.edu/ece598rki/fa2023/) @ University of Illinois Urbana-Champaign
+* [Introduction to AI Safety](https://web.stanford.edu/class/cs120/index.html) @ Stanford
 * [Limits to Prediction](https://msalganik.github.io/soc555-cos598J_s2024/) @ Princeton University
 * [Machine Learning for Healthcare](https://mlhcmit.github.io/) @ MIT
 * [Machine Learning in Production](https://mlip-cmu.github.io/) @ Carnegie-Mellon University
 * [Machine Learning Security](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State University
+* [Real-Time Mission-Critical Systems Design](https://www.coursera.org/learn/real-time-mission-critical-systems-design) @ University of Colorado Boulder / Coursera
 * [Responsible AI](https://github.com/aws-samples/aws-machine-learning-university-responsible-ai) @ Amazon MLU
 * [Robustness in Machine Learning](https://jerryzli.github.io/robust-ml-fall19.html) @ University of Washington
+* [Safety Critical Systems](https://safetysystems.theiet.org/) @ IET
+* [Safety Critical Systems](https://www.cs.ox.ac.uk/softeng/subjects/SCS.html) @ Oxford University
 * [Security and Privacy of Machine Learning](https://secml.github.io/) @ University of Virginia
 * [Trustworthy Artificial Intelligence](https://trustworthy-ml-course.github.io/) @ University of Michigan, Dearborn
 * [Trustworthy Machine Learning](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State University
@@ -246,6 +250,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+### Generic
+
 * [ANSI/UL 4600](https://users.ece.cmu.edu/~koopman/ul4600/index.html) > Standard for Evaluation of Autonomous Products
 * [IEEE 7009-2024](https://standards.ieee.org/ieee/7009/7096/) > IEEE Standard for Fail-Safe Design of Autonomous and Semi-Autonomous Systems
 * [ISO/IEC 23053:2022](https://www.iso.org/standard/74438.html) > Framework for Artificial Intelligence (AI) Systems Using Machine Learning (ML)
@@ -255,6 +261,22 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [ISO/IEC JTC 1/SC 42](https://www.iso.org/committee/6794475/x/catalogue/) > Artificial intelligence
 * [NIST AI 100-1](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10) > Artificial Intelligence Risk Management Framework
 * [SAE G-34](https://standardsworks.sae.org/standards-committees/g-34-artificial-intelligence-aviation) > Artificial Intelligence in Aviation
+
+### Coding
+
+* [`AUTOSAR`](https://www.autosar.org/fileadmin/standards/R18-10_R4.4.0_R1.5.0/AP/AUTOSAR_RS_CPP14Guidelines.pdf): guidelines for the use of the C++14 language in critical and safety-related systems
+* [`BARR-C:2018`](https://barrgroup.com/embedded-systems/books/embedded-c-coding-standard): embedded C Coding standard
+* ESCR Embedded System development Coding Reference Guide
+  - [C Language Edition](https://www.sensitiveresearch.com/Code/Documents/ESCA%20embedded%20coding%20ref.pdf)
+  - [C++ Language Edition](https://abougouffa.github.io/awesome-coding-standards/escr-cpp-3.0.pdf)
+* [`HIC++`](https://www.perforce.com/blog/qac/high-integrity-cpp-hicpp): High Integrity C++ coding standard v4.0
+* [`JSF AV C++`](https://www.phaedsys.com/standards/JSFPP/index.html): Joint Strike Fighter Air Vehicle C++ Coding Standards
+* [`JPL C`](https://yurichev.com/mirrors/C/JPL_Coding_Standard_C.pdf): JPL Institutional Coding Standard for the C programming language
+* [`MISRA-C:«/2004`](https://caxapa.ru/thumbs/468328/misra-c-2004.pdf): Guidelines for the use of the C language in critical systems
+* [`MISRA-C/2012`](https://electrovolt.ir/wp-content/uploads/2022/09/MISRA-C_2012_-Guidelines-for-the-Use-of-the-C-Language-in-Critical-Systems-Motor-Industry-Research-Association-2013-2013.pdf): Guidelines for the use of the C language in critical systems
+* [`MISRA-C++/2008`](https://github.com/zaznov/MISRA/blob/main/MISRA%20C%2B%2B%202008.pdf): Guidelines for the use of the C++ language in critical systems
+* [Rules for secure C software development](https://cyber.gouv.fr/en/publications/rules-secure-c-language-software-development): ANSSI guideline
+* [`SEI CERT`](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682): Rules for Developing Safe, Reliable, and Secure Systems
 
 ## <a id="tools"></a>🛠️ Tools
 
@@ -390,6 +412,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * [AI Incident Database](https://incidentdatabase.ai/): dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of AI systems
+* [AI Safety](https://www.aisafety.com/): the hub for AI safety resources
+* [AI Safety Atlas](https://ai-safety-atlas.com/): the central repository of AI Safety research, distilled into clear, interconnected and actionable knowledge
 * [AI Snake Oil](https://www.aisnakeoil.com/): debunking hype about AI's capabilities and transformative effects
 * [DARPA's Assured Autonomy Tools Portal](https://assured-autonomy.org/)
 * [Avid](https://avidml.org/): AI vulnerability database, an open-source, extensible knowledge base of AI failures
@@ -400,7 +424,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [EASA's AI Roadmap](https://www.easa.europa.eu/en/domains/research-innovation/ai): a human-centric approach to AI in aviation
 * [Google's Responsible Generative AI Toolkit](https://ai.google.dev/responsible)
 * [Hacker News on The Best Language for Safety-Critical Software](https://news.ycombinator.com/item?id=3943556)
-* [MITRE ATLAS to navigate threats to AI systems through real-world insights](https://atlas.mitre.org/)
+* [MITRE ATLAS](https://atlas.mitre.org/): navigate threats to AI systems through real-world insights
+* [ML Safety](https://www.mlsafety.org/): the ML research community focused on reducing risks from AI systems
 * [OWASP's Top 10 LLM Applications & Generative AI](https://genai.owasp.org/)
 * [Paul Niquette's Software Does Not Fail essay](http://www.niquette.com/paul/issue/softwr02.htm)
 * [RobustML](https://robust-ml.github.io/): community-run hub for learning about robust ML
