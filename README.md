@@ -126,6 +126,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Clear Prop, 2023) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://pamirsevincel.substack.com/p/clear-prop-9-forum-79-paper-spotlight)
 * (CleverHans Lab, 2016) [Breaking things is easy](https://cleverhans.io/security/privacy/ml/2016/12/16/breaking-things-is-easy.html)
 * (DeepMind, 2018) [Building safe artificial intelligence: specification, robustness, and assurance](https://deepmindsafetyresearch.medium.com/building-safe-artificial-intelligence-52f5f75058f1)
+* (Doing AI Governance, 2025) [AI Governance Mega-map: Safe, Responsible AI and System, Data & Model Lifecycle](https://www.ethos-ai.org/p/ai-governance-mega-map-lifecycle)
 * (EETimes, 2023) [Can We Trust AI in Safety Critical Systems?](https://www.eetimes.com/can-we-trust-ai-in-safety-critical-systems/)
 * (Embedded, 2024) [The impact of AI/ML on qualifying safety-critical software](https://www.embedded.com/the-impact-of-ai-ml-on-qualifying-safety-critical-software/)
 * (Forbes, 2022) [Part 2: Reflections On AI (Historical Safety Critical Systems)](https://www.forbes.com/sites/rahulrazdan/2022/03/13/reflections-on-a-decade-of-ai-part-2/)
@@ -180,6 +181,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * [AI for Good Specialization](https://www.deeplearning.ai/courses/ai-for-good/) @ DeepLearning.AI
+* [AI for Social Good](https://web.stanford.edu/class/cs21si/) @ Stanford
 * [AI Red Teaming](https://learn.microsoft.com/en-us/security/ai-red-team/) @ Microsoft
 * [Dependable AI Systems](https://courses.grainger.illinois.edu/ece598rki/fa2023/) @ University of Illinois Urbana-Champaign
 * [Introduction to AI Safety](https://web.stanford.edu/class/cs120/index.html) @ Stanford
