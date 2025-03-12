@@ -8,8 +8,14 @@ type: dataset
 authors:
   - given-names: João
     family-names: Galego
+  - given-names: Pedro
+    family-names: Reis Nunes
+  - given-names: Fernando
+    family-names: França
+  - given-names: Tiago
+    family-names: Almeida
 repository-code: >-
   https://github.com/JGalego/awesome-safety-critical-ai
 abstract: >-
-  A curated list of references on the role of AI in safety-critical systems.
+  A curated list of references on the role of AI in critical systems.
 license: MIT
