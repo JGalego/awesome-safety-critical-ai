@@ -270,7 +270,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 ### Coding
 
 * [`AUTOSAR`](https://www.autosar.org/fileadmin/standards/R18-10_R4.4.0_R1.5.0/AP/AUTOSAR_RS_CPP14Guidelines.pdf): guidelines for the use of the C++14 language in critical and safety-related systems
-* [`BARR-C:2018`](https://barrgroup.com/embedded-systems/books/embedded-c-coding-standard): embedded C Coding standard
+* [`BARR-C:2018`](https://barrgroup.com/sites/default/files/barr_c_coding_standard_2018.pdf): embedded C Coding standard
 * ESCR Embedded System development Coding Reference Guide
   - [C Language Edition](https://www.sensitiveresearch.com/Code/Documents/ESCA%20embedded%20coding%20ref.pdf)
   - [C++ Language Edition](https://abougouffa.github.io/awesome-coding-standards/escr-cpp-3.0.pdf)
