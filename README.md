@@ -499,8 +499,8 @@ If you found this repository helpful, please consider citing it using the follow
 
 ```bibtex
 @misc{Galego_Awesome_Safety-Critical_AI,
-  author = {Galego, João},
-  title = {{Awesome Safety-Critical AI}},
+  author = {Galego, João and Reis Nunes, Pedro and França, Fernando and Almeida, Tiago},
+  title = {Awesome Safety-Critical AI},
   url = {https://github.com/JGalego/awesome-safety-critical-ai}
 }
 ```
