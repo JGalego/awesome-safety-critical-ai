@@ -425,6 +425,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
 * [CO/AI](https://getcoai.com/): actionable resources & strategies for the AI era
 * [CISA's Roadmap for Artificial Intelligence](https://www.cisa.gov/ai): a whole-of-agency plan aligned with national AI strategy
+* [DHS AI](https://www.dhs.gov/ai): guidance on responsible adoption of GenAI in homeland security, including pilot programs insights, safety measures, and use cases
 * [ECSS's Space engineering – Machine learning qualification handbook](https://ecss.nl/home/public-review-of-ecss-e-hb-40-02a-dir1-space-engineering-machine-learning-qualification-handbook-due-date-8-september-2023/)
 * [EASA's AI Roadmap](https://www.easa.europa.eu/en/domains/research-innovation/ai): a human-centric approach to AI in aviation
 * [Google's Responsible Generative AI Toolkit](https://ai.google.dev/responsible)
