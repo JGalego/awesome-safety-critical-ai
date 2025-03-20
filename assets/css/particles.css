@@ -1,0 +1,19 @@
+#particles-js{
+    background-image:url("https://jgalego.github.io/awesome-safety-critical-ai/assets/images/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size:cover;
+    background-attachment:fixed;
+    display:flex;
+    float:left;
+    vertical-align:bottom;
+    width:100%;
+    min-height:60vh;
+}
+
+#particles-js .particles-js-canvas-el{
+    z-index: 3;
+    position:absolute;
+    width:100%;
+    height:60vh!important
+}
