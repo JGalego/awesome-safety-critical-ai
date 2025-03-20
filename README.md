@@ -10,7 +10,7 @@ In here, you'll find references on safe and responsible AI, reliable ML, AI test
 
 You can keep up to date by watching this GitHub repo
 
-![AI for Safety Critical](images/ai4sc.png)
+![AI for Safety Critical](assets/images/ai4sc.png)
 
 ## <a id="toc"></a>Table of Contents
 
@@ -55,7 +55,7 @@ You can keep up to date by watching this GitHub repo
 
 If you're in a hurry or just don't like reading, here's a podcast-style breakdown created with [NotebookLM](https://notebooklm.google/) (courtesy of [Pedro Nunes](https://github.com/pedrosaunu) 🙏)
 
-[![Safety Critical AI Podcast](images/safety_critical_ai_podcast.png)](https://soundcloud.com/safety-critical-podcasts/safety-critical-ai-101-podcast)
+[![Safety Critical AI Podcast](assets/images/safety_critical_ai_podcast.png)](https://soundcloud.com/safety-critical-podcasts/safety-critical-ai-101-podcast)
 
 ## <a id="articles"></a>📝 Articles
 
@@ -473,7 +473,7 @@ If it's true that *"everything fails all the time"*, the stuff we do has to fail
 
 > **Are you ready to begin your Critical adventure?** 🚀 Check out our [open roles](https://careers.criticalsoftware.com/).
 
-![What Makes Us](images/what_makes_us.png)
+![What Makes Us](assets/images/what_makes_us.png)
 
 ## Contributions
 
@@ -508,6 +508,3 @@ If you found this repository helpful, please consider citing it using the follow
 <!-- Footer -->
 
 <div id="particles-js"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2/particles.js"></script>
-<script src="{{site.url}}{{site.baseurl}}/particles_conf.js"></script>
