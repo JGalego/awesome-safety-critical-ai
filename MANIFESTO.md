@@ -6,9 +6,9 @@
 
 In the last decades, artificial intelligence (AI) has become a driving force in our society.
 
-From virtual assistants like Siri or Alexa that help us manage our busy schedules to the recommendation engines behind streaming platforms and e-commerce websites, AI is so ingrained into everyday life now that we only seem to notice its existence when it fails.
+From virtual assistants like Alexa or Siri to the recommendation engines behind streaming platforms and e-commerce websites, AI is so ingrained into everyday life now that we only seem to notice its existence when it fails.
 
-In the safety-critical space, where the old *move fast / break things* philosophy is not an option, the reach of AI is also growing.
+In critical domains, where the old *move fast / break things* philosophy is not an option, the reach of AI is also growing.
 
 We now have systems out in the world that provide personalized diagnosis to patients, ensure collision-free navigation in self-driving cars, and enhance railway safety with automated signaling.
 
@@ -20,43 +20,43 @@ This manifesto outlines our commitment to developing, testing, and deploying AI 
 
 ## Core Principles
 
-### 1. Human-Centric Design
+### 🙋‍♀️ Human-First
 
 * Our systems will place human rights, well-being, and safety above all else.
 
 * We are committed to designing AI that aims to support and enhance human capabilities, not replace them.
 
-### 2. Transparency and Accountability
+### 🪟 Transparency and Accountability
 
 * We will maintain transparency in our development processes, ensuring that all stakeholders, including developers, users, and regulators, understand how AI systems operate.
 
 * Accountability mechanisms, such as regular audits and transparent reporting, will be established to address any unintended consequences of AI deployment.
 
-### 3. Robustness and Reliability
+### 🔩 Robustness and Reliability
 
 * Our AI systems will be rigorously tested to ensure they perform reliably under diverse conditions.
 
 * We will implement fail-safes and redundancies to mitigate AI failures.
 
-### 4. Ethical Dilemmas
+### 🧩 Ethical Dilemmas
 
 * Ethical considerations, emphasizing fairness, privacy, and accountability, will be incorporated throughout the entire development process, from initial planning to implementation.
 
 * We will actively seek to avoid biases and ensure fairness in decision-making processes.
 
-### 5. Continuous Improvement
+### 🔁 Continuous Improvement
 
 * AI systems will be continuously monitored and updated to meet new challenges and advancements.
 
 * We will foster a culture of learning and experimentation by implementing structured feedback mechanisms, such as surveys and focus groups, to gather and act on input from users, developers, regulators, and other stakeholders.
 
-### 6. Diversity & Inclusion
+### 🤝 Diversity & Inclusion
 
 * We will collaborate with industry partners, regulators, and the broader community to advance AI safety standards and promote best practices.
 
 * We will prioritize inclusivity in our AI development, actively seeking and incorporating diverse viewpoints throughout the process.
 
-### 7. Environmental Responsibility
+### 🌱 Environmental Responsibility
 
 * We are committed to creating environmentally responsible AI.
 
@@ -66,8 +66,8 @@ This manifesto outlines our commitment to developing, testing, and deploying AI 
 
 We are committed to using these principles in every project in order to develop technology that benefits us while protecting our long-term well-being.
 
-By adhering to this manifesto, we aim to build a better and safer world for everyone.
+By adhering to this manifesto, we aim to *build a better and safer world* for everyone.
 
-> *"We are not being replaced - we are being promoted!"* ― Garry Kasparov
+> ♞ *"We are not being replaced - we are being promoted!"* ― Garry Kasparov
 
 ![What Makes Us](images/what_makes_us.png)
