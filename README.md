@@ -274,7 +274,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`AUTOSAR`](https://www.autosar.org/fileadmin/standards/R18-10_R4.4.0_R1.5.0/AP/AUTOSAR_RS_CPP14Guidelines.pdf): guidelines for the use of the C++14 language in critical and safety-related systems
 * [`BARR-C:2018`](https://barrgroup.com/sites/default/files/barr_c_coding_standard_2018.pdf): embedded C Coding standard
 * ESCR Embedded System development Coding Reference Guide
-  - [C Language Edition](https://www.sensitiveresearch.com/Code/Documents/ESCA%20embedded%20coding%20ref.pdf)
+  - [C Language Edition](https://abougouffa.github.io/awesome-coding-standards/escr-c-3.0.pdf)
   - [C++ Language Edition](https://abougouffa.github.io/awesome-coding-standards/escr-cpp-3.0.pdf)
 * [`HIC++`](https://www.perforce.com/blog/qac/high-integrity-cpp-hicpp): High Integrity C++ coding standard v4.0
 * [`JSF AV C++`](https://www.phaedsys.com/standards/JSFPP/index.html): Joint Strike Fighter Air Vehicle C++ Coding Standards
