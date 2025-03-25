@@ -25,6 +25,7 @@ You can keep up to date by watching this GitHub repo
 * [📙 Guidelines](#guidelines)
 * [🤝 Initiatives](#initiatives)
 * [📋 Reports](#reports)
+* [🛣️ Roadmaps](#roadmaps)
 * [📐 Standards](#standards)
 * [🛠️ Tools](#tools)
 * [📺 Videos](#videos)
@@ -232,11 +233,17 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (IRT Saint Exupéry) [AI for Critical Systems Competence Center](https://www.irt-saintexupery.com/ai-for-critical-systems-competence/)
 * (ITU) [AI for Good](https://aiforgood.itu.int/)
 * (Partnership on AI) [Safety Critical AI](https://partnershiponai.org/program/safety-critical-ai/)
-* (RAILS) [Roadmaps for AI Integration in the Rail Sector](https://rails-project.eu/)
 * (SustainML) [Sustainable Machine Learning](https://sustainml.eu/)
 * [Responsible AI Institute](https://www.responsible.ai/)
 * [Center for Responsible AI](https://centerforresponsible.ai/)
 * [WASP WARA Public Safety](https://wasp-sweden.org/industrial-cooperation/research-arenas/wara-ps-public-safety/)
+
+## <a id="roadmaps"></a>🛣️ Roadmaps
+
+* (CISA) [Roadmap for Artificial Intelligence](https://www.cisa.gov/ai): a whole-of-agency plan aligned with national AI strategy
+* (EASA) [Artificial Intelligence Roadmap](https://www.easa.europa.eu/en/domains/research-innovation/ai): a human-centric approach to AI in aviation
+* (FAA) [Roadmap for Artificial Intelligence Safety Assurance](https://www.faa.gov/aircraft/air_cert/step/roadmap_for_AI_safety_assurance)
+* (RAILS) [Roadmaps for AI Integration in the Rail Sector](https://rails-project.eu/)
 
 ## <a id="reports"></a>📋 Reports
 
@@ -426,10 +433,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Avid](https://avidml.org/): AI vulnerability database, an open-source, extensible knowledge base of AI failures
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
 * [CO/AI](https://getcoai.com/): actionable resources & strategies for the AI era
-* [CISA's Roadmap for Artificial Intelligence](https://www.cisa.gov/ai): a whole-of-agency plan aligned with national AI strategy
 * [DHS AI](https://www.dhs.gov/ai): guidance on responsible adoption of GenAI in homeland security, including pilot programs insights, safety measures, and use cases
 * [ECSS's Space engineering – Machine learning qualification handbook](https://ecss.nl/home/public-review-of-ecss-e-hb-40-02a-dir1-space-engineering-machine-learning-qualification-handbook-due-date-8-september-2023/)
-* [EASA's AI Roadmap](https://www.easa.europa.eu/en/domains/research-innovation/ai): a human-centric approach to AI in aviation
 * [Google's Responsible Generative AI Toolkit](https://ai.google.dev/responsible)
 * [Hacker News on The Best Language for Safety-Critical Software](https://news.ycombinator.com/item?id=3943556)
 * [MITRE ATLAS](https://atlas.mitre.org/): navigate threats to AI systems through real-world insights
