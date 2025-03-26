@@ -234,8 +234,9 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (ITU) [AI for Good](https://aiforgood.itu.int/)
 * (Partnership on AI) [Safety Critical AI](https://partnershiponai.org/program/safety-critical-ai/)
 * (SustainML) [Sustainable Machine Learning](https://sustainml.eu/)
-* [Responsible AI Institute](https://www.responsible.ai/)
 * [Center for Responsible AI](https://centerforresponsible.ai/)
+* [Future of Life Institute](https://futureoflife.org/)
+* [Responsible AI Institute](https://www.responsible.ai/)
 * [WASP WARA Public Safety](https://wasp-sweden.org/industrial-cooperation/research-arenas/wara-ps-public-safety/)
 
 ## <a id="roadmaps"></a>🛣️ Roadmaps
@@ -427,6 +428,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * [AI Incident Database](https://incidentdatabase.ai/): dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of AI systems
 * [AI Safety](https://www.aisafety.com/): the hub for AI safety resources
+* [AI Safety Landscape](https://futureoflife.org/landscape/): 
+* [AI Safety Quest](https://aisafety.quest/): designed to help new people more easily navigate the AI Safety ecosystem, connect with like-minded people and find projects that are a good fit for their skills
 * [AI Safety Support](https://www.aisafetysupport.org/home): a community-building project working to reduce the likelihood of existential risk from AI by providing resources, networking opportunities and support to early career, independent and transitioning researchers
 * [AI Safety Atlas](https://ai-safety-atlas.com/): the central repository of AI Safety research, distilled into clear, interconnected and actionable knowledge
 * [AI Snake Oil](https://www.aisnakeoil.com/): debunking hype about AI's capabilities and transformative effects
