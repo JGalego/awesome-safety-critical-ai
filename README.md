@@ -427,6 +427,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * [AI Incident Database](https://incidentdatabase.ai/): dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of AI systems
 * [AI Safety](https://www.aisafety.com/): the hub for AI safety resources
+* [AI Safety Support](https://www.aisafetysupport.org/home): a community-building project working to reduce the likelihood of existential risk from AI by providing resources, networking opportunities and support to early career, independent and transitioning researchers
 * [AI Safety Atlas](https://ai-safety-atlas.com/): the central repository of AI Safety research, distilled into clear, interconnected and actionable knowledge
 * [AI Snake Oil](https://www.aisnakeoil.com/): debunking hype about AI's capabilities and transformative effects
 * [DARPA's Assured Autonomy Tools Portal](https://assured-autonomy.org/)
