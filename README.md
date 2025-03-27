@@ -103,6 +103,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Perez-Cerrolaza *et al.*, 2024) [Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey](https://dl.acm.org/doi/10.1145/3626314)
 * (Picardi *et al.*, 2020) [Assurance Argument Patterns and Processes for Machine Learning in Safety-Related Systems](https://ceur-ws.org/Vol-2560/paper17.pdf)
 * (Ramos *et al.*, 2024) [Collaborative Intelligence for Safety-Critical Industries: A Literature Review](https://www.mdpi.com/2078-2489/15/11/728)
+* (Schulhoff *et al.*, 2025) [Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition](https://arxiv.org/abs/2311.16119)
+* (Schulhoff *et al.*, 2024) [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](https://arxiv.org/abs/2406.06608)
 * (Sculley *et al.*, 2015) [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
 * (Seshia, Sadigh & Sastry, 2020) [Towards Verified Artificial Intelligence](https://arxiv.org/abs/1606.08514)
 * (Sinha *et al.*, 2020) [Neural Bridge Sampling for Evaluating Safety-Critical Autonomous Systems](https://arxiv.org/abs/2008.10581)
@@ -134,11 +136,15 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Forbes, 2022) [Part 2: Reflections On AI (Historical Safety Critical Systems)](https://www.forbes.com/sites/rahulrazdan/2022/03/13/reflections-on-a-decade-of-ai-part-2/)
 * (Ground Truths, 2025) [When Doctors With AI Are Outperformed by AI Alone](https://www.nytimes.com/2025/02/02/opinion/ai-doctors-medicine.html?unlocked_article_code=1.t04.AeZg.kT0qka6kerAi&smid=url-share)
 * (Homeland Security, 2022) [Artificial Intelligence, Critical Systems, and the Control Problem](https://www.hstoday.us/featured/artificial-intelligence-critical-systems-and-the-control-problem/)
-* (Lynx) [How is AI being used in Aviation?](https://www.lynx.com/executive-blog/artificial-intelligence-in-avionics)
+* (Lakera, 2025) [AI Red Teaming: Securing Unpredictable Systems](https://www.lakera.ai/blog/ai-red-teaming)
+* (Learn Prompting, 2025) [What is AI Red Teaming?](https://learnprompting.org/blog/what-is-ai-red-teaming)
+* (Lynx, 2023) [How is AI being used in Aviation?](https://www.lynx.com/executive-blog/artificial-intelligence-in-avionics)
 * (MathWorks, 2023) [The Road to AI Certification: The importance of Verification and Validation in AI](https://blogs.mathworks.com/deep-learning/2023/07/11/the-road-to-ai-certification-the-importance-of-verification-and-validation-in-ai)
+* (Protect AI, 2025) [The Expanding Role of Red Teaming in Defending AI Systems](https://protectai.com/blog/expanding-role-red-teaming-defending-ai-systems)
 * (restack, 2025) [Safety In Critical AI Systems](https://www.restack.io/p/ai-application-safety-protocols-answer-safety-in-critical-ai-systems-cat-ai)
 * (Safety4Sea, 2024) [The risks and benefits of AI translations in safety-critical industries](https://safety4sea.com/the-risks-and-benefits-of-ai-translations-in-safety-critical-industries/)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
+* (Wiz, 2025) [What is AI Red Teaming?](https://www.wiz.io/academy/ai-red-teaming)
 
 ## <a id="books"></a>📚 Books
 
@@ -401,7 +407,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (ESSS, 2024) [AI Revolution Transforming Safety-Critical Systems EXPLAINED!](https://www.youtube.com/watch?v=jD8vHgpm0Zw) with Raghavendra Bhat
 * (IVA, 2023) [AI in Safety-Critical Systems](https://www.youtube.com/watch?v=KOEdRK69t9g)
 * (MathWorks, 2024) [Incorporating Machine Learning Models into Safety-Critical Systems](https://www.mathworks.com/videos/incorporating-machine-learning-models-into-safety-critical-systems-1711734247499.html) with Lucas García
-* (MLOps Community) [Robustness, Detectability, and Data Privacy in AI](https://home.mlops.community/public/videos/robustness-detectability-and-data-privacy-in-ai) with Vinu Sadasivan and Demetrios Brinkmann
+* (Microsoft Developer, 2024) [How Microsoft Approaches AI Red Teaming](https://www.youtube.com/watch?v=zFRn_RMSPI4) with Tori Westerhoff and Pete Bryan
+* (MLOps Community, 2025) [Robustness, Detectability, and Data Privacy in AI](https://home.mlops.community/public/videos/robustness-detectability-and-data-privacy-in-ai) with Vinu Sadasivan and Demetrios Brinkmann
 * (Stanford, 2022) [Stanford Seminar - Challenges in AI Safety: A Perspective from an Autonomous Driving Company](https://www.youtube.com/watch?v=N5ts_HdOLMU)
 * (Stanford, 2024) [Best of - AI and safety critical systems](https://www.youtube.com/watch?v=t5NN0ilvcIk)
 * (valgrAI, 2024) [Integrating machine learning into safety-critical systems](https://www.youtube.com/watch?v=HSxwnuxaCoo) with Thomas Dietterich
