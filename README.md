@@ -76,6 +76,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Burton & Herd, 2023) [Addressing uncertainty in the safety assurance of machine-learning](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1132580/full)
 * (Cummings, 2021) [Rethinking the Maturity of Artificial Intelligence in Safety-Critical Settings](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/7394)
 * (Dalrymple *et al.*, 2025) [Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/abs/2405.06624)
+* (Delseny *et al.*, 2021) [White Paper Machine Learning in Certified Systems](https://arxiv.org/abs/2103.10529)
 * (Dutta *et al.*, 2017) [Output range analysis for deep feedforward neural networks](https://arxiv.org/abs/1709.09130)
 * (Endres *et al.*, 2023) [Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions?](https://nl2postcond.github.io/)
 * (Farahmand & Neu, 2025) [AI Safety for Physical Infrastructures: A Collaborative and Interdisciplinary Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/ffe.14575)
@@ -183,6 +184,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (MLOps Community) [AI in Production 2024](https://home.mlops.community/public/collections/ai-in-production-2024-02-18)
 * (MLOps Community) [LLMs in Production 2023](https://home.mlops.community/public/collections/llms-in-production-conference-part-iii-2023)
 * (Robust Intelligence) [ML:Integrity 2022](https://www.mlintegrityconference.com/)
+* (SCSC 2025) [Safety Critical Systems Symposium SSS'25](https://www.thescsc.org/e1099)
+* (SGAC 2023) [South Wales Safety Groups Alliance Conference and Exhibition](https://swwsafetygroup.co.uk/event/south-and-west-wales-safety-groups-alliance-conference-and-exhibition-always-think-risk/)
 * (SSS'24) [32nd annual Safety-Critical Systems Symposium](https://scsc.uk/e1007)
 
 ## <a id="courses"></a>👩‍🏫 Courses
@@ -451,6 +454,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Hacker News on The Best Language for Safety-Critical Software](https://news.ycombinator.com/item?id=3943556)
 * [MITRE ATLAS](https://atlas.mitre.org/): navigate threats to AI systems through real-world insights
 * [ML Safety](https://www.mlsafety.org/): the ML research community focused on reducing risks from AI systems
+* [MLSecOps](https://mlsecops.com/) by Protect AI
 * [OWASP's Top 10 LLM Applications & Generative AI](https://genai.owasp.org/)
 * [Paul Niquette's Software Does Not Fail essay](http://www.niquette.com/paul/issue/softwr02.htm)
 * [RobustML](https://robust-ml.github.io/): community-run hub for learning about robust ML
