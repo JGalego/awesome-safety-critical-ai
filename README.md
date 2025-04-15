@@ -352,7 +352,6 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`azure/PyRIT`](https://github.com/Azure/PyRIT): risk identification tool to assess the security and safety issues of generative AI systems
 * [`ffhibnese/Model-Inversion-Attack-ToolBox`](https://github.com/ffhibnese/Model-Inversion-Attack-ToolBox): a comprehensive toolbox for model inversion attacks and defenses
 * [`nvidia/garak`](https://github.com/NVIDIA/garak): Generative AI red-teaming and assessment kit
-* [`pralab/secml`](https://github.com/pralab/secml): Python library for the security evaluation of Machine Learning algorithms
 * [`protectai/llm-guard`](https://github.com/protectai/llm-guard): a comprehensive tool designed to fortify the security of LLMs
 
 ### Model Testing & Validation
@@ -364,6 +363,10 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 ### Miscellaneous
 
 * [`microsoft/robustlearn`](https://github.com/microsoft/robustlearn): a unified library for research on robust ML
+
+### Oldies 🕰️
+
+* [`pralab/secml`](https://github.com/pralab/secml): Python library for the security evaluation of Machine Learning algorithms
 
 ### Bleeding Edge ⚗️
 
