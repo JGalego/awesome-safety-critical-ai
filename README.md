@@ -178,8 +178,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (IJCAI-24) [AI for Critical Infrastructure](https://sites.google.com/view/aiforci-ijcai24/home)
 * (KDD2023) [Trustworthy machine learning](https://mltrust.github.io/)
 * (MITRE) [FAA Artificial Intelligence Safety Assurance: Roadmap and Technical Exchange Meetings](https://na.eventscloud.com/ereg/inactive.php?eventid=768017)
-  - [AI/ML Components in Safety-Critical Aviation Systems: Selected Concepts and Underlying Principles](https://ntrs.nasa.gov/citations/20240009355)
-  - [Developing Standards for AI/ML Systems in Civil Aviation: Challenges and Barriers](https://ntrs.nasa.gov/citations/20240000822)
+  * [AI/ML Components in Safety-Critical Aviation Systems: Selected Concepts and Underlying Principles](https://ntrs.nasa.gov/citations/20240009355)
+  * [Developing Standards for AI/ML Systems in Civil Aviation: Challenges and Barriers](https://ntrs.nasa.gov/citations/20240000822)
 * (NFM-AI-Safety-20) [NFM Workshop on AI Safety](https://sites.google.com/stanford.edu/nfm-ai-safety-20/)
 * (MLOps Community) [AI in Production 2024](https://home.mlops.community/public/collections/ai-in-production-2024-02-18)
 * (MLOps Community) [LLMs in Production 2023](https://home.mlops.community/public/collections/llms-in-production-conference-part-iii-2023)
@@ -291,8 +291,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`AUTOSAR`](https://www.autosar.org/fileadmin/standards/R18-10_R4.4.0_R1.5.0/AP/AUTOSAR_RS_CPP14Guidelines.pdf): guidelines for the use of the C++14 language in critical and safety-related systems
 * [`BARR-C:2018`](https://barrgroup.com/sites/default/files/barr_c_coding_standard_2018.pdf): embedded C Coding standard
 * ESCR Embedded System development Coding Reference Guide
-  - [C Language Edition](https://abougouffa.github.io/awesome-coding-standards/escr-c-3.0.pdf)
-  - [C++ Language Edition](https://abougouffa.github.io/awesome-coding-standards/escr-cpp-3.0.pdf)
+  * [C Language Edition](https://abougouffa.github.io/awesome-coding-standards/escr-c-3.0.pdf)
+  * [C++ Language Edition](https://abougouffa.github.io/awesome-coding-standards/escr-cpp-3.0.pdf)
 * [`HIC++`](https://www.perforce.com/blog/qac/high-integrity-cpp-hicpp): High Integrity C++ coding standard v4.0
 * [`JSF AV C++`](https://www.phaedsys.com/standards/JSFPP/index.html): Joint Strike Fighter Air Vehicle C++ Coding Standards
 * [`JPL C`](https://yurichev.com/mirrors/C/JPL_Coding_Standard_C.pdf): JPL Institutional Coding Standard for the C programming language
@@ -352,6 +352,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`azure/PyRIT`](https://github.com/Azure/PyRIT): risk identification tool to assess the security and safety issues of generative AI systems
 * [`ffhibnese/Model-Inversion-Attack-ToolBox`](https://github.com/ffhibnese/Model-Inversion-Attack-ToolBox): a comprehensive toolbox for model inversion attacks and defenses
 * [`nvidia/garak`](https://github.com/NVIDIA/garak): Generative AI red-teaming and assessment kit
+* [`pralab/secml`](https://github.com/pralab/secml): Python library for the security evaluation of Machine Learning algorithms
 * [`protectai/llm-guard`](https://github.com/protectai/llm-guard): a comprehensive tool designed to fortify the security of LLMs
 
 ### Model Testing & Validation
@@ -382,7 +383,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`FlowiseAI/Flowise`](https://github.com/FlowiseAI/Flowise): drag & drop UI to build your customized LLM flow
 * [`groq/groq-python`](https://github.com/groq/groq-python): the official Python library for the Groq API
 * [`Giskard-AI/giskard`](https://github.com/Giskard-AI/giskard): control risks of performance, bias and security issues in AI systems
-* [`guidance-ai/guidance`](https://github.com/guidance-ai/guidance): 
+* [`guidance-ai/guidance`](https://github.com/guidance-ai/guidance): a guidance language for controlling large language models
 * [`h2oai/h2o-llmstudio`](https://github.com/h2oai/h2o-llmstudio): a framework and no-code GUI for fine-tuning LLMs
 * [`hiyouga/LLaMA-Factory`](https://github.com/hiyouga/LLaMA-Factory): unified efficient fine-tuning of 100+ LLMs and VLMs
 * [`instructor-ai/instructor`](https://github.com/instructor-ai/instructor): the most popular Python library for working with structured outputs from LLMs
@@ -439,7 +440,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * [AI Incident Database](https://incidentdatabase.ai/): dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of AI systems
 * [AI Safety](https://www.aisafety.com/): the hub for AI safety resources
-* [AI Safety Landscape](https://futureoflife.org/landscape/): 
+* [AI Safety Landscape](https://futureoflife.org/landscape/): AI safety research agendas
 * [AI Safety Quest](https://aisafety.quest/): designed to help new people more easily navigate the AI Safety ecosystem, connect with like-minded people and find projects that are a good fit for their skills
 * [AI Safety Support](https://www.aisafetysupport.org/home): a community-building project working to reduce the likelihood of existential risk from AI by providing resources, networking opportunities and support to early career, independent and transitioning researchers
 * [AI Safety Atlas](https://ai-safety-atlas.com/): the central repository of AI Safety research, distilled into clear, interconnected and actionable knowledge
