@@ -484,6 +484,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Awesome Python Data Science](https://github.com/krzjoa/awesome-python-data-science): (probably) the best curated list of data science software in Python
 * [Awesome MLOps](https://github.com/kelvins/awesome-mlops): a curated list of awesome MLOps tools
 * [Awesome Production ML](https://github.com/EthicalML/awesome-production-machine-learning): a curated list of awesome open source libraries that will help you deploy, monitor, version, scale, and secure your production machine learning
+* [Awesome Prompt Hacking](https://github.com/PromptLabs/Prompt-Hacking-Resources): an awesome list of curated resources on prompt hacking and AI safety
 * [Awesome Trustworthy AI](https://github.com/MinghuiChen43/awesome-trustworthy-deep-learning): list covering different topics in emerging research areas including but not limited to out-of-distribution generalization, adversarial examples, backdoor attack, model inversion attack, machine unlearning, &c.
 * [Awesome Responsible AI](https://github.com/AthenaCore/AwesomeResponsibleAI): a curated list of awesome academic research, books, code of ethics, courses, data sets, frameworks, institutes, maturity models, newsletters, principles, podcasts, reports, tools, regulations and standards related to Responsible, Trustworthy, and Human-Centered AI
 * [Awesome Safety Critical](https://github.com/stanislaw/awesome-safety-critical): a list of resources about programming practices for writing safety-critical software
