@@ -82,6 +82,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Farahmand & Neu, 2025) [AI Safety for Physical Infrastructures: A Collaborative and Interdisciplinary Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/ffe.14575)
 * (Faria, 2018) [Machine learning safety: An overview](https://scsc.uk/e503prog)
 * (Feather & Pinto, 2023) [Assurance for Autonomy – JPL’s past research, lessons learned, and future directions](https://arxiv.org/abs/2305.11902)
+* (Gebru *et al.*, 2018) [Datasheets for Datasets](https://arxiv.org/abs/1803.09010)
 * (Gursel *et al.*, 2025) [The role of AI in detecting and mitigating human errors in safety-critical industries: A review](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007531)
 * (Habli, Lawton & Porter, 2020) [Artificial intelligence in health care: accountability and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC7133468/)
 * (Hasani *et al.*, 2022) [Trustworthy Artificial Intelligence in Medical Imaging](https://pmc.ncbi.nlm.nih.gov/articles/PMC8785402/)
@@ -104,6 +105,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Pereira & Thomas, 2024) [Challenges of Machine Learning Applied to Safety-Critical Cyber-Physical Systems](https://www.mdpi.com/2504-4990/2/4/31)
 * (Perez-Cerrolaza *et al.*, 2024) [Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey](https://dl.acm.org/doi/10.1145/3626314)
 * (Picardi *et al.*, 2020) [Assurance Argument Patterns and Processes for Machine Learning in Safety-Related Systems](https://ceur-ws.org/Vol-2560/paper17.pdf)
+* (Pushkarna, Zaldivar & Kjartansson, 2022) [Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI](https://arxiv.org/abs/2204.01075)
 * (Ramos *et al.*, 2024) [Collaborative Intelligence for Safety-Critical Industries: A Literature Review](https://www.mdpi.com/2078-2489/15/11/728)
 * (Schulhoff *et al.*, 2025) [Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition](https://arxiv.org/abs/2311.16119)
 * (Schulhoff *et al.*, 2024) [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](https://arxiv.org/abs/2406.06608)
@@ -453,6 +455,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Avid](https://avidml.org/): AI vulnerability database, an open-source, extensible knowledge base of AI failures
 * [Awful AI](https://github.com/daviddao/awful-ai), a collection of scary AI use cases
 * [CO/AI](https://getcoai.com/): actionable resources & strategies for the AI era
+* [Data Cards Playbook](https://sites.research.google/datacardsplaybook/): a toolkit for transparency in AI dataset documentation
 * [DHS AI](https://www.dhs.gov/ai): guidance on responsible adoption of GenAI in homeland security, including pilot programs insights, safety measures, and use cases
 * [ECSS's Space engineering – Machine learning qualification handbook](https://ecss.nl/home/public-review-of-ecss-e-hb-40-02a-dir1-space-engineering-machine-learning-qualification-handbook-due-date-8-september-2023/)
 * [Google's Responsible Generative AI Toolkit](https://ai.google.dev/responsible)
