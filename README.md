@@ -114,6 +114,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Sinha *et al.*, 2020) [Neural Bridge Sampling for Evaluating Safety-Critical Autonomous Systems](https://arxiv.org/abs/2008.10581)
 * (Sousa, Moutinho & Almeida, 2020) [Expert-in-the-loop Systems Towards Safety-critical Machine Learning Technology in Wildfire Intelligence](https://www.climatechange.ai/papers/neurips2020/90)
 * (Tambon *et al.*, 2021) [How to Certify Machine Learning Based Safety-critical Systems? A Systematic Literature Review](https://arxiv.org/abs/2107.12045)
+* (Urban & Miné, 2021) [A Review of Formal Methods applied to Machine Learning](https://arxiv.org/abs/2104.02466)
 * (Uuk *et al.*, 2025) [Effective Mitigations for Systemic Risks from General-Purpose AI](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5021463)
 * (Wang & Chung, 2021) [Artificial intelligence in safety-critical systems: a systematic review](https://www.semanticscholar.org/paper/Artificial-intelligence-in-safety-critical-systems%3A-Wang-Chung/dd56d26b7efd78651f9abf530741da8de7ca1a69)
 * (Webster *et al.*, 2019) [A corroborative approach to verification and validation of human-robot teams](https://arxiv.org/pdf/1608.07403)
