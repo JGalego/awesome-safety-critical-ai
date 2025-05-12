@@ -14,6 +14,8 @@ authors:
     family-names: França
   - given-names: Tiago
     family-names: Almeida
+  - given-names: Carlos
+    family-names: Garrido
 repository-code: >-
   https://github.com/JGalego/awesome-safety-critical-ai
 abstract: >-
