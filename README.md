@@ -86,6 +86,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Gursel *et al.*, 2025) [The role of AI in detecting and mitigating human errors in safety-critical industries: A review](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007531)
 * (Habli, Lawton & Porter, 2020) [Artificial intelligence in health care: accountability and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC7133468/)
 * (Hasani *et al.*, 2022) [Trustworthy Artificial Intelligence in Medical Imaging](https://pmc.ncbi.nlm.nih.gov/articles/PMC8785402/)
+* (Hennigen *et al.*, 2023) [Towards Verifiable Text Generation with Symbolic References]()
 * (Houben *et al.*, 2022) [Inspect, Understand, Overcome: A Survey of Practical Methods for AI Safety](https://link.springer.com/chapter/10.1007/978-3-031-01233-4_1)
 * (Jamakatel *et al.*, 2024) [A Goal-Directed Dialogue System for Assistance in Safety-Critical Application](https://www.ijcai.org/proceedings/2024/870)
 * (Johnson, 2018) [The Increasing Risks of Risk Assessment: On the Rise of Artificial Intelligence and Non-Determinism in Safety-Critical Systems](https://www.dcs.gla.ac.uk/~johnson/papers/SCSC_18.pdf)
@@ -106,6 +107,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Perez-Cerrolaza *et al.*, 2024) [Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey](https://dl.acm.org/doi/10.1145/3626314)
 * (Picardi *et al.*, 2020) [Assurance Argument Patterns and Processes for Machine Learning in Safety-Related Systems](https://ceur-ws.org/Vol-2560/paper17.pdf)
 * (Pushkarna, Zaldivar & Kjartansson, 2022) [Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI](https://arxiv.org/abs/2204.01075)
+* (Rajagede *et al.*, 2025) [NAPER: Fault Protection for Real-Time Resource-Constrained Deep Neural Networks](https://arxiv.org/abs/2504.06591)
 * (Ramos *et al.*, 2024) [Collaborative Intelligence for Safety-Critical Industries: A Literature Review](https://www.mdpi.com/2078-2489/15/11/728)
 * (Schulhoff *et al.*, 2025) [Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition](https://arxiv.org/abs/2311.16119)
 * (Schulhoff *et al.*, 2024) [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](https://arxiv.org/abs/2406.06608)
@@ -119,8 +121,10 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Wang & Chung, 2021) [Artificial intelligence in safety-critical systems: a systematic review](https://www.semanticscholar.org/paper/Artificial-intelligence-in-safety-critical-systems%3A-Wang-Chung/dd56d26b7efd78651f9abf530741da8de7ca1a69)
 * (Webster *et al.*, 2019) [A corroborative approach to verification and validation of human-robot teams](https://arxiv.org/pdf/1608.07403)
 * (Weiding *et al.*. 2024) [Holistic Safety and Responsibility Evaluations of Advanced AI Models](https://arxiv.org/abs/2404.14068v1)
+* (Wen & Machida, 2025) [Reliability modeling for three-version machine learning systems through Bayesian networks](https://www.sciencedirect.com/science/article/pii/S0951832025002170)
 * (Williams & Yampolskiy, 2021) [Understanding and Avoiding AI Failures: A Practical Guide](https://arxiv.org/abs/2104.12582v4)
 * (Woodburn, 2021) [Machine Learning and Software Product Assurance: Bridging the Gap](https://ecss.nl/wp-content/uploads/2017/02/ESA-TECQQS-TN-022868_1_1.pdf)
+* (Xie *et al.*, 2020) [DeepHunter: a coverage-guided fuzz testing framework for deep neural networks](https://dl.acm.org/doi/10.1145/3293882.3330579)
 * (Yu *et al.*, 2024) [A Survey on Failure Analysis and Fault Injection in AI Systems](https://arxiv.org/abs/2407.00125)
 * (Zhang & Li, 2020) [Testing and verification of neural-network-based safety-critical control software: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S0950584920300471)
 * (Zhang *et al.*, 2020) [Machine Learning Testing: Survey, Landscapes and Horizons](https://ieeexplore.ieee.org/document/9000651)
@@ -148,6 +152,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Protect AI, 2025) [The Expanding Role of Red Teaming in Defending AI Systems](https://protectai.com/blog/expanding-role-red-teaming-defending-ai-systems)
 * (restack, 2025) [Safety In Critical AI Systems](https://www.restack.io/p/ai-application-safety-protocols-answer-safety-in-critical-ai-systems-cat-ai)
 * (Safety4Sea, 2024) [The risks and benefits of AI translations in safety-critical industries](https://safety4sea.com/the-risks-and-benefits-of-ai-translations-in-safety-critical-industries/)
+* (Space and Time, 2024) [Verifiable LLMs for the Modern Enterprise](https://www.spaceandtime.io/blog/verifiable-llms-for-the-modern-enterprise)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
 * (Wiz, 2025) [What is AI Red Teaming?](https://www.wiz.io/academy/ai-red-teaming)
 
@@ -222,6 +227,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (APT Research) [Artificial Intelligence/Machine Learning System Safety](https://www.apt-research.com/capabilities/artificial-intelligence-machine-learning-system-safety/)
 * (CAIDP) [Universal Guidelines for AI](https://www.caidp.org/universal-guidelines-for-ai/)
 * (DIU) [Reponsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines)
+* (ESA) [ECSS-E-HB-40-02A – Machine learning handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/)
 * (European Commission) [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
 * (European Union) [The EU AI Act](https://artificialintelligenceact.eu/)
 * (Google) [AI Principles](https://ai.google/responsibility/principles/)
@@ -339,6 +345,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ### Model Intepretability
 
+* [`MAIF/shapash`](https://github.com/MAIF/shapash): user-friendly explainability and interpretability to develop reliable and transparent ML models
 * [`pytorch/captum`](https://github.com/pytorch/captum): a model interpretability and understanding library for PyTorch
 * [`SeldonIO/alibi`](https://github.com/SeldonIO/alibi): a library aimed at ML model inspection and interpretation
 
