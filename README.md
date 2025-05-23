@@ -252,6 +252,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (IRT Saint Exupéry) [AI for Critical Systems Competence Center](https://www.irt-saintexupery.com/ai-for-critical-systems-competence/)
 * (ITU) [AI for Good](https://aiforgood.itu.int/)
 * (Partnership on AI) [Safety Critical AI](https://partnershiponai.org/program/safety-critical-ai/)
+* (SCSC) [Safety Critical Systems Club](https://scsc.uk/index.php)
 * (SustainML) [Sustainable Machine Learning](https://sustainml.eu/)
 * [Center for Responsible AI](https://centerforresponsible.ai/)
 * [Future of Life Institute](https://futureoflife.org/)
@@ -447,6 +448,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (CWE) [Artificial Intelligence WG](https://cwe.mitre.org/community/working_groups.html)
 * (EUROCAE) [WG-114 / Artificial Intelligence](https://eurocae.net/news/posts/2019/june/new-working-group-wg-114-artificial-intelligence/)
 * (Linux Foundation) [ONNX Safety-Related Profile](https://github.com/ericjenn/working-groups/tree/ericjenn-srpwg-wg1/safety-related-profile)
+* (SCSS) [Safety of AI / Autonomous Systems Working Group](https://scsc.uk/index.php/working-groups/joomla-core-user-profile/autonomous-systems)
 
 ## <a id="miscellaneous"></a>👾 Miscellaneous
 
