@@ -68,6 +68,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Becker *et al.*, 2021) [AI at work – Mitigating safety and discriminatory risk with technical standards](https://www.interface-eu.org/publications/ai-work-mitigating-safety-and-discriminatory-risk-technical-standards)
 * (Belani, Vukovic & Car, 2019) [Requirements Engineering Challenges in Building AI-Based Complex Systems](https://arxiv.org/abs/1908.11791)
 * (Beyers *et al.*, 2019) [Quantification of the Impact of Random Hardware Faults on Safety-Critical AI Applications: CNN-Based Traffic Sign Recognition Case Study](https://ieeexplore.ieee.org/document/8990333)
+* (Bloomfield *et al.*, 2021) [Safety Case Templates for Autonomous Systems](https://arxiv.org/abs/2102.02625)
 * (Bolchini, Cassano & Miele, 2024) [Resilience of Deep Learning applications: a systematic literature review of analysis and hardening techniques](https://arxiv.org/abs/2309.16733)
 * (Bondar, 2025) [Ukraine's Future Vision and Current Capabilities for Waging AI-Enabled Autonomous Warfare](https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare)
 * (Bloomfield & Rushby, 2025) [Where AI Assurance Might Go Wrong: Initial lessons from engineering of critical systems](https://arxiv.org/abs/2502.03467)
@@ -479,6 +480,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [OWASP's Top 10 LLM Applications & Generative AI](https://genai.owasp.org/)
 * [Paul Niquette's Software Does Not Fail essay](http://www.niquette.com/paul/issue/softwr02.htm)
 * [RobustML](https://robust-ml.github.io/): community-run hub for learning about robust ML
+* [Safety Architectures for AI Systems](https://www.iks.fraunhofer.de/en/services/safety-architectures-ai.html): part of the [Fraunhofer IKS services](https://www.iks.fraunhofer.de/en/services.html) landing page
 * [SEBoK Verification and Validation of Systems in Which AI is a Key Element](https://sebokwiki.org/wiki/Verification_and_Validation_of_Systems_in_Which_AI_is_a_Key_Element)
 * [StackOverflow discussion on Python coding standards for Safety Critical applications](https://stackoverflow.com/questions/69673807/python-coding-standard-for-safety-critical-applications)
 * The gospel of Trustworthy AI according to
