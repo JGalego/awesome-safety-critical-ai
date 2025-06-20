@@ -95,6 +95,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Leofante *et al.*, 2018) [Automated Verification of Neural Networks: Advances, Challenges and Perspectives](https://arxiv.org/abs/1805.09938)
 * (Li *et al.*, 2022) [Trustworthy AI: From Principles to Practices](https://arxiv.org/abs/2110.01167)
 * (Li *et al.*, 2024) [Formal-LLM: Integrating Formal Language and Natural Language for Controllable LLM-based Agents](https://arxiv.org/abs/2402.00798)
+* (Lones, 2021) [How to avoid machine learning pitfalls: a guide for academic researchers
+](https://arxiv.org/abs/2108.02497)
 * (Lubana, 2024) [Understanding and Identifying Challenges in Design of Safety-Critical AI Systems](https://deepblue.lib.umich.edu/handle/2027.42/196092)
 * (Luckcuck *et al.*, 2019) [Formal Specification and Verification of Autonomous Robotic Systems: A Survey](https://arxiv.org/abs/1807.00048)
 * (Lwakatare *et al.*, 2020) [Large-scale machine learning systems in real-world industrial settings: A review of challenges and solutions](https://www.sciencedirect.com/science/article/abs/pii/S0950584920301373)
@@ -165,6 +167,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Huyen, 2022) [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969?&_encoding=UTF8&tag=chiphuyen-20&linkCode=ur2&linkId=0a1dbab0e76f5996e29e1a97d45f14a5&camp=1789&creative=9325)
 * (Jackson, Thomas & Millett, 2007) [Software for Dependable Systems: Sufficient Evidence?](https://nap.nationalacademies.org/catalog/11923/software-for-dependable-systems-sufficient-evidence)
 * (Joseph *et al.*, 2019) [Adversarial Machine Learning](https://www.amazon.com/Adversarial-Machine-Learning-Anthony-Joseph/dp/1107043468)
+* (Levenson, 1995) [Safeware: System Safety and Computers](https://dl.acm.org/doi/book/10.1145/202709)
 * (Molnar, 2025) [Interpretable Machine Learning: A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
 * (Pelillo & Scantamburlo, 2021) [Machines We Trust: Perspectives on Dependable AI](https://www.amazon.com/Machines-We-Trust-Perspectives-Dependable-ebook/dp/B08P46HDYG)
 * (Tran, 2024) [Artificial Intelligence for Safety and Reliability Engineering: Methods, Applications, and Challenges](https://link.springer.com/book/10.1007/978-3-031-71495-5)
