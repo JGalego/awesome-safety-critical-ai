@@ -164,10 +164,12 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * (Chen *et al.*, 2022) [Reliable Machine Learning: Applying SRE Principles to ML in Production](https://www.amazon.com/Reliable-Machine-Learning-Principles-Production/dp/1098106229)
+* (Hall, Curtis & Pandey, 2023) [Machine Learning for High-Risk Applications: Approaches to Responsible AI](https://www.oreilly.com/library/view/machine-learning-for/9781098102425/)
 * (Huang, Jin & Ruan, 2023) [Machine Learning Safety](https://link.springer.com/book/10.1007/978-981-19-6814-3)
 * (Huyen, 2022) [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969?&_encoding=UTF8&tag=chiphuyen-20&linkCode=ur2&linkId=0a1dbab0e76f5996e29e1a97d45f14a5&camp=1789&creative=9325)
 * (Jackson, Thomas & Millett, 2007) [Software for Dependable Systems: Sufficient Evidence?](https://nap.nationalacademies.org/catalog/11923/software-for-dependable-systems-sufficient-evidence)
 * (Joseph *et al.*, 2019) [Adversarial Machine Learning](https://www.amazon.com/Adversarial-Machine-Learning-Anthony-Joseph/dp/1107043468)
+* (Kastner, 2025) [Machine Learning in Production: From Models to Products](https://amazon.com/Machine-Learning-Production-Models-Products/dp/0262049724)
 * (Levenson, 1995) [Safeware: System Safety and Computers](https://dl.acm.org/doi/book/10.1145/202709)
 * (Molnar, 2025) [Interpretable Machine Learning: A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
 * (Pelillo & Scantamburlo, 2021) [Machines We Trust: Perspectives on Dependable AI](https://www.amazon.com/Machines-We-Trust-Perspectives-Dependable-ebook/dp/B08P46HDYG)
