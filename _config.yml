@@ -2,7 +2,7 @@ theme: jekyll-theme-hacker
 plugins:
   - jekyll-relative-links
 site:
-  url: https://critical-ai.dev
+  url: https://critical-ai.dev/awesome-safety-critical-ai/
 relative_links:
   enabled: true
   collections: true
