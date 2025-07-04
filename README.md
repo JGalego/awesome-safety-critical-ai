@@ -2,18 +2,19 @@
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) ![mission](https://img.shields.io/badge/mission-build_a_better_and_safer_world-purple) ![license](https://img.shields.io/badge/license-MIT-lightgrey.svg) ![languages](https://img.shields.io/badge/languages-MULTI-blue.svg) ![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen) ![last commit](https://img.shields.io/github/last-commit/JGalego/awesome-safety-critical-ai)
 
-**Welcome to Awesome Safety Critical AI!**
+**👋 Welcome to Awesome Safety-Critical AI** - a curated space for practitioners, researchers and engineers committed to building intelligent systems that are as *reliable* as they are *capable*.
 
-This repository contains a curated list of references on the role of AI in **safety-critical systems**, systems whose failure can result in loss of life, significant property damage or damage to the environment.
+Inspired by systems thinking and engineering rigour, this project focuses on how to move from clever prototypes to fault-tolerant, production-grade ML. It's not about chasing benchmarks. It's about anticipating chaos - and designing for it.
 
-In here, you'll find references on safe and responsible AI, reliable ML, AI testing, V&V in AI, real-world case studies, and much, much more.
+Whether you're working on autonomous vehicles, medical diagnosis, or airbone systems, this collection offers a blueprint for AI that can be trusted when it matters most.
 
-You can keep up to date by watching this GitHub repo
+This isn't just another (awesome) list. It's a call to action!
 
 ![AI for Safety Critical](assets/images/ai4sc.png)
 
 ## <a id="toc"></a>Table of Contents
 
+* [🐇 Introduction](#introduction)
 * [🌟 Editor's Choice](#top-picks)
 * [🏃 TLDR](#tldr)
 * [📝 Articles](#articles)
@@ -38,10 +39,91 @@ You can keep up to date by watching this GitHub repo
 * [Contributors](#contributors)
 * [Citation](#citation)
 
+## <a id="introduction"></a>🐇 Introduction
+
+### AI in Critical Systems
+
+Critical systems are those whose failure can result in significant harm to people, the environment, infrastructure, or an organisation's mission.
+
+Think of flight control software, medical diagnostics, autonomous vehicles, or financial fraud detection. 
+
+These systems must operate with high reliability, often under unclear and unpredictable conditions.
+
+As AI becomes more integrated into such systems, it's essential to understand both its strenghts and limitations.
+
+### AI is fallible - and that's ok
+
+AI systems, no matter how sophisticated, can and will make mistakes. Better models may make fewer mistakes, but mistakes are generally inevitable.
+
+This is not a sign of poor engineering, it's something intrinsic to the nature of intelligence. Unlike traditional software, which follows explicit rules, AI learns from data and generalises. That generalisation is powerful, but it's also imperfect.
+
+#### AI makes errors that are strange and unpredictable
+
+AI doesn't always fail in ways that make sense to us. 
+
+It might [misclassify a stop sign with a sticker](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) as a speed limit sign. Or it might [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
+
+These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
+
+#### These errors can be catastrophic
+
+If not properly mitigated, AI mistakes can render a system useless, or worse, dangerous:
+
+- An autonomous drone misidentifying a civilian as a target
+- A medical AI overlooking a rare but deadly condition
+- A financial model approving fraudulent transactions due to adversarial inputs
+
+#### Even the best minds can't eliminate mistakes
+
+Top-tier machine learning engineers still produce models that occasionally fail. Again, these aren't flaws to be patched - they're part of the terrain.
+
+Working with AI means accepting that uncertainty is built in, and designing systems that can handle it gracefully.
+
+#### AI can be wildly wrong
+
+Unlike human experts, who tend to make errors that are consistent with a rational view of the world, AI can go completely off the rails.
+
+It might suggest a giraffe is a toaster, or that a benign tumour is malignant.
+
+These failures can be baffling, and they demand robust monitoring and fallback strategies.
+
+#### AI systems evolve over time
+
+Traditional software is often deterministic. It behaves the same way every time.
+
+AI systems, by contrast, can improve - or degrade - based on new data.
+
+This means today's behaviour might not match tomorrow's.
+
+#### Change can be disruptive
+
+A model update might boost accuracy overall but introduce new blind spots.
+
+A retrained model might actually perform worse in certain edge cases.
+
+Change must be managed carefully, with rigorous testing and rollback plans.
+
+#### Perfection is a mirage
+
+Achieving zero-error performance in AI is very expensive and, in many cases, impossible.
+
+Instead, the goal should be to reduce risk to acceptable levels, and to build systems that are resilient when things go wrong.
+
+#### Always have a safety net
+
+When AI fails - and it will - there must be a way to recover.
+
+This could be a human-in-the-loop, a rule-based override, or a safe fallback mode.
+
+Recovery isn't optional, it's essential.
+
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
 <small>[🔼 Back to top](#toc)</small>
 
+* If you're just starting, here's our recommended reading list:
+  - [ML in Production](https://mlip-cmu.github.io/book/) by Christian Kästner // Chapters 2 (From Models to Systems) and 7 (Planning for Mistakes)
+  - [Building Intelligent Systems](https://www.amazon.com/Building-Intelligent-Systems-Learning-Engineering/dp/1484234316) by Geoff Hulten // Chapters 6 (Why Creating Intelligent Experiences is Hard), 7 (Balancing Intelligent Experiences) and 24 (Dealing with Mistakes)
 * 🧰 An awesome set of [tools for production-ready ML](https://github.com/EthicalML/awesome-production-machine-learning)
     > **A word of caution** ☝️ Use them wisely and remember that *"a sword is only as good as the man [or woman] who wields it"*
 * 😈 A collection of scary [use cases](https://github.com/daviddao/awful-ai), [incidents](https://incidentdatabase.ai/) and [failures](https://avidml.org/) of AI, which will hopefully raise awareness to its misuses
