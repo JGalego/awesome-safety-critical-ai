@@ -63,7 +63,7 @@ It might [misclassify a stop sign with a sticker](https://spectrum.ieee.org/slig
 
 These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
 
-#### AI can be wildly wrong
+### AI can be wildly wrong
 
 Unlike human experts, who tend to make errors that are consistent with a rational view of the world, AI can go completely off the rails.
 
