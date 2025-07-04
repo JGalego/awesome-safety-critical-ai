@@ -4,7 +4,7 @@
 
 **👋 Welcome to Awesome Safety-Critical AI** - a curated space for practitioners, researchers and engineers committed to building intelligent systems that are as *reliable* as they are *capable*.
 
-Inspired by systems thinking and engineering rigour, this project focuses on how to move from clever prototypes to fault-tolerant, production-grade ML. It's not about chasing benchmarks. It's about anticipating chaos - and designing for it.
+Inspired by systems thinking and engineering rigour, this project focuses on how to move from clever prototypes to fault-tolerant, production-grade ML. It's not about chasing benchmarks or polishing demos. It's about anticipating chaos - and designing for it.
 
 Whether you're working on autonomous vehicles, medical diagnosis, or airbone systems, this collection offers a blueprint for AI that can be trusted when it matters most.
 
@@ -43,13 +43,11 @@ This isn't just another (awesome) list. It's a call to action!
 
 ### AI in Critical Systems
 
-Critical systems are those whose failure can result in significant harm to people, the environment, infrastructure, or an organisation's mission.
-
-Think of flight control software, medical diagnostics, autonomous vehicles, or financial fraud detection. 
+Critical systems are those whose failure can result in significant harm to people, the environment, infrastructure, or an organisation's mission. Think flight control software, medical diagnostics, autonomous vehicles, or financial fraud detection. 
 
 These systems must operate with high reliability, often under unclear and unpredictable conditions.
 
-As AI becomes more integrated into such systems, it's essential to understand both its strenghts and limitations.
+As AI becomes more integrated into such systems, it's essential to understand both its strenghts and weaknesses.
 
 ### AI is fallible - and that's ok
 
@@ -57,27 +55,13 @@ AI systems, no matter how sophisticated, can and will make mistakes. Better mode
 
 This is not a sign of poor engineering, it's something intrinsic to the nature of intelligence. Unlike traditional software, which follows explicit rules, AI learns from data and generalises. That generalisation is powerful, but it's also imperfect.
 
-#### AI makes errors that are strange and unpredictable
+### AI makes errors that are strange and unpredictable
 
 AI doesn't always fail in ways that make sense to us. 
 
 It might [misclassify a stop sign with a sticker](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) as a speed limit sign. Or it might [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
 
 These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
-
-#### These errors can be catastrophic
-
-If not properly mitigated, AI mistakes can render a system useless, or worse, dangerous:
-
-- An autonomous drone misidentifying a civilian as a target
-- A medical AI overlooking a rare but deadly condition
-- A financial model approving fraudulent transactions due to adversarial inputs
-
-#### Even the best minds can't eliminate mistakes
-
-Top-tier machine learning engineers still produce models that occasionally fail. Again, these aren't flaws to be patched - they're part of the terrain.
-
-Working with AI means accepting that uncertainty is built in, and designing systems that can handle it gracefully.
 
 #### AI can be wildly wrong
 
@@ -87,7 +71,21 @@ It might suggest a giraffe is a toaster, or that a benign tumour is malignant.
 
 These failures can be baffling, and they demand robust monitoring and fallback strategies.
 
-#### AI systems evolve over time
+### The problem is that these errors can be catastrophic
+
+If not properly mitigated, AI mistakes can render a system useless, or worse, dangerous:
+
+- An autonomous drone misidentifying a civilian as a target
+- A medical AI overlooking a rare but deadly condition
+- A financial model approving fraudulent transactions due to adversarial inputs
+
+### Even the best minds can't eliminate mistakes
+
+Top-tier machine learning engineers still produce models that occasionally fail. Again, these aren't flaws to be patched - they're part of the terrain.
+
+Working with AI means accepting that uncertainty is built in, and designing systems that can handle it gracefully.
+
+### AI systems evolve over time
 
 Traditional software is often deterministic. It behaves the same way every time.
 
@@ -95,7 +93,7 @@ AI systems, by contrast, can improve - or degrade - based on new data.
 
 This means today's behaviour might not match tomorrow's.
 
-#### Change can be disruptive
+### Change can be disruptive
 
 A model update might boost accuracy overall but introduce new blind spots.
 
@@ -103,13 +101,13 @@ A retrained model might actually perform worse in certain edge cases.
 
 Change must be managed carefully, with rigorous testing and rollback plans.
 
-#### Perfection is a mirage
+### Perfection is a mirage
 
 Achieving zero-error performance in AI is very expensive and, in many cases, impossible.
 
 Instead, the goal should be to reduce risk to acceptable levels, and to build systems that are resilient when things go wrong.
 
-#### Always have a safety net
+### Always have a safety net
 
 When AI fails - and it will - there must be a way to recover.
 
