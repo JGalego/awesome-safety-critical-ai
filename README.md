@@ -53,7 +53,17 @@ As AI becomes more integrated into such systems, it's essential to understand bo
 
 AI systems, no matter how sophisticated, can and will make mistakes. Better models may make fewer mistakes, but mistakes are generally inevitable.
 
-This is not a sign of poor engineering, it's something intrinsic to the nature of intelligence. Unlike traditional software, which follows explicit rules, AI learns from data and generalises. That generalisation is powerful, but it's also imperfect.
+This is not a sign of poor engineering. It's something intrinsic to the nature of intelligence.
+
+Unlike traditional software, which follows explicit rules, AI learns from data and generalises. That generalisation is powerful, but it's also imperfect.
+
+### Even the best minds can't eliminate mistakes
+
+Top-tier machine learning engineers still produce models that occasionally fail.
+
+Again, these aren't flaws to be patched - they're part of the terrain.
+
+Working with AI means accepting that uncertainty is built in, and designing systems that can handle it gracefully.
 
 ### AI makes errors that are strange and unpredictable
 
@@ -71,19 +81,13 @@ It might suggest a giraffe is a toaster, or that a benign tumour is malignant.
 
 These failures can be baffling, and they demand robust monitoring and fallback strategies.
 
-### The problem is that these errors can be catastrophic
+### These errors can be catastrophic
 
-If not properly mitigated, AI mistakes can render a system useless, or worse, dangerous:
+If not properly mitigated, these mistakes can render a system useless, or worse, dangerous:
 
 - An autonomous drone misidentifying a civilian as a target
 - A medical AI overlooking a rare but deadly condition
 - A financial model approving fraudulent transactions due to adversarial inputs
-
-### Even the best minds can't eliminate mistakes
-
-Top-tier machine learning engineers still produce models that occasionally fail. Again, these aren't flaws to be patched - they're part of the terrain.
-
-Working with AI means accepting that uncertainty is built in, and designing systems that can handle it gracefully.
 
 ### AI systems evolve over time
 
@@ -113,7 +117,7 @@ When AI fails - and it will - there must be a way to recover.
 
 This could be a human-in-the-loop, a rule-based override, or a safe fallback mode.
 
-Recovery isn't optional, it's essential.
+For critical systems, recovery isn't optional, it's essential.
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
