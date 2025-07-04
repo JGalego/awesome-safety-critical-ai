@@ -135,7 +135,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Zhang & Li, 2020) [Testing and verification of neural-network-based safety-critical control software: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S0950584920300471)
 * (Zhang *et al.*, 2020) [Machine Learning Testing: Survey, Landscapes and Horizons](https://ieeexplore.ieee.org/document/9000651)
 * (Zhang *et al.*, 2024) [The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap](https://arxiv.org/abs/2412.06512)
-* (Kiseleva *et al.*, 2025) [The EU AI Act, Stakeholder Needs, and Explainable AI: Aligning Regulatory Compliance in a Clinical Decision Support System] (https://arxiv.org/pdf/2505.20311)
+* (Kiseleva *et al.*, 2025) [The EU AI Act, Stakeholder Needs, and Explainable AI: Aligning Regulatory Compliance in a Clinical Decision Support System](https://arxiv.org/pdf/2505.20311)
 
 ## <a id="blogs"></a>✍️ Blogs
 
