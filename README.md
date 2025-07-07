@@ -343,6 +343,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+* (DARPA) [AIQ: Artificial Intelligence Quantified](https://www.darpa.mil/research/programs/aiq-artificial-intelligence-quantified)
 * (Data, Responsible) [Foundations of responsible data management](https://dataresponsibly.github.io/)
 * (DEEL) [Dependable, Certifiable & Explainable Artificial Intelligence for Critical Systems](https://www.deel.ai/)
 * (FUTURE-AI) [Best practices for trustworthy AI in medicine](https://future-ai.eu/)
