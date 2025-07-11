@@ -43,33 +43,46 @@ This isn't just another (awesome) list. It's a call to action!
 
 ### AI in Critical Systems
 
-Critical systems are those whose failure can result in significant harm to people, the environment, infrastructure, or an organisation's mission. Think flight control software, medical diagnostics, autonomous vehicles, or financial fraud detection. 
+Critical systems are those whose failure can result in significant harm topeople 👤, the environment 🌱, infrastructure 🏗️, or an organisation's mission 🎯.
 
-These systems must operate with high reliability, often under unclear and unpredictable conditions.
+| Application | Industry Vertical | Why is it critical? |
+| ----------- | ----------------- | ------------------- |
+| Patient monitoring | Healthcare | Tracks vital signs; failure can delay life-saving interventions |
+| Aircraft navigation | Aerospace | Ensures safe flight paths; errors can lead to accidents |
+| Power grid control | Energy | Manages electricity distribution; failures can cause blackouts |
+| Command & Control | Defence | Coordinates military actions; failure risks national security |
+| Industrial Automation Control | Manufacturing | Oversees production processes; malfunction can cause damage or injury |
+| Core Banking System | Finance | Handles transactions and account data; downtime can affect financial operations |
 
-As AI becomes more integrated into such systems, it's essential to understand both its strenghts and weaknesses.
+These systems must operate with high levels of reliability and availability, often under *unclear* and *unpredictable* conditions.
 
-### AI is fallible - and that's ok
+As AI becomes more integrated into such systems, understanding its strenghts and weaknesses is paramount.
 
-AI systems, no matter how sophisticated, can and will make mistakes. Better models may make fewer mistakes, but mistakes are generally inevitable.
+### AI is fallible - and that's ok!
 
-This is not a sign of poor engineering. It's something intrinsic to the nature of intelligence.
+AI systems, no matter how sophisticated, can and **will** make mistakes.
 
-Unlike traditional software, which follows explicit rules, AI learns from data and generalises. That generalisation is powerful, but it's also imperfect.
+Better models may make fewer mistakes, but mistakes are generally unavoidable.
+
+This is not a sign of poor engineering, but an intrinsic feature of intelligence.
+
+Unlike traditional software, which follows explicit rules, AI learns from data and generalises.
+
+That generalisation is powerful, but also imperfect.
 
 ### Even the best minds can't eliminate mistakes
 
 Top-tier machine learning engineers still produce models that occasionally fail.
 
-Again, these aren't flaws to be patched - they're part of the terrain.
+These are not flaws to be patched - they are part of the terrain.
 
 Working with AI means accepting that uncertainty is built in, and designing systems that can handle it gracefully.
 
 ### AI makes errors that are strange and unpredictable
 
-AI doesn't always fail in ways that make sense to us. 
+AI doesn't always fail in ways that make sense to us.
 
-It might [misclassify a stop sign with a sticker](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) as a speed limit sign. Or it might [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
+It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
 
 These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
 
@@ -109,7 +122,7 @@ Change must be managed carefully, with rigorous testing and rollback plans.
 
 Achieving zero-error performance in AI is very expensive and, in many cases, impossible.
 
-Instead, the goal should be to reduce risk to acceptable levels, and to build systems that are resilient when things go wrong.
+Instead, the goal should be to reduce risk to acceptable levels and build systems that are resilient when things go wrong.
 
 ### Always have a safety net
 
@@ -117,7 +130,7 @@ When AI fails - and it will - there must be a way to recover.
 
 This could be a human-in-the-loop, a rule-based override, or a safe fallback mode.
 
-For critical systems, recovery isn't optional, it's essential.
+When it comes to critical systems, recovery isn't optional, it's **essential**.
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
@@ -193,6 +206,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Mitchell *et al.*, 2019) [Model cards for model reporting](https://arxiv.org/abs/1810.03993)
 * (Papernot *et al.*, 2018) [SoK: Security and Privacy in Machine Learning](https://ieeexplore.ieee.org/document/8406613)
 * (Passi & Sengers, 2020) [Making data science systems work](https://journals.sagepub.com/doi/10.1177/2053951720939605)
+* (Patel *et al.*, 2025) [Towards Secure MLOps: Surveying Attacks, Mitigation Strategies, and Research Challenges](https://arxiv.org/abs/2506.02032v1)
 * (Pereira & Thomas, 2024) [Challenges of Machine Learning Applied to Safety-Critical Cyber-Physical Systems](https://www.mdpi.com/2504-4990/2/4/31)
 * (Perez-Cerrolaza *et al.*, 2024) [Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey](https://dl.acm.org/doi/10.1145/3626314)
 * (Phelps & Ranson, 2023) [Of Models and Tin Men: A Behavioural Economics Study of Principal-Agent Problems in AI Alignment using Large-Language Models](https://arxiv.org/abs/2307.11137)
