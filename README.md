@@ -45,9 +45,9 @@ This isn't just another (awesome) list. It's a call to action!
 
 ### What is a Critical System?
 
-Critical systems are systems whose failure can get people hurt 👤, harm the environment 🌱, damage infrastructure 🏗️, or undermine an organisation's mission 🎯.
+Critical systems are those whose failure can lead to injury 🤕, loss of life ☠️, environmental harm 🌱🚱, infrastructure damage 🏗️💥, or mission failure 🎯.
 
-| **Application**                   | **Industry Vertical** | **Description**                       | **Why is it critical?**                     |
+| **Application**                   | **Industry Vertical** | **Description**                       | **Failure Impact**                     |
 | --------------------------------- | --------------------- | ------------------------------------- | ------------------------------------------- |
 | **Patient Monitoring**            | Healthcare            | Tracks vital signs                    | Failure can delay life-saving interventions |
 | **Aircraft Navigation**           | Aerospace / Aviation  | Ensures safe flight paths             | Errors can lead to accidents                |
@@ -56,9 +56,9 @@ Critical systems are systems whose failure can get people hurt 👤, harm the en
 | **Industrial Automation Control** | Manufacturing         | Oversees production processes         | Malfunction can cause damage or injury      |
 | **Core Banking System**           | Finance               | Handles transactions and account data | Downtime can affect financial operations    |
 
-These are systems that operate under the highest standards of safety, reliability and availability, often under *unclear* and *unpredictable* conditions.
+We're talking about systems that **must** operate with high levels of safety, reliability and availability, often under *unclear* and *unpredictable* conditions.
 
-If they don't... well, here's a list of real-life examples of what happens when things go wrong:
+They are also the systems we tend to forget about - until something goes horribly wrong 🫣
 
 | **Incident**                   | **Year**  | **Description**                                                                 | **Root Cause**                                                                 | **Industry Vertical**         | **References** |
 |--------------------------------|-----------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------|----------------|
@@ -73,17 +73,15 @@ If they don't... well, here's a list of real-life examples of what happens when 
 | **Heartbleed Bug**              | `2014`      | Security vulnerability in SSL exposed private server data                       | Improper bounds checking in the heartbeat extension of OpenSSL                           | Cybersecurity / IT            | [Heartbleed](https://heartbleed.com/), [CNET](https://www.cnet.com/news/privacy/heartbleed-bug-what-you-need-to-know-faq/) |
 | **T-Mobile Sidekick Data Loss** | `2009`      | Users lost personal data during server migration                                | Software mishandling during data center transition led to irreversible loss              | Telecom / Cloud Services      | [TechCrunch](https://techcrunch.com/2009/10/13/sidekick-user-data-may-be-recovered-after-all/), [PCWorld](https://www.pcworld.com/article/520107/sidekick_data_loss_t_mobiles_unending_nightmare.html) |
 
-When dealing with high-stakes domains, conventional software engineering practices **must** be supplemented by rigorous verification, validation and certification processes that are designed to ensure the system integrity.
+The way we build these systems is by extending conventional software engineering practices with rigorous verification, validation and certification processes that are designed to ensure the system's integrity.
 
 When it comes to critical systems, engineering rigour is everything.
 
 ### AI in Critical Systems
 
-So, where does that leave us? Is there room for AI in critical systems?
+So, where does that leave us? **Is there room for AI in critical systems?**
 
-AI's potential in critical systems is both exciting and deeply complex.
-
-Intelligent systems are already making life-or-death decisions in the ICU, controling UAVs and aircrafts, doing surveillance and threat detection in defence systems, and powering self-driving cars.
+From making life-or-death decisions in the ICU to controlling UAVs, doing surveillance and threat detection, and powering self-driving cars, intelligent systems are not just emerging, they're fully operational.
 
 | **Use Case**                                 | **Brief Description**                                                                                   | **Industry Domain**              | **References** |
 |----------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|----------------|
@@ -101,9 +99,13 @@ Intelligent systems are already making life-or-death decisions in the ICU, contr
 | **AI for Compliance Monitoring**             | Uses NLP to parse documents and logs for regulatory breaches, supporting audits and governance.          | Financial Systems                | [Digital Adoption](https://www.digital-adoption.com/ai-in-finance-examples/), [LeewayHertz](https://www.leewayhertz.com/ai-in-fraud-detection/) |
 | **AI in Wildfire Early Detection**           | Processes satellite and sensor data to detect hotspots and alert emergency services.                     | Environmental Safety             | [NASA FireSense](https://cce.nasa.gov/firesense/), [PreventionWeb](https://www.preventionweb.net/news/nasa-wildfire-digital-twin-pioneers-new-ai-models-and-streaming-data-techniques-forecasting) |
 
-However, while its ability to learn patterns and make data-driven decisions is unmatched in some domains, its adoption in high-stakes environments must be tempered with caution, transparency, and a sharp understanding of its limitations.
+This isn't a thought experiment anymore - we're already far beyond the realm of hypotheticals.
 
-Here are some of the most important...
+The challenge now is to create systems that we can trust, that can withstand disruption, and reflect core human values.
+
+While its ability to learn patterns and make data-driven decisions is unmatched in some domains, the adoption of AI in high-stakes environments must be tempered with caution, transparency, and a sharp understanding of its limitations.
+
+Let's briefly recap some of the most important...
 
 #### AI can and will make mistakes
 
