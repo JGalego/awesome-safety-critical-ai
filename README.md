@@ -4,9 +4,11 @@
 
 **👋 Welcome to Awesome Safety-Critical AI** - a curated space for practitioners, researchers and engineers committed to building intelligent systems that are as *reliable* as they are *capable*.
 
-Inspired by systems thinking and engineering rigour, this project focuses on how to move from clever prototypes to fault-tolerant, production-grade ML. It's not about chasing benchmarks or polishing demos. It's about anticipating chaos - and designing for it.
+Inspired by systems thinking and engineering rigour, this project focuses on how to move from clever prototypes to fault-tolerant, production-grade ML systems.
 
 Whether you're working on autonomous vehicles, medical diagnosis, or airbone systems, this collection offers a blueprint for AI that can be trusted when it matters most.
+
+AI in critical systems is not about polishing demos or chasing benchmarks. It's about anticipating chaos - and designing for it.
 
 This isn't just another (awesome) list. It's a call to action!
 
@@ -41,68 +43,98 @@ This isn't just another (awesome) list. It's a call to action!
 
 ## <a id="introduction"></a>🐇 Introduction
 
+### What is a Critical System?
+
+Critical systems are systems whose failure can get people hurt 👤, harm the environment 🌱, damage infrastructure 🏗️, or undermine an organisation's mission 🎯.
+
+| **Application**                   | **Industry Vertical** | **Description**                       | **Why is it critical?**                     |
+| --------------------------------- | --------------------- | ------------------------------------- | ------------------------------------------- |
+| **Patient Monitoring**            | Healthcare            | Tracks vital signs                    | Failure can delay life-saving interventions |
+| **Aircraft Navigation**           | Aerospace / Aviation  | Ensures safe flight paths             | Errors can lead to accidents                |
+| **Power Grid Control**            | Energy                | Manages electricity distribution      | Failures can cause blackouts                |
+| **Command & Control**             | Defence               | Coordinates military actions          | Failure risks national security             |
+| **Industrial Automation Control** | Manufacturing         | Oversees production processes         | Malfunction can cause damage or injury      |
+| **Core Banking System**           | Finance               | Handles transactions and account data | Downtime can affect financial operations    |
+
+These are systems that operate under the highest standards of safety, reliability and availability, often under *unclear* and *unpredictable* conditions.
+
+If they don't... well, here's a list of real-life examples of what happens when things go wrong:
+
+| **Incident**                   | **Year**  | **Description**                                                                 | **Root Cause**                                                                 | **Industry Vertical**         | **References** |
+|--------------------------------|-----------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------|----------------|
+| **Therac-25 Radiation Overdose** | `1985–1987` | Radiation therapy machine gave fatal overdoses to multiple patients             | Race conditions and lack of safety interlocks; poor error handling                       | Healthcare                    | [Wikipedia](https://en.wikipedia.org/wiki/Therac-25), [Stanford](https://web.stanford.edu/class/cs208e/lectures/17-Computers-and-Ethics/Therac25.pdf) |
+| **Lufthansa Flight 2904**       | `1993`      | Airbus A320 crashed during landing in Warsaw due to thrust reverser failure     | Reversers disabled by software logic when gear compression conditions weren’t met        | Aviation                      | [Wikipedia](https://en.wikipedia.org/wiki/Lufthansa_Flight_2904), [Simple Flying](https://simpleflying.com/lufthansa-flight-2904-crash-explained/) |
+| **Ariane Flight V88**           | `1996`      | Ariane 5 rocket self-destructed seconds after launch                            | Unhandled overflow converting 64-bit float to 16-bit integer                             | Aerospace                     | [Wikipedia](https://en.wikipedia.org/wiki/Ariane_flight_V88), [MIT](http://sunnyday.mit.edu/nasa-class/Ariane5-report.html) |
+| **Mars Climate Orbiter**        | `1999`      | NASA probe lost due to trajectory miscalculation                                | Metric vs imperial unit mismatch between subsystems                                      | Space Exploration             | [NASA](https://sma.nasa.gov/docs/default-source/safety-messages/safetymessage-2009-08-01-themarsclimateorbitermishap.pdf) |
+| **Patriot Missile Failure**     | `1991`      | Failed interception of Scud missile during Gulf War                             | Rounding error in floating-point time tracking caused significant drift                  | Defence                       | [Barr Group](https://barrgroup.com/sites/default/files/case-study-patriot-missile-defects.pdf), [GAO](https://apps.dtic.mil/sti/citations/ADA344865) |
+| **Knight Capital Loss**         | `2012`      | Trading system triggered erratic market orders causing massive financial loss   | Deployment of obsolete test code; no safeguards for live operations                      | Finance / Trading             | [Henrico Dolfing](https://www.henricodolfing.com/2019/06/project-failure-case-study-knight-capital.html), [CNN](https://money.cnn.com/2012/08/09/technology/knight-expensive-computer-bug/index.html) |
+| **Toyota Unintended Acceleration** | `2009–10` | Reports of unexpected vehicle acceleration and crashes                          | Stack overflow and memory corruption in embedded ECU software                            | Automotive                    | [SAE](https://www.sae.org/publications/technical-papers/content/2011-01-0995/), [Wikipedia](https://en.wikipedia.org/wiki/Toyota_vehicle_recalls) |
+| **F-22 Raptor GPS Failure**     | `2007`      | Multiple jets lost navigation after crossing the International Date Line        | Software couldn't handle date transition; triggered reboot                               | Aerospace / Defence           | [Wired](https://www.wired.com/2013/06/f-22-gps-glitch/), [Wikipedia](https://en.wikipedia.org/wiki/F-22_Raptor#Incidents) |
+| **Heartbleed Bug**              | `2014`      | Security vulnerability in SSL exposed private server data                       | Improper bounds checking in the heartbeat extension of OpenSSL                           | Cybersecurity / IT            | [Heartbleed](https://heartbleed.com/), [CNET](https://www.cnet.com/news/heartbleed-security-flaw-what-you-need-to-know/) |
+| **T-Mobile Sidekick Data Loss** | `2009`      | Users lost personal data during server migration                                | Software mishandling during data center transition led to irreversible loss              | Telecom / Cloud Services      | [TechCrunch](https://techcrunch.com/2009/10/08/microsoft-says-there-is-hope-for-sidekick-user-data/), [Wired](https://www.wired.com/2009/10/sidekick-data-loss/) |
+
+When dealing with high-stakes domains, conventional software engineering practices must be supplemented by rigorous verification, validation and certification processes that are designed to ensure the system integrity.
+
+When it comes to critical systems, engineering rigour is everything.
+
 ### AI in Critical Systems
 
-Critical systems are those whose failure can result in significant harm topeople 👤, the environment 🌱, infrastructure 🏗️, or an organisation's mission 🎯.
+So, where does that leave us? Is there a space for AI in critical systems?
 
-| Application | Industry Vertical | Why is it critical? |
-| ----------- | ----------------- | ------------------- |
-| Patient monitoring | Healthcare | Tracks vital signs; failure can delay life-saving interventions |
-| Aircraft navigation | Aerospace | Ensures safe flight paths; errors can lead to accidents |
-| Power grid control | Energy | Manages electricity distribution; failures can cause blackouts |
-| Command & Control | Defence | Coordinates military actions; failure risks national security |
-| Industrial Automation Control | Manufacturing | Oversees production processes; malfunction can cause damage or injury |
-| Core Banking System | Finance | Handles transactions and account data; downtime can affect financial operations |
+AI's potential in critical systems is both exciting and deeply complex.
 
-These systems must operate with high levels of reliability and availability, often under *unclear* and *unpredictable* conditions.
+Intelligent systems are already making life-or-death decisions in the ICU, controling UAVs and aircrafts, doing surveillance and threat detection in defence systems, and powering self-driving cars.
 
-As AI becomes more integrated into such systems, understanding its strenghts and weaknesses is paramount.
+| **Use Case**                                 | **Brief Description**                                                                                   | **Industry Domain**              | **References** |
+|----------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|----------------|
+| **Predicting ICU Length of Stay**            | AI models use patient data to forecast ICU duration, improving resource allocation and care planning.   | Healthcare                       | [INFORMS](https://www.informs.org/News-Room/INFORMS-Releases/News-Releases/New-Study-Reveals-AI-s-Transformative-Impact-on-ICU-Care-with-Smarter-Predictions-and-Transparent-Insights), [Springer](https://link.springer.com/article/10.1007/s00134-023-07102-y) |
+| **AI in Radiation Therapy Planning**         | Optimizes dose targeting using historical patient models, improving treatment precision and safety.      | Healthcare                       | [Nature](https://www.nature.com/articles/s41598-023-36889-3), [Siemens Healthineers](https://www.siemens-healthineers.com/insights/artificial-intelligence-in-radiation-oncology) |
+| **Self-Driving Cars**                        | Powers perception, decision-making, and control systems for autonomous vehicles.                        | Transportation                   | [Built In](https://builtin.com/artificial-intelligence/artificial-intelligence-automotive-industry), [Rapid Innovation](https://www.rapidinnovation.io/post/ai-in-self-driving-cars) |
+| **AI in Railway Signaling Systems**          | Predicts track occupancy and optimizes train routing to avoid collisions and delays.                     | Transportation                   | [Railway Technology](https://www.railway-technology.com/features/ai-in-railways/), [UIC](https://uic.org/rail-system/article/artificial-intelligence-in-railways/) |
+| **Autonomous Drone Navigation**              | Enables drones to navigate complex terrain without GPS; supports rescue and defense operations.         | Aerospace / Defense              | [MDPI](https://www.mdpi.com/2504-446X/8/7/296), [Fly Eye](https://www.flyeye.io/how-ai-is-used-in-drones/) |
+| **AI-Based Conflict Detection in ATC**       | Forecasts aircraft trajectories to alert controllers of potential collision risks.                       | Aerospace / Defense              | [Raven Aero](https://raven.aero/news/ai-meets-aviation-smarter-air-traffic-control/), [AviationFile](https://www.aviationfile.com/artificial-intelligence-and-air-traffic-control/) |
+| **Remote Digital Towers for Airports**       | AI interprets visual data to assist air traffic controllers in low-visibility conditions.                | Aerospace / Defense              | [Airways Magazine](https://www.airwaysmag.com/legacy-posts/artificial-intelligence-air-traffic-control) |
+| **Predictive Maintenance in Nuclear Reactors**| Analyzes reactor sensor data to detect early failures, preventing major accidents.                       | Energy                           | [Accelerant](https://discoveraccelerant.com/ai-in-nuclear-plants/), [IAEA](https://www.iaea.org/bulletin/enhancing-nuclear-power-production-with-artificial-intelligence) |
+| **AI-Assisted Reactor Control Systems**      | Supports operators by modeling physical processes and recommending safety actions in real time.         | Energy                           | [Uatom.org](https://www.uatom.org/en/2024/08/27/the-role-and-prospects-of-ai-in-strengthening-the-safety-of-nuclear-facilities.html), [Springer](https://link.springer.com/chapter/10.1007/978-3-030-96592-1_9) |
+| **Autonomous Navigation for Cargo Ships**    | Enables real-time path planning to avoid obstacles and optimize maritime routes.                         | Transportation                   | [MaritimeEd](https://maritimeducation.com/ai-in-autonomous-vessels-the-future-of-crewless-ships-smart-navigation-and-collision-prevention/), [ShipFinex](https://www.shipfinex.com/blog/autonomous-ships-in-the-maritime-industry) |
+| **AI-Based Collision Avoidance at Sea**      | Detects and responds to high-risk vessel situations using visual and radar data fusion.                  | Transportation                   | [Ship Universe](https://www.shipuniverse.com/news/ai-transformations-in-maritime-shipping-navigating-2025/) |
+| **AI-Driven Fraud Detection**                | Identifies anomalous financial transactions and flags potential fraud in real time.                      | Financial Systems                | [Upskillist](https://www.upskillist.com/blog/ai-agents-in-finance-applications-examples-and-usecases/), [Xenoss](https://xenoss.io/blog/real-time-ai-fraud-detection-in-banking) |
+| **AI for Compliance Monitoring**             | Uses NLP to parse documents and logs for regulatory breaches, supporting audits and governance.          | Financial Systems                | [Digital Adoption](https://www.digital-adoption.com/ai-in-finance-examples/), [LeewayHertz](https://www.leewayhertz.com/ai-in-fraud-detection/) |
+| **AI in Wildfire Early Detection**           | Processes satellite and sensor data to detect hotspots and alert emergency services.                     | Environmental Safety             | [NASA FireSense](https://www.nasa.gov/directorates/spacetech/centennial_challenges/firesense.html), [Wired](https://www.wired.com/story/artificial-intelligence-wildfire-detection/) |
 
-### AI is fallible - and that's ok!
+However, while its ability to learn patterns and make data-driven decisions is unmatched in some domains, its adoption in high-stakes environments must be tempered with caution, transparency, and a sharp understanding of its limitations.
 
-AI systems, no matter how sophisticated, can and **will** make mistakes.
+Here are some of the most important...
 
-Better models may make fewer mistakes, but mistakes are generally unavoidable.
+#### AI can and will make mistakes
 
-This is not a sign of poor engineering, but an intrinsic feature of intelligence.
+Better models may make fewer mistakes, but mistakes are generally *unavoidable*.
+
+These model misfires are not a sign of poor engineering, but an intrinsic feature of intelligence.
 
 Unlike traditional software, which follows explicit rules, AI learns from data and generalises.
 
 That generalisation is powerful, but also imperfect.
 
-### Even the best minds can't eliminate mistakes
-
-Top-tier machine learning engineers still produce models that occasionally fail.
-
-These are not flaws to be patched - they are part of the terrain.
-
 Working with AI means accepting that uncertainty is built in, and designing systems that can handle it gracefully.
 
-### AI makes errors that are strange and unpredictable
+#### AI makes mistakes that seem strange and unpredictable
 
 AI doesn't always fail in ways that make sense to us.
 
 It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
 
-These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
+Again, these aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
 
-### AI can be wildly wrong
-
-Unlike human experts, who tend to make errors that are consistent with a rational view of the world, AI can go completely off the rails.
+Unlike human experts, who tend to make errors that are consistent with a rational view of the world, AI can go completely off the rails (pun intended).
 
 It might suggest a giraffe is a toaster, or that a benign tumour is malignant.
 
 These failures can be baffling, and they demand robust monitoring and fallback strategies.
 
-### These errors can be catastrophic
+If not properly mitigated, they can render a system useless, or worse, dangerous.
 
-If not properly mitigated, these mistakes can render a system useless, or worse, dangerous:
-
-- An autonomous drone misidentifying a civilian as a target
-- A medical AI overlooking a rare but deadly condition
-- A financial model approving fraudulent transactions due to adversarial inputs
-
-### AI systems evolve over time
+#### AI systems can change over time
 
 Traditional software is often deterministic. It behaves the same way every time.
 
@@ -110,27 +142,27 @@ AI systems, by contrast, can improve - or degrade - based on new data.
 
 This means today's behaviour might not match tomorrow's.
 
-### Change can be disruptive
+#### Change can be disruptive
 
 A model update might boost accuracy overall but introduce new blind spots.
 
 A retrained model might actually perform worse in certain edge cases.
 
-Change must be managed carefully, with rigorous testing and rollback plans.
+Change must be managed and monitored carefully, with rigorous testing and rollback plans.
 
-### Perfection is a mirage
+#### Perfection is a mirage
 
 Achieving zero-error performance in AI is very expensive and, in many cases, impossible.
 
-Instead, the goal should be to reduce risk to acceptable levels and build systems that are resilient when things go wrong.
+Instead, the goal should be to reduce risk to acceptable levels and build systems that can tolerate incorrect answers.
 
-### Always have a safety net
+#### Always have a safety net
 
 When AI fails - and it will - there must be a way to recover.
 
 This could be a human-in-the-loop, a rule-based override, or a safe fallback mode.
 
-When it comes to critical systems, recovery isn't optional, it's **essential**.
+When it comes to critical systems, recovery is **never** an option.
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
@@ -620,7 +652,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 [Critical Software](https://criticalsoftware.com/en) is a Portuguese company that specializes in safety- and mission-critical software.
 
-Our mission is to **build a better and safer world** by creating safe and reliable solutions for demanding industries like Space, Energy, Banking, Defense and Medical.
+Our mission is to **build a better and safer world** by creating safe and reliable solutions for demanding industries like Space, Energy, Banking, Defence and Medical.
 
 We get to work every day with a variety of high-profile companies, such as Airbus, Alstom, BMW, ESA, NASA, Siemens, and Thales.
 
