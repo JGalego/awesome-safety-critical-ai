@@ -137,7 +137,7 @@ AI doesn't always fail in ways that make sense to us.
 
 It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
 
-<img src="assets/images/stop_signs.jpg" height="100px">
+<img src="assets/images/stop_signs.jpg" height="200px">
 
 These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
 
@@ -145,7 +145,7 @@ Unlike human experts, who tend to make errors that are consistent with a rationa
 
 It might suggest a school bus is an ostrich, or that a benign tumour is malignant.
 
-<img src="assets/images/noisy_school_bus.png" height="100px">
+<img src="assets/images/noisy_school_bus.png" height="200px">
 
 These failures can be baffling, and they demand robust monitoring and fallback strategies.
 
