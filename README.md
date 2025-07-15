@@ -60,6 +60,8 @@ We're talking about systems that **must** operate with high levels of safety, re
 
 They are also the systems we tend to forget about - until something goes horribly wrong 🫣
 
+<img src="assets/images/therac25.png" height="80px"/> <img src="assets/images/lufthansa2904.jpg" height="80px"/> <img src="assets/images/mars_climate_orbiter.jpg" height="80px"/> <img src="assets/images/patriot_missile_failure.jpg" height="80px"/> <img src="assets/images/knight_capital_loss.jpg" height="80px"/> <img src="assets/images/toyota_unintended_acceleration.png" height="80px"/>
+
 | **Incident**                   | **Year**  | **Description**                                                                 | **Root Cause**                                                                 | **Industry Vertical**         | **References** |
 |--------------------------------|-----------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------|----------------|
 | **Therac-25 Radiation Overdose** | `1985–1987` | Radiation therapy machine gave fatal overdoses to multiple patients             | Race conditions and lack of safety interlocks; poor error handling                       | Healthcare                    | [Wikipedia](https://en.wikipedia.org/wiki/Therac-25), [Stanford](https://web.stanford.edu/class/cs208e/lectures/17-Computers-and-Ethics/Therac25.pdf) |
@@ -81,7 +83,9 @@ When it comes to critical systems, engineering rigour is everything.
 
 So, where does that leave us? **Is there room for AI in critical systems?**
 
-From making life-or-death decisions in the ICU to controlling UAVs, doing surveillance and threat detection, and powering self-driving cars, intelligent systems are not just emerging, they're fully operational.
+This isn't a thought experiment - we're already far beyond the realm of hypotheticals.
+
+From making life-or-death decisions in the ICU to controlling UAVs, doing surveillance and threat detection, and powering self-driving cars, intelligent systems are not just emerging, they are fully operational.
 
 | **Use Case**                                 | **Brief Description**                                                                                   | **Industry Domain**              | **References** |
 |----------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|----------------|
@@ -98,8 +102,6 @@ From making life-or-death decisions in the ICU to controlling UAVs, doing survei
 | **AI-Driven Fraud Detection**                | Identifies anomalous financial transactions and flags potential fraud in real time.                      | Financial Systems                | [Upskillist](https://www.upskillist.com/blog/ai-agents-in-finance-applications-examples-and-usecases/), [Xenoss](https://xenoss.io/blog/real-time-ai-fraud-detection-in-banking) |
 | **AI for Compliance Monitoring**             | Uses NLP to parse documents and logs for regulatory breaches, supporting audits and governance.          | Financial Systems                | [Digital Adoption](https://www.digital-adoption.com/ai-in-finance-examples/), [LeewayHertz](https://www.leewayhertz.com/ai-in-fraud-detection/) |
 | **AI in Wildfire Early Detection**           | Processes satellite and sensor data to detect hotspots and alert emergency services.                     | Environmental Safety             | [NASA FireSense](https://cce.nasa.gov/firesense/), [PreventionWeb](https://www.preventionweb.net/news/nasa-wildfire-digital-twin-pioneers-new-ai-models-and-streaming-data-techniques-forecasting) |
-
-This isn't a thought experiment anymore - we're already far beyond the realm of hypotheticals.
 
 The challenge now is to create systems that we can trust, that can withstand disruption, and reflect core human values.
 
@@ -124,6 +126,8 @@ Working with AI means accepting that uncertainty is built in, and designing syst
 AI doesn't always fail in ways that make sense to us.
 
 It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
+
+<img src="assets/images/stop_signs.jpg" height="200px"/>
 
 Again, these aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
 
