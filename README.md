@@ -67,7 +67,7 @@ These kind of systems we tend to forget about... until something goes horribly w
 | **Incident**                   | **Year**  | **Description**                                                                 | **Root Cause**                                                                 | **Industry Vertical**         | **References** |
 |--------------------------------|-----------|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------|----------------|
 | **Therac-25 Radiation Overdose** | `1985–1987` | Radiation therapy machine gave fatal overdoses to multiple patients             | Race conditions and lack of safety interlocks; poor error handling                       | Healthcare                    | [Wikipedia](https://en.wikipedia.org/wiki/Therac-25), [Stanford](https://web.stanford.edu/class/cs208e/lectures/17-Computers-and-Ethics/Therac25.pdf) |
-| **Lufthansa Flight 2904**       | `1993`      | Airbus A320 crashed during landing in Warsaw due to thrust reverser failure     | Reversers disabled by software logic when gear compression conditions weren’t met        | Aviation                      | [Wikipedia](https://en.wikipedia.org/wiki/Lufthansa_Flight_2904), [Simple Flying](https://simpleflying.com/lufthansa-flight-2904-runway-overrun-story/) |
+| **Lufthansa Flight 2904**       | `1993`      | Airbus A320 crashed during landing in Warsaw due to thrust reverser failure     | Reversers disabled by software logic when gear compression conditions weren't met        | Aviation                      | [Wikipedia](https://en.wikipedia.org/wiki/Lufthansa_Flight_2904), [Simple Flying](https://simpleflying.com/lufthansa-flight-2904-runway-overrun-story/) |
 | **Ariane Flight V88**           | `1996`      | Ariane 5 rocket self-destructed seconds after launch                            | Unhandled overflow converting 64-bit float to 16-bit integer                             | Aerospace                     | [Wikipedia](https://en.wikipedia.org/wiki/Ariane_flight_V88), [MIT](http://sunnyday.mit.edu/nasa-class/Ariane5-report.html) |
 | **Mars Climate Orbiter**        | `1999`      | NASA probe lost due to trajectory miscalculation                                | Metric vs imperial unit mismatch between subsystems                                      | Space Exploration             | [NASA](https://sma.nasa.gov/docs/default-source/safety-messages/safetymessage-2009-08-01-themarsclimateorbitermishap.pdf) |
 | **Patriot Missile Failure**     | `1991`      | Failed interception of Scud missile during Gulf War                             | Rounding error in floating-point time tracking caused significant drift                  | Defence                       | [Barr Group](https://barrgroup.com/sites/default/files/case-study-patriot-missile-defects.pdf), [GAO](https://apps.dtic.mil/sti/citations/ADA344865) |
@@ -119,13 +119,11 @@ Let's briefly recap some of the most important...
 
 <img src="assets/images/broken_dish.jpg" height="100px"  width="20%"/>
 
-Better models may make fewer mistakes, but mistakes are generally *unavoidable*.
+Better models may make fewer mistakes, but mistakes are generally *unavoidable*. These are not a sign of poor engineering, but an intrinsic feature of intelligence.
 
-Model misfires are not a sign of poor engineering, but an intrinsic feature of intelligence.
+Unlike traditional software, which follows explicit rules, AI learns from data and generalises. 
 
-Unlike traditional software, which follows explicit rules, AI learns from data and generalises.
-
-Generalization is **powerful**, allowing models to make predictions beyond what they've seen, but also **imperfect**, because the real world is messy, ever-changing, and rarely fits neatly into learned patterns.
+Generalization allows models to make predictions beyond what they've seen so far, but it's ultimately imperfect because the real world is messy, ever-changing, and rarely fits nicely into learned patterns.
 
 Working with AI means accepting this uncertainty and designing systems that can handle it gracefully.
 
@@ -133,68 +131,67 @@ Working with AI means accepting this uncertainty and designing systems that can 
 
 <img src="assets/images/jackie_chan_confused.jpg" height="100px" width="20%"/>
 
-AI doesn't always fail in ways that make sense to us.
-
-It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
+AI doesn't always fail in ways that make sense to us. It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
 
 <img src="assets/images/stop_signs.jpg" height="200px">
 
 These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
 
-Unlike human experts, who tend to make errors that are consistent with a rational view of the world, AI might say that a school bus is an ostrich, or that a benign tumour is malignant.
+While humans tend to make errors that are consistent with a rational view of the world, AI might say that a school bus is actually an ostrich, or classify a benign tumour as malignant.
 
 <img src="assets/images/noisy_school_bus.png" height="200px">
 
-These failures can be baffling, and they demand robust monitoring and fallback strategies.
+These failures can be baffling and they demand robust monitoring and fallback strategies.
 
 If not properly mitigated, they can render a system *useless*, or worse, **dangerous**.
 
-#### Models outputs can be probabilistic
+#### Model outputs can be probabilistic
 
 <img src="assets/images/determinism.jpg" height="100px" width="20%"/>
 
-Traditional software is designed to behave the same way every time. Same input, same output, *ceteris paribus*.
+Traditional software is designed to behave the same way every time.
 
-By contrast, AI systems can improve or degrade based on new data, which means that today's behaviour might **not** match tomorrow's.
+Same input, same output, *ceteris paribus*.
 
-Notice the use of **might** instead of **will**. Just because models **can** be random or probabilistic doesn't mean they **have** to be.
+By contrast, AI systems can improve or degrade based on new data.
 
-While ML training can be **nondeterministic**, the resulting models are often **deterministic** during inference. Given the same input, these models will consistently produce the same outputs... and make the same mistakes.
+This means that today's behaviour might **not** match tomorrow's.
+
+Notice that we're using **might** instead of **will**. This is an important point: just because models **can** act randomly and generate probabilistic outputs, it doesn't mean they **have** to.
+
+While ML training can be **nondeterministic**, the resulting models are often **deterministic** during inference.
+
+Given the same input, these models will consistently produce the same outputs... and make the same mistakes.
 
 #### Data and models can change over time
 
 <img src="assets/images/time_changes.jpg" height="100px" width="20%"/>
 
-According to platonic lore, the pre-socratic philosopher Heraclitus was one of the first to propose the idea that change is the only constant in the Universe (Πάντα ῥεῖ).
+Data and models are not static things. They'll evolve continuously due to changes in the environment, user behavior, hardware, regulations and more.
 
-In the world of AI and ML, the effects of the passage of time are especially dire. Let's look at an example...
+Understanding and managing these changes is essential to maintain system safety, reliability, and performance.
 
-In supervised ML problems, the training dataset can be viewed as a set of samples from a joint distribution `p(X, y)` where `X` represents the inputs and `y` represents the output/target variable. 
+Let's look at an example...
 
-In this setting, we are interested in modeling `p(y|X)`, which we can decompose as `p(X|y) * p(y)` or `p(y|X) * p(X)`.
+Imagine a supervised learning system trained to [detect early signs of pneumonia in chest X-rays](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
 
-Here's what usually happens when we move the model to production and expose it to the real world:
+<img src="assets/images/chest_xray_pneumonia.png" width="200px"/>
 
-* **Data drift**: the kind of data the model sees starts to look different
-  - [Covariate shift](https://www.seldon.io/what-is-covariate-shift/): when `p(X)` changes, but `p(y|X)` remains the same
-  - [Label shift](https://www.toolify.ai/ai-news/understanding-label-shift-in-machine-learning-causes-effects-and-solutions-1952342): when `p(y)` changes, but `p(X|y)` remains the same
-* **Concept drift**: the mapping between inputs and outputs changes
-  - [Feature relevance shift](https://link.springer.com/article/10.1007/s10115-023-02010-5): things that once mattered to the model may no longer be useful
-* **Model drift**: model performance degrades over time due to factors related to the model itself
+Over time, several factors can cause both the data and the model to evolve:
 
-Drift doesn't usually crash a model, it just makes it *quietly wrong*.
+* **Data Drift:** the original training data may come from a specific hospital using a particular X-ray machine. As the system is deployed in new hospitals with different imaging equipment, patient demographics, or scanning protocols, the visual characteristics and quality of the X-ray images may vary significantly. This shift in the input distribution without an accompanying change in the task can reduce the model's diagnostic accuracy. This kind of drift doesn't actually crash the model, it just makes it *quietly wrong*.
 
-In AI, silence isn't golden - it's a warning sign ⚠️
+* **Concept Drift:** clinical knowledge and medical understanding can also evolve. For instance, new variants of respiratory diseases may present differently on X-rays, or diagnostic criteria for pneumonia may be updated. The relationship between image features and the correct diagnosis changes, requiring updates to the labeling process and model retraining.
 
-#### Changes can be disruptive
+* **Model Updates:** the model is periodically retrained with new data to improve diagnostic performance or reduce false positives. These updates might involve changes in architecture, training objectives, or preprocessing steps. While performance may improve on average, these changes can introduce new failure modes and even regressions in certain edge cases. Model changes must be managed and monitored carefully, with rigorous testing and rollback plans.
 
-<img src="assets/images/blind_spot.jpg" height="100px" width="20%"/>
+* **External Factors:** regulatory changes or clinical guidelines may require the model to provide additional outputs, such as severity scores or explainability maps. This requires collecting new types of annotations and modifying the model's output structure.
 
-A model update might boost accuracy overall but introduce new blind spots.
+In safety-critical domains like medical imaging, the evolution of data and models is inevitable. As such, systems must be designed with this in mind, embedding mechanisms for monitoring, validation, and traceability at every stage.
 
-A retrained model might actually perform worse in certain edge cases.
+> A model that performs well today may become unsafe tomorrow if changes go undetected or unmanaged.
 
-Change must be managed and monitored carefully, with rigorous testing and rollback plans.
+By proactively addressing data and model drift, automating model updates and defining processes for dealing with external influences, teams can ensure that AI systems remain not only accurate but also trustworthy, transparent, and robust over time.
 
 #### Perfection is a mirage
 
@@ -251,7 +248,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Bolchini, Cassano & Miele, 2024) [Resilience of Deep Learning applications: a systematic literature review of analysis and hardening techniques](https://arxiv.org/abs/2309.16733)
 * (Bondar, 2025) [Ukraine's Future Vision and Current Capabilities for Waging AI-Enabled Autonomous Warfare](https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare)
 * (Bloomfield & Rushby, 2025) [Where AI Assurance Might Go Wrong: Initial lessons from engineering of critical systems](https://arxiv.org/abs/2502.03467)
-* (Breck *et al.*, 2016) [What’s your ML test score? A rubric for ML production systems](https://research.google/pubs/whats-your-ml-test-score-a-rubric-for-ml-production-systems/)
+* (Breck *et al.*, 2016) [What's your ML test score? A rubric for ML production systems](https://research.google/pubs/whats-your-ml-test-score-a-rubric-for-ml-production-systems/)
 * (Bullwinkel *et al.*, 2025) [Lessons From Red Teaming 100 Generative AI Products](https://arxiv.org/abs/2501.07238)
 * (Burton & Herd, 2023) [Addressing uncertainty in the safety assurance of machine-learning](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1132580/full)
 * (Cummings, 2021) [Rethinking the Maturity of Artificial Intelligence in Safety-Critical Settings](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/7394)
@@ -261,7 +258,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Endres *et al.*, 2023) [Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions?](https://nl2postcond.github.io/)
 * (Farahmand & Neu, 2025) [AI Safety for Physical Infrastructures: A Collaborative and Interdisciplinary Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/ffe.14575)
 * (Faria, 2018) [Machine learning safety: An overview](https://scsc.uk/e503prog)
-* (Feather & Pinto, 2023) [Assurance for Autonomy – JPL’s past research, lessons learned, and future directions](https://arxiv.org/abs/2305.11902)
+* (Feather & Pinto, 2023) [Assurance for Autonomy – JPL's past research, lessons learned, and future directions](https://arxiv.org/abs/2305.11902)
 * (Gebru *et al.*, 2018) [Datasheets for Datasets](https://arxiv.org/abs/1803.09010)
 * (Gursel *et al.*, 2025) [The role of AI in detecting and mitigating human errors in safety-critical industries: A review](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007531)
 * (Habli, Lawton & Porter, 2020) [Artificial intelligence in health care: accountability and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC7133468/)
@@ -424,7 +421,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (European Commission) [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
 * (European Union) [The EU AI Act](https://artificialintelligenceact.eu/)
 * (Google) [AI Principles](https://ai.google/responsibility/principles/)
-* (Google) [SAIF // Secure AI Framework: A practitioner’s guide to navigating AI security](https://saif.google/)
+* (Google) [SAIF // Secure AI Framework: A practitioner's guide to navigating AI security](https://saif.google/)
 * (Harvard University) [Initial guidelines for the use of Generative AI tools at Harvard](https://www.huit.harvard.edu/ai/guidelines)
 * (Homeland Security) [Roles and Responsibilities Framework for Artificial Intelligence in Critical Infrastructure](https://www.dhs.gov/publication/roles-and-responsibilities-framework-artificial-intelligence-critical-infrastructure)
 * (Homeland Security) [Safety and Security Guidelines for Critical Infrastructure Owners and Operators](https://www.dhs.gov/publication/safety-and-security-guidelines-critical-infrastructure-owners-and-operators)
@@ -470,7 +467,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Google) [Responsible AI Progress Report 2025](https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf)
 * (Gov.UK) [International AI Safety Report 2025](https://www.gov.uk/government/publications/international-ai-safety-report-2025)
 * (LangChain) [State of AI Agents](https://www.langchain.com/stateofaiagents)
-* (McKinsey) [Superagency in the workplace: Empowering people to unlock AI’s full potential](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work)
+* (McKinsey) [Superagency in the workplace: Empowering people to unlock AI's full potential](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work)
 * (Microsoft) [Responsible AI Transparency Report 2024](https://www.microsoft.com/en-us/corporate-responsibility/responsible-ai-transparency-report)
 * (NASA) [Examining Proposed Uses of LLMs to Produce or Assess Assurance Arguments](https://ntrs.nasa.gov/api/citations/20250001849/downloads/NASA-TM-20250001849.pdf)
 * (PwC) [US Responsible AI Survey](https://www.pwc.com/us/en/tech-effect/ai-analytics/responsible-ai-survey.html)
