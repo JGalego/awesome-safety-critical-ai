@@ -129,7 +129,7 @@ Generalization is **powerful**, allowing models to make predictions beyond what 
 
 Working with AI means accepting this uncertainty and designing systems that can handle it gracefully.
 
-#### Models often makes mistakes that seem strange and unpredictable
+#### Models often make mistakes that seem strange and unpredictable
 
 <img src="assets/images/jackie_chan_confused.jpg" height="100px" width="20%"/>
 
@@ -141,9 +141,7 @@ It might [misclassify a stop sign with a sticker as a speed limit sign](https://
 
 These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
 
-Unlike human experts, who tend to make errors that are consistent with a rational view of the world, AI can go completely off the rails (pun intended).
-
-It might suggest a school bus is an ostrich, or that a benign tumour is malignant.
+Unlike human experts, who tend to make errors that are consistent with a rational view of the world, AI might say that a school bus is an ostrich, or that a benign tumour is malignant.
 
 <img src="assets/images/noisy_school_bus.png" height="200px">
 
@@ -151,7 +149,7 @@ These failures can be baffling, and they demand robust monitoring and fallback s
 
 If not properly mitigated, they can render a system *useless*, or worse, **dangerous**.
 
-#### Models aren't always deterministic
+#### Models outputs can be probabilistic
 
 <img src="assets/images/determinism.jpg" height="100px" width="20%"/>
 
@@ -163,20 +161,26 @@ Notice the use of **might** instead of **will**. Just because models **can** be 
 
 While ML training can be **nondeterministic**, the resulting models are often **deterministic** during inference. Given the same input, these models will consistently produce the same outputs... and make the same mistakes.
 
-#### Time changes everything
+#### Data and models can change over time
 
 <img src="assets/images/time_changes.jpg" height="100px" width="20%"/>
 
 According to platonic lore, the pre-socratic philosopher Heraclitus was one of the first to propose the idea that change is the only constant in the Universe (Πάντα ῥεῖ).
 
-In the world of AI and ML, the effects of the passage of time are especially dire:
+In the world of AI and ML, the effects of the passage of time are especially dire. Let's look at an example...
 
-- **Concept drift:** the way inputs map to the correct outputs changes
-- **Data drift:** the kind of data the model sees starts to look different
-- **Label drift:** labels change in meaning and/or frequency
-- **Covariate drift:** input values change in unexpected ways
-- **Prior probability drift:** some outcomes become more or less common than before
-- **Feature relevance drift:** things that once mattered to the model may no longer be useful
+In supervised ML problems, the training dataset can be viewed as a set of samples from a joint distribution `p(X, y)` where `X` represents the inputs and `y` represents the output/target variable. 
+
+In this setting, we are interested in modeling `p(y|X)`, which we can decompose as `p(X|y) * p(y)` or `p(y|X) * p(X)`.
+
+Here's what usually happens when we move the model to production and expose it to the real world:
+
+* **Data drift**: the kind of data the model sees starts to look different
+  - [Covariate shift](https://www.seldon.io/what-is-covariate-shift/): when `p(X)` changes, but `p(y|X)` remains the same
+  - [Label shift](https://www.toolify.ai/ai-news/understanding-label-shift-in-machine-learning-causes-effects-and-solutions-1952342): when `p(y)` changes, but `p(X|y)` remains the same
+* **Concept drift**: the mapping between inputs and outputs changes
+  - [Feature relevance shift](https://link.springer.com/article/10.1007/s10115-023-02010-5): things that once mattered to the model may no longer be useful
+* **Model drift**: model performance degrades over time due to factors related to the model itself
 
 Drift doesn't usually crash a model, it just makes it *quietly wrong*.
 
