@@ -43,9 +43,9 @@ This isn't just another (awesome) list. It's a call to action!
 
 ## <a id="introduction"></a>🐇 Introduction
 
-### What is a Critical System?
+### What is a critical system?
 
-> Critical systems are built on trust - and trust is built on rock-solid engineering.
+> TL;DR Critical systems are built on trust - and trust is built on rock-solid engineering.
 
 Critical systems are those whose failure can lead to injury 🤕, loss of life ☠️, environmental harm 🌱🚱, infrastructure damage 🏗️💥, or mission failure 🎯.
 
@@ -60,7 +60,7 @@ Critical systems are those whose failure can lead to injury 🤕, loss of life �
 
 These are systems that **must** operate with high levels of safety, reliability and availability, often under *unclear* and *unpredictable* conditions.
 
-These are also the systems we tend to forget about... until something goes horribly wrong 🫣
+These kind of systems we tend to forget about... until something goes horribly wrong 🫣
 
 <img src="assets/images/therac25.png" height="80px"/> <img src="assets/images/lufthansa2904.jpg" height="80px"/> <img src="assets/images/mars_climate_orbiter.jpg" height="80px"/> <img src="assets/images/patriot_missile_failure.jpg" height="80px"/> <img src="assets/images/knight_capital_loss.jpg" height="80px"/> <img src="assets/images/toyota_unintended_acceleration.png" height="80px"/>
 
@@ -85,7 +85,7 @@ In critical systems, there are no shortcuts - engineering rigour is everything.
 
 ### AI in Critical Systems
 
-> When failure costs lives, AI must be engineered like a scalpel, not a sledgehammer.
+> TL;DR When failure costs lives, AI must be engineered like a scalpel, not a sledgehammer.
 
 So, where does that leave us? **Is there room for AI in critical systems?**
 
@@ -123,9 +123,11 @@ Better models may make fewer mistakes, but mistakes are generally *unavoidable*.
 
 Model misfires are not a sign of poor engineering, but an intrinsic feature of intelligence.
 
-Unlike traditional software, which follows explicit rules, AI learns from data and generalises. Generalization is powerful, but also imperfect.
+Unlike traditional software, which follows explicit rules, AI learns from data and generalises.
 
-Working with AI means accepting that uncertainty and designing systems that can handle it gracefully.
+Generalization is **powerful**, allowing models to make predictions beyond what they've seen, but also **imperfect**, because the real world is messy, ever-changing, and rarely fits neatly into learned patterns.
+
+Working with AI means accepting this uncertainty and designing systems that can handle it gracefully.
 
 #### Models often makes mistakes that seem strange and unpredictable
 
@@ -135,13 +137,15 @@ AI doesn't always fail in ways that make sense to us.
 
 It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
 
-<!--img src="assets/images/stop_signs.jpg" height="100px"/-->
+<img src="assets/images/stop_signs.jpg" height="100px">
 
-Again, these aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
+These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
 
 Unlike human experts, who tend to make errors that are consistent with a rational view of the world, AI can go completely off the rails (pun intended).
 
-It might suggest a giraffe is a toaster, or that a benign tumour is malignant.
+It might suggest a school bus is an ostrich, or that a benign tumour is malignant.
+
+<img src="assets/images/noisy_school_bus.png" height="100px">
 
 These failures can be baffling, and they demand robust monitoring and fallback strategies.
 
