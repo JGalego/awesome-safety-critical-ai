@@ -410,6 +410,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [AI for Social Good](https://web.stanford.edu/class/cs21si/) @ Stanford
 * [AI Red Teaming](https://learn.microsoft.com/en-us/security/ai-red-team/) @ Microsoft
 * [Dependable AI Systems](https://courses.grainger.illinois.edu/ece598rki/fa2023/) @ University of Illinois Urbana-Champaign
+* [Introduction to AI Governance](http://web.stanford.edu/class/sts14/index.html) @ Stanford
 * [Introduction to AI Safety](https://web.stanford.edu/class/cs120/index.html) @ Stanford
 * [Limits to Prediction](https://msalganik.github.io/soc555-cos598J_s2024/) @ Princeton University
 * [Machine Learning for Healthcare](https://mlhcmit.github.io/) @ MIT
@@ -418,12 +419,14 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Real-Time Mission-Critical Systems Design](https://www.coursera.org/learn/real-time-mission-critical-systems-design) @ University of Colorado Boulder / Coursera
 * [Responsible AI](https://github.com/aws-samples/aws-machine-learning-university-responsible-ai) @ Amazon MLU
 * [Robustness in Machine Learning](https://jerryzli.github.io/robust-ml-fall19.html) @ University of Washington
+* [Safe and Interactive Robotics](https://dorsa.fyi/cs333/) @ Stanford
 * [Safety Critical Systems](https://safetysystems.theiet.org/) @ IET
 * [Safety Critical Systems](https://www.cs.ox.ac.uk/softeng/subjects/SCS.html) @ Oxford University
 * [Security and Privacy of Machine Learning](https://secml.github.io/) @ University of Virginia
 * [Trustworthy Artificial Intelligence](https://trustworthy-ml-course.github.io/) @ University of Michigan, Dearborn
 * [Trustworthy Machine Learning](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State University
 * [Trustworthy Machine Learning](https://scalabletrustworthyai.github.io) @ University of Tübingen
+* [Validation of Safety Critical Systems](https://aa228v.stanford.edu/) @ Stanford
 
 ## <a id="guidelines"></a>📙 Guidelines
 
@@ -458,7 +461,9 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (IRT Saint Exupéry) [AI for Critical Systems Competence Center](https://www.irt-saintexupery.com/ai-for-critical-systems-competence/)
 * (ITU) [AI for Good](https://aiforgood.itu.int/)
 * (Partnership on AI) [Safety Critical AI](https://partnershiponai.org/program/safety-critical-ai/)
+* (SAFE) [Stanford Center for AI Safety](https://aisafety.stanford.edu/)
 * (SCSC) [Safety Critical Systems Club](https://scsc.uk/index.php)
+* (SISL) [Stanford Intelligent Systems Laboratory](https://sisl.stanford.edu/)
 * (SustainML) [Sustainable Machine Learning](https://sustainml.eu/)
 * [Center for Responsible AI](https://centerforresponsible.ai/)
 * [Future of Life Institute](https://futureoflife.org/)
@@ -633,8 +638,11 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (ESSS, 2024) [AI Revolution Transforming Safety-Critical Systems EXPLAINED!](https://www.youtube.com/watch?v=jD8vHgpm0Zw) with Raghavendra Bhat
 * (IVA, 2023) [AI in Safety-Critical Systems](https://www.youtube.com/watch?v=KOEdRK69t9g)
 * (MathWorks, 2024) [Incorporating Machine Learning Models into Safety-Critical Systems](https://www.mathworks.com/videos/incorporating-machine-learning-models-into-safety-critical-systems-1711734247499.html) with Lucas García
+  - Slides available [here](https://content.mathworks.com/viewer/65762b5e4b6cb089fea1a04a)
+  - (NeurIPS, 2023) [From Theory to Practice: Incorporating ML Models into Safety-Critical Systems](https://slideslive.com/39015422/from-theory-to-practice-incorporating-ml-models-into-safetycritical-systems) // older version
 * (Microsoft Developer, 2024) [How Microsoft Approaches AI Red Teaming](https://www.youtube.com/watch?v=zFRn_RMSPI4) with Tori Westerhoff and Pete Bryan
 * (MLOps Community, 2025) [Robustness, Detectability, and Data Privacy in AI](https://home.mlops.community/public/videos/robustness-detectability-and-data-privacy-in-ai) with Vinu Sadasivan and Demetrios Brinkmann
+* (NeurIPS, 2024) [AI Verification & Validation: Trends, Applications, and Challenges](https://slideslive.com/39031402/ai-verification-validation-trends-applications-and-challenges) with Lucas García
 * (Stanford, 2022) [Stanford Seminar - Challenges in AI Safety: A Perspective from an Autonomous Driving Company](https://www.youtube.com/watch?v=N5ts_HdOLMU)
 * (Stanford, 2024) [Best of - AI and safety critical systems](https://www.youtube.com/watch?v=t5NN0ilvcIk)
 * (valgrAI, 2024) [Integrating machine learning into safety-critical systems](https://www.youtube.com/watch?v=HSxwnuxaCoo) with Thomas Dietterich
