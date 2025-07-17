@@ -1,0 +1,4 @@
+beautifulsoup4>=4.13.3
+detoxify>=0.5.2
+markdown2>=2.5.3
+prettytable>=3.14.0

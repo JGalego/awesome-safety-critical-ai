@@ -20,7 +20,7 @@ This isn't just another (awesome) list. It's a call to action!
 * [🌟 Editor's Choice](#top-picks)
 * [🏃 TLDR](#tldr)
 * [📝 Articles](#articles)
-* [✍️ Blogs](#blogs)
+* [✍️ Blogs / News](#blogs)
 * [📚 Books](#books)
 * [📜 Certifications](#certifications)
 * [🎤 Conferences](#conferences)
@@ -239,10 +239,12 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
+* (Amershi *et al.*, 2019) [Software Engineering for Machine Learning: A Case Study](https://ieeexplore.ieee.org/document/8804457/)
 * (Bach *et al.*, 2024) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://ieeexplore.ieee.org/document/10620168)
 * (Barman *et al.*, 2024) [The Brittleness of AI-Generated Image Watermarking Techniques: Examining Their Robustness Against Visual Paraphrasing Attacks](https://arxiv.org/abs/2408.10446)
 * (Becker *et al.*, 2021) [AI at work – Mitigating safety and discriminatory risk with technical standards](https://www.interface-eu.org/publications/ai-work-mitigating-safety-and-discriminatory-risk-technical-standards)
 * (Belani, Vukovic & Car, 2019) [Requirements Engineering Challenges in Building AI-Based Complex Systems](https://arxiv.org/abs/1908.11791)
+* (Bernardi, Mavridis & Estevez, 2019) [150 Successful Machine Learning Models: 6 Lessons Learned at Booking.com](https://blog.kevinhu.me/2021/04/25/25-Paper-Reading-Booking.com-Experiences/bernardi2019.pdf)
 * (Beyers *et al.*, 2019) [Quantification of the Impact of Random Hardware Faults on Safety-Critical AI Applications: CNN-Based Traffic Sign Recognition Case Study](https://ieeexplore.ieee.org/document/8990333)
 * (Bloomfield *et al.*, 2021) [Safety Case Templates for Autonomous Systems](https://arxiv.org/abs/2102.02625)
 * (Bolchini, Cassano & Miele, 2024) [Resilience of Deep Learning applications: a systematic literature review of analysis and hardening techniques](https://arxiv.org/abs/2309.16733)
@@ -263,7 +265,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Gursel *et al.*, 2025) [The role of AI in detecting and mitigating human errors in safety-critical industries: A review](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007531)
 * (Habli, Lawton & Porter, 2020) [Artificial intelligence in health care: accountability and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC7133468/)
 * (Hasani *et al.*, 2022) [Trustworthy Artificial Intelligence in Medical Imaging](https://pmc.ncbi.nlm.nih.gov/articles/PMC8785402/)
-* (Hennigen *et al.*, 2023) [Towards Verifiable Text Generation with Symbolic References]()
+* (Hennigen *et al.*, 2023) [Towards Verifiable Text Generation with Symbolic References](https://arxiv.org/abs/2311.09188)
+* (Hopkins & Booth, 2021) [Machine Learning Practices Outside Big Tech: How Resource Constraints Challenge Responsible Development](https://arxiv.org/abs/2110.02932)
 * (Houben *et al.*, 2022) [Inspect, Understand, Overcome: A Survey of Practical Methods for AI Safety](https://link.springer.com/chapter/10.1007/978-3-031-01233-4_1)
 * (Jackson, 1995) [The world and the machine](https://dl.acm.org/doi/10.1145/225014.225041)
 * (Jamakatel *et al.*, 2024) [A Goal-Directed Dialogue System for Assistance in Safety-Critical Application](https://www.ijcai.org/proceedings/2024/870)
@@ -283,6 +286,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Mariani *et al.*, 2023) [Trustworthy AI - Part I](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-1-Mariani-Rossi/2e550e23511711dae2689322741f9c113c6c506f), [II](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-II-Mariani-Rossi/9f354b3a88e6d6512d22ec152e6c6131a1e44cab) and [III](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-III-Mariani-Rossi/ff446b46c5b9b4c0d18849d479fe5645f6182a36)
 * (Meyers, Löfstedt & Elmroth, 2023) [Safety-critical computer vision: an empirical survey of adversarial evasion attacks and defenses on computer vision systems](https://link.springer.com/article/10.1007/s10462-023-10521-4)
 * (Mitchell *et al.*, 2019) [Model cards for model reporting](https://arxiv.org/abs/1810.03993)
+* (Nahar *et al.*, 2022) [Collaboration challenges in building ML-enabled systems: communication, documentation, engineering, and process](https://dl.acm.org/doi/10.1145/3510003.3510209)
+* (Ozkaya, 2020) [What Is Really Different in Engineering AI-Enabled Systems?](https://ieeexplore.ieee.org/document/9121629)
 * (Papernot *et al.*, 2018) [SoK: Security and Privacy in Machine Learning](https://ieeexplore.ieee.org/document/8406613)
 * (Passi & Sengers, 2020) [Making data science systems work](https://journals.sagepub.com/doi/10.1177/2053951720939605)
 * (Patel *et al.*, 2025) [Towards Secure MLOps: Surveying Attacks, Mitigation Strategies, and Research Challenges](https://arxiv.org/abs/2506.02032v1)
@@ -293,10 +298,15 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Pushkarna, Zaldivar & Kjartansson, 2022) [Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI](https://arxiv.org/abs/2204.01075)
 * (Rajagede *et al.*, 2025) [NAPER: Fault Protection for Real-Time Resource-Constrained Deep Neural Networks](https://arxiv.org/abs/2504.06591)
 * (Ramos *et al.*, 2024) [Collaborative Intelligence for Safety-Critical Industries: A Literature Review](https://www.mdpi.com/2078-2489/15/11/728)
+* (Sambasivan, 2021) ["Everyone wants to do the model work, not the data work": Data Cascades in High-Stakes AI](https://research.google/pubs/everyone-wants-to-do-the-model-work-not-the-data-work-data-cascades-in-high-stakes-ai/)
 * (Schulhoff *et al.*, 2025) [Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition](https://arxiv.org/abs/2311.16119)
 * (Schulhoff *et al.*, 2024) [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](https://arxiv.org/abs/2406.06608)
+* (Sculley *et al.*, 2011) [Detecting adversarial advertisements in the wild](https://dl.acm.org/doi/10.1145/2020408.2020455)
 * (Sculley *et al.*, 2015) [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
+* (Sendak *et al.*, 2020) [Real-World Integration of a Sepsis Deep Learning Technology Into Routine Clinical Care: Implementation Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC7391165/)
 * (Seshia, Sadigh & Sastry, 2020) [Towards Verified Artificial Intelligence](https://arxiv.org/abs/1606.08514)
+* (Sharif *et al.*, 2016) [Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition](https://dl.acm.org/doi/abs/10.1145/2976749.2978392)
+* (Shaw & Zhu, 2022) [Can Software Engineering Harness the Benefits of Advanced AI?](https://ieeexplore.ieee.org/document/9928179)
 * (Sinha *et al.*, 2020) [Neural Bridge Sampling for Evaluating Safety-Critical Autonomous Systems](https://arxiv.org/abs/2008.10581)
 * (Sousa, Moutinho & Almeida, 2020) [Expert-in-the-loop Systems Towards Safety-critical Machine Learning Technology in Wildfire Intelligence](https://www.climatechange.ai/papers/neurips2020/90)
 * (Tambon *et al.*, 2021) [How to Certify Machine Learning Based Safety-critical Systems? A Systematic Literature Review](https://arxiv.org/abs/2107.12045)
@@ -310,13 +320,13 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Williams & Yampolskiy, 2021) [Understanding and Avoiding AI Failures: A Practical Guide](https://arxiv.org/abs/2104.12582v4)
 * (Woodburn, 2021) [Machine Learning and Software Product Assurance: Bridging the Gap](https://ecss.nl/wp-content/uploads/2017/02/ESA-TECQQS-TN-022868_1_1.pdf)
 * (Xie *et al.*, 2020) [DeepHunter: a coverage-guided fuzz testing framework for deep neural networks](https://dl.acm.org/doi/10.1145/3293882.3330579)
+* (Yang, 2017) [The Role of Design in Creating Machine-Learning-Enhanced User Experience](https://cdn.aaai.org/ocs/15363/15363-68257-1-PB.pdf)
 * (Yu *et al.*, 2024) [A Survey on Failure Analysis and Fault Injection in AI Systems](https://arxiv.org/abs/2407.00125)
 * (Zhang & Li, 2020) [Testing and verification of neural-network-based safety-critical control software: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S0950584920300471)
 * (Zhang *et al.*, 2020) [Machine Learning Testing: Survey, Landscapes and Horizons](https://ieeexplore.ieee.org/document/9000651)
 * (Zhang *et al.*, 2024) [The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap](https://arxiv.org/abs/2412.06512)
 
-
-## <a id="blogs"></a>✍️ Blogs
+## <a id="blogs"></a>✍️ Blogs / News
 
 <small>[🔼 Back to top](#toc)</small>
 
@@ -329,6 +339,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (EETimes, 2023) [Can We Trust AI in Safety Critical Systems?](https://www.eetimes.com/can-we-trust-ai-in-safety-critical-systems/)
 * (Embedded, 2024) [The impact of AI/ML on qualifying safety-critical software](https://www.embedded.com/the-impact-of-ai-ml-on-qualifying-safety-critical-software/)
 * (Forbes, 2022) [Part 2: Reflections On AI (Historical Safety Critical Systems)](https://www.forbes.com/sites/rahulrazdan/2022/03/13/reflections-on-a-decade-of-ai-part-2/)
+* (Gartner, 2021) [Gartner Identifies the Top Strategic Technology Trends for 2021 ](https://www.gartner.com/en/newsroom/press-releases/2020-10-19-gartner-identifies-the-top-strategic-technology-trends-for-2021)
 * (Ground Truths, 2025) [When Doctors With AI Are Outperformed by AI Alone](https://www.nytimes.com/2025/02/02/opinion/ai-doctors-medicine.html?unlocked_article_code=1.t04.AeZg.kT0qka6kerAi&smid=url-share)
 * (Homeland Security, 2022) [Artificial Intelligence, Critical Systems, and the Control Problem](https://www.hstoday.us/featured/artificial-intelligence-critical-systems-and-the-control-problem/)
 * (Lakera, 2025) [AI Red Teaming: Securing Unpredictable Systems](https://www.lakera.ai/blog/ai-red-teaming)
@@ -340,6 +351,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Safety4Sea, 2024) [The risks and benefits of AI translations in safety-critical industries](https://safety4sea.com/the-risks-and-benefits-of-ai-translations-in-safety-critical-industries/)
 * (Space and Time, 2024) [Verifiable LLMs for the Modern Enterprise](https://www.spaceandtime.io/blog/verifiable-llms-for-the-modern-enterprise)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
+* (VentureBeat, 2019) [Why do 87% of data science projects never make it into production?](https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/)
 * (Wiz, 2025) [What is AI Red Teaming?](https://www.wiz.io/academy/ai-red-teaming)
 
 ## <a id="books"></a>📚 Books
