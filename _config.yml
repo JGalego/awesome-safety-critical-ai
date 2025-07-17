@@ -1,6 +1,10 @@
-theme: jekyll-theme-hacker
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-relative-links
+title: awesome.critical-ai.dev
+description: When the stakes are high, intelligence is only half the equation - reliability is the other!
+site:
+  url: https://awesome.critical-ai.dev/
 relative_links:
   enabled: true
   collections: true
