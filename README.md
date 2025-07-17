@@ -240,6 +240,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
 * (Amershi *et al.*, 2019) [Software Engineering for Machine Learning: A Case Study](https://ieeexplore.ieee.org/document/8804457/)
+* (Arpteg *et al.*, 2018) [Software Engineering Challenges of Deep Learning](https://arxiv.org/abs/1810.12034)
 * (Bach *et al.*, 2024) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://ieeexplore.ieee.org/document/10620168)
 * (Barman *et al.*, 2024) [The Brittleness of AI-Generated Image Watermarking Techniques: Examining Their Robustness Against Visual Paraphrasing Attacks](https://arxiv.org/abs/2408.10446)
 * (Becker *et al.*, 2021) [AI at work – Mitigating safety and discriminatory risk with technical standards](https://www.interface-eu.org/publications/ai-work-mitigating-safety-and-discriminatory-risk-technical-standards)
@@ -275,6 +276,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Kiseleva *et al.*, 2025) [The EU AI Act, Stakeholder Needs, and Explainable AI: Aligning Regulatory Compliance in a Clinical Decision Support System](https://arxiv.org/pdf/2505.20311)
 * (Kuwajima, Yasuoka & Nakae, 2020) [Engineering problems in machine learning systems](https://link.springer.com/article/10.1007/s10994-020-05872-w)
 * (Leofante *et al.*, 2018) [Automated Verification of Neural Networks: Advances, Challenges and Perspectives](https://arxiv.org/abs/1805.09938)
+* (Leyli-Abadi *et al.*, 2025) [A Conceptual Framework for AI-based Decision Systems in Critical Infrastructures](https://www.arxiv.org/abs/2504.16133)
 * (Li *et al.*, 2022) [Trustworthy AI: From Principles to Practices](https://arxiv.org/abs/2110.01167)
 * (Li *et al.*, 2024) [Formal-LLM: Integrating Formal Language and Natural Language for Controllable LLM-based Agents](https://arxiv.org/abs/2402.00798)
 * (Lones, 2021) [How to avoid machine learning pitfalls: a guide for academic researchers
@@ -296,6 +298,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Phelps & Ranson, 2023) [Of Models and Tin Men: A Behavioural Economics Study of Principal-Agent Problems in AI Alignment using Large-Language Models](https://arxiv.org/abs/2307.11137)
 * (Picardi *et al.*, 2020) [Assurance Argument Patterns and Processes for Machine Learning in Safety-Related Systems](https://ceur-ws.org/Vol-2560/paper17.pdf)
 * (Pushkarna, Zaldivar & Kjartansson, 2022) [Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI](https://arxiv.org/abs/2204.01075)
+* (Raj, 2025) [Model-Based Approaches in Safety-Critical Embedded System Design](https://eajournals.org/ejcsit/wp-content/uploads/sites/21/2025/05/Model-Based-Approaches.pdf)
 * (Rajagede *et al.*, 2025) [NAPER: Fault Protection for Real-Time Resource-Constrained Deep Neural Networks](https://arxiv.org/abs/2504.06591)
 * (Ramos *et al.*, 2024) [Collaborative Intelligence for Safety-Critical Industries: A Literature Review](https://www.mdpi.com/2078-2489/15/11/728)
 * (Sambasivan, 2021) ["Everyone wants to do the model work, not the data work": Data Cascades in High-Stakes AI](https://research.google/pubs/everyone-wants-to-do-the-model-work-not-the-data-work-data-cascades-in-high-stakes-ai/)
@@ -313,7 +316,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Urban & Miné, 2021) [A Review of Formal Methods applied to Machine Learning](https://arxiv.org/abs/2104.02466)
 * (Uuk *et al.*, 2025) [Effective Mitigations for Systemic Risks from General-Purpose AI](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5021463)
 * (Wagstaff, 2012) [Machine Learning that Matters](https://arxiv.org/abs/1206.4656)
-* (Wang & Chung, 2021) [Artificial intelligence in safety-critical systems: a systematic review](https://www.semanticscholar.org/paper/Artificial-intelligence-in-safety-critical-systems%3A-Wang-Chung/dd56d26b7efd78651f9abf530741da8de7ca1a69)
+* (Wang & Chung, 2021) [Artificial intelligence in safety-critical systems: a systematic review](https://ira.lib.polyu.edu.hk/bitstream/10397/94631/1/Wang_Artificial_Intelligence_Safety-Critical.pdf)
 * (Webster *et al.*, 2019) [A corroborative approach to verification and validation of human-robot teams](https://arxiv.org/pdf/1608.07403)
 * (Weiding *et al.*. 2024) [Holistic Safety and Responsibility Evaluations of Advanced AI Models](https://arxiv.org/abs/2404.14068v1)
 * (Wen & Machida, 2025) [Reliability modeling for three-version machine learning systems through Bayesian networks](https://www.sciencedirect.com/science/article/pii/S0951832025002170)
