@@ -17,7 +17,7 @@ You can keep up to date by watching this GitHub repo
 * [🌟 Editor's Choice](#top-picks)
 * [🏃 TLDR](#tldr)
 * [📝 Articles](#articles)
-* [✍️ Blogs](#blogs)
+* [✍️ Blogs / News](#blogs)
 * [📚 Books](#books)
 * [📜 Certifications](#certifications)
 * [🎤 Conferences](#conferences)
@@ -62,6 +62,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
+* (Amershi *et al.*, 2019) [Software Engineering for Machine Learning: A Case Study](https://ieeexplore.ieee.org/document/8804457/)
 * (Bach *et al.*, 2024) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://ieeexplore.ieee.org/document/10620168)
 * (Barman *et al.*, 2024) [The Brittleness of AI-Generated Image Watermarking Techniques: Examining Their Robustness Against Visual Paraphrasing Attacks](https://arxiv.org/abs/2408.10446)
 * (Becker *et al.*, 2021) [AI at work – Mitigating safety and discriminatory risk with technical standards](https://www.interface-eu.org/publications/ai-work-mitigating-safety-and-discriminatory-risk-technical-standards)
@@ -83,6 +84,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Gursel *et al.*, 2025) [The role of AI in detecting and mitigating human errors in safety-critical industries: A review](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007531)
 * (Habli, Lawton & Porter, 2020) [Artificial intelligence in health care: accountability and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC7133468/)
 * (Hasani *et al.*, 2022) [Trustworthy Artificial Intelligence in Medical Imaging](https://pmc.ncbi.nlm.nih.gov/articles/PMC8785402/)
+* (Hopkins & Booth, 2021) [Machine Learning Practices Outside Big Tech: How Resource Constraints Challenge Responsible Development](https://arxiv.org/abs/2110.02932)
 * (Houben *et al.*, 2022) [Inspect, Understand, Overcome: A Survey of Practical Methods for AI Safety](https://link.springer.com/chapter/10.1007/978-3-031-01233-4_1)
 * (Jamakatel *et al.*, 2024) [A Goal-Directed Dialogue System for Assistance in Safety-Critical Application](https://www.ijcai.org/proceedings/2024/870)
 * (Johnson, 2018) [The Increasing Risks of Risk Assessment: On the Rise of Artificial Intelligence and Non-Determinism in Safety-Critical Systems](https://www.dcs.gla.ac.uk/~johnson/papers/SCSC_18.pdf)
@@ -97,13 +99,20 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Macher *et al.*, 2021) [Architectural Patterns for Integrating AI Technology into Safety-Critical System](https://dl.acm.org/doi/fullHtml/10.1145/3489449.3490014)
 * (Mariani *et al.*, 2023) [Trustworthy AI - Part I](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-1-Mariani-Rossi/2e550e23511711dae2689322741f9c113c6c506f), [II](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-II-Mariani-Rossi/9f354b3a88e6d6512d22ec152e6c6131a1e44cab) and [III](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-III-Mariani-Rossi/ff446b46c5b9b4c0d18849d479fe5645f6182a36)
 * (Meyers, Löfstedt & Elmroth, 2023) [Safety-critical computer vision: an empirical survey of adversarial evasion attacks and defenses on computer vision systems](https://link.springer.com/article/10.1007/s10462-023-10521-4)
+* (Nahar *et al.*, 2022) [Collaboration challenges in building ML-enabled systems: communication, documentation, engineering, and process](https://dl.acm.org/doi/10.1145/3510003.3510209)
+* (Ozkaya, 2020) [What Is Really Different in Engineering AI-Enabled Systems?](https://ieeexplore.ieee.org/document/9121629)
 * (Papernot *et al.*, 2018) [SoK: Security and Privacy in Machine Learning](https://ieeexplore.ieee.org/document/8406613)
+* (Passi & Sengers, 2020) [Making data science systems work](https://journals.sagepub.com/doi/full/10.1177/2053951720939605)
 * (Pereira & Thomas, 2024) [Challenges of Machine Learning Applied to Safety-Critical Cyber-Physical Systems](https://www.mdpi.com/2504-4990/2/4/31)
 * (Perez-Cerrolaza *et al.*, 2024) [Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey](https://dl.acm.org/doi/10.1145/3626314)
 * (Picardi *et al.*, 2020) [Assurance Argument Patterns and Processes for Machine Learning in Safety-Related Systems](https://ceur-ws.org/Vol-2560/paper17.pdf)
 * (Ramos *et al.*, 2024) [Collaborative Intelligence for Safety-Critical Industries: A Literature Review](https://www.mdpi.com/2078-2489/15/11/728)
+* (Sculley *et al.*, 2011) [Detecting adversarial advertisements in the wild](https://dl.acm.org/doi/10.1145/2020408.2020455)
 * (Sculley *et al.*, 2015) [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
+* (Sendak *et al.*, 2020) [Real-World Integration of a Sepsis Deep Learning Technology Into Routine Clinical Care: Implementation Study](https://pmc.ncbi.nlm.nih.gov/articles/PMC7391165/)
 * (Seshia, Sadigh & Sastry, 2020) [Towards Verified Artificial Intelligence](https://arxiv.org/abs/1606.08514)
+* (Sharif *et al.*, 2016) [Accessorize to a Crime: Real and Stealthy Attacks on State-of-the-Art Face Recognition](https://dl.acm.org/doi/abs/10.1145/2976749.2978392)
+* (Shaw & Zhu, 2022) [Can Software Engineering Harness the Benefits of Advanced AI?](https://ieeexplore.ieee.org/document/9928179)
 * (Sinha *et al.*, 2020) [Neural Bridge Sampling for Evaluating Safety-Critical Autonomous Systems](https://arxiv.org/abs/2008.10581)
 * (Sousa, Moutinho & Almeida, 2020) [Expert-in-the-loop Systems Towards Safety-critical Machine Learning Technology in Wildfire Intelligence](https://www.climatechange.ai/papers/neurips2020/90)
 * (Tambon *et al.*, 2021) [How to Certify Machine Learning Based Safety-critical Systems? A Systematic Literature Review](https://arxiv.org/abs/2107.12045)
@@ -118,7 +127,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Zhang *et al.*, 2020) [Machine Learning Testing: Survey, Landscapes and Horizons](https://ieeexplore.ieee.org/document/9000651)
 * (Zhang *et al.*, 2024) [The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap](https://arxiv.org/abs/2412.06512)
 
-## <a id="blogs"></a>✍️ Blogs
+## <a id="blogs"></a>✍️ Blogs / News
 
 <small>[🔼 Back to top](#toc)</small>
 
@@ -131,6 +140,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (EETimes, 2023) [Can We Trust AI in Safety Critical Systems?](https://www.eetimes.com/can-we-trust-ai-in-safety-critical-systems/)
 * (Embedded, 2024) [The impact of AI/ML on qualifying safety-critical software](https://www.embedded.com/the-impact-of-ai-ml-on-qualifying-safety-critical-software/)
 * (Forbes, 2022) [Part 2: Reflections On AI (Historical Safety Critical Systems)](https://www.forbes.com/sites/rahulrazdan/2022/03/13/reflections-on-a-decade-of-ai-part-2/)
+* (Gartner, 2021) [Gartner Identifies the Top Strategic Technology Trends for 2021 ](https://www.gartner.com/en/newsroom/press-releases/2020-10-19-gartner-identifies-the-top-strategic-technology-trends-for-2021)
 * (Ground Truths, 2025) [When Doctors With AI Are Outperformed by AI Alone](https://www.nytimes.com/2025/02/02/opinion/ai-doctors-medicine.html?unlocked_article_code=1.t04.AeZg.kT0qka6kerAi&smid=url-share)
 * (Homeland Security, 2022) [Artificial Intelligence, Critical Systems, and the Control Problem](https://www.hstoday.us/featured/artificial-intelligence-critical-systems-and-the-control-problem/)
 * (Lynx) [How is AI being used in Aviation?](https://www.lynx.com/executive-blog/artificial-intelligence-in-avionics)
@@ -138,6 +148,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (restack, 2025) [Safety In Critical AI Systems](https://www.restack.io/p/ai-application-safety-protocols-answer-safety-in-critical-ai-systems-cat-ai)
 * (Safety4Sea, 2024) [The risks and benefits of AI translations in safety-critical industries](https://safety4sea.com/the-risks-and-benefits-of-ai-translations-in-safety-critical-industries/)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
+* (VentureBeat, 2019) [Why do 87% of data science projects never make it into production?](https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/)
 
 ## <a id="books"></a>📚 Books
 
