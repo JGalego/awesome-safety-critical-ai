@@ -285,6 +285,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Luckcuck *et al.*, 2019) [Formal Specification and Verification of Autonomous Robotic Systems: A Survey](https://arxiv.org/abs/1807.00048)
 * (Lwakatare *et al.*, 2020) [Large-scale machine learning systems in real-world industrial settings: A review of challenges and solutions](https://www.sciencedirect.com/science/article/abs/pii/S0950584920301373)
 * (Macher *et al.*, 2021) [Architectural Patterns for Integrating AI Technology into Safety-Critical System](https://dl.acm.org/doi/fullHtml/10.1145/3489449.3490014)
+* (Machida, 2019) [N-Version Machine Learning Models for Safety Critical Systems](https://ieeexplore.ieee.org/document/8806018)
 * (Mariani *et al.*, 2023) [Trustworthy AI - Part I](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-1-Mariani-Rossi/2e550e23511711dae2689322741f9c113c6c506f), [II](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-II-Mariani-Rossi/9f354b3a88e6d6512d22ec152e6c6131a1e44cab) and [III](https://www.semanticscholar.org/paper/Trustworthy-AI-Part-III-Mariani-Rossi/ff446b46c5b9b4c0d18849d479fe5645f6182a36)
 * (Meyers, Löfstedt & Elmroth, 2023) [Safety-critical computer vision: an empirical survey of adversarial evasion attacks and defenses on computer vision systems](https://link.springer.com/article/10.1007/s10462-023-10521-4)
 * (Mitchell *et al.*, 2019) [Model cards for model reporting](https://arxiv.org/abs/1810.03993)
@@ -293,6 +294,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Papernot *et al.*, 2018) [SoK: Security and Privacy in Machine Learning](https://ieeexplore.ieee.org/document/8406613)
 * (Passi & Sengers, 2020) [Making data science systems work](https://journals.sagepub.com/doi/10.1177/2053951720939605)
 * (Patel *et al.*, 2025) [Towards Secure MLOps: Surveying Attacks, Mitigation Strategies, and Research Challenges](https://arxiv.org/abs/2506.02032v1)
+* (Pattabiraman, Li & Chen, 2020) [Error Resilient Machine Learning for Safety-Critical Systems: Position Paper](https://ieeexplore.ieee.org/document/9159749)
 * (Pereira & Thomas, 2024) [Challenges of Machine Learning Applied to Safety-Critical Cyber-Physical Systems](https://www.mdpi.com/2504-4990/2/4/31)
 * (Perez-Cerrolaza *et al.*, 2024) [Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey](https://dl.acm.org/doi/10.1145/3626314)
 * (Phelps & Ranson, 2023) [Of Models and Tin Men: A Behavioural Economics Study of Principal-Agent Problems in AI Alignment using Large-Language Models](https://arxiv.org/abs/2307.11137)
@@ -301,6 +303,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Raj, 2025) [Model-Based Approaches in Safety-Critical Embedded System Design](https://eajournals.org/ejcsit/wp-content/uploads/sites/21/2025/05/Model-Based-Approaches.pdf)
 * (Rajagede *et al.*, 2025) [NAPER: Fault Protection for Real-Time Resource-Constrained Deep Neural Networks](https://arxiv.org/abs/2504.06591)
 * (Ramos *et al.*, 2024) [Collaborative Intelligence for Safety-Critical Industries: A Literature Review](https://www.mdpi.com/2078-2489/15/11/728)
+* (Reuel *et al.*, 2024) [Open Problems in Technical AI Governance](https://arxiv.org/abs/2407.14981)
 * (Sambasivan, 2021) ["Everyone wants to do the model work, not the data work": Data Cascades in High-Stakes AI](https://research.google/pubs/everyone-wants-to-do-the-model-work-not-the-data-work-data-cascades-in-high-stakes-ai/)
 * (Schulhoff *et al.*, 2025) [Ignore This Title and HackAPrompt: Exposing Systemic Vulnerabilities of LLMs through a Global Scale Prompt Hacking Competition](https://arxiv.org/abs/2311.16119)
 * (Schulhoff *et al.*, 2024) [The Prompt Report: A Systematic Survey of Prompt Engineering Techniques](https://arxiv.org/abs/2406.06608)
@@ -320,6 +323,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Webster *et al.*, 2019) [A corroborative approach to verification and validation of human-robot teams](https://arxiv.org/pdf/1608.07403)
 * (Weiding *et al.*. 2024) [Holistic Safety and Responsibility Evaluations of Advanced AI Models](https://arxiv.org/abs/2404.14068v1)
 * (Wen & Machida, 2025) [Reliability modeling for three-version machine learning systems through Bayesian networks](https://www.sciencedirect.com/science/article/pii/S0951832025002170)
+* (Wiggerthale & Reich, 2024) [Explainable Machine Learning in Critical Decision Systems: Ensuring Safe Application and Correctness](https://www.mdpi.com/2673-2688/5/4/138)
 * (Williams & Yampolskiy, 2021) [Understanding and Avoiding AI Failures: A Practical Guide](https://arxiv.org/abs/2104.12582v4)
 * (Woodburn, 2021) [Machine Learning and Software Product Assurance: Bridging the Gap](https://ecss.nl/wp-content/uploads/2017/02/ESA-TECQQS-TN-022868_1_1.pdf)
 * (Xie *et al.*, 2020) [DeepHunter: a coverage-guided fuzz testing framework for deep neural networks](https://dl.acm.org/doi/10.1145/3293882.3330579)
@@ -352,6 +356,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Protect AI, 2025) [The Expanding Role of Red Teaming in Defending AI Systems](https://protectai.com/blog/expanding-role-red-teaming-defending-ai-systems)
 * (restack, 2025) [Safety In Critical AI Systems](https://www.restack.io/p/ai-application-safety-protocols-answer-safety-in-critical-ai-systems-cat-ai)
 * (Safety4Sea, 2024) [The risks and benefits of AI translations in safety-critical industries](https://safety4sea.com/the-risks-and-benefits-of-ai-translations-in-safety-critical-industries/)
+* (SE4ML, 2025) [Machine Learning Engineering Practices in Recent Years: Trends and Challenges](https://se-ml.github.io/blog/2025/five-y/)
 * (Space and Time, 2024) [Verifiable LLMs for the Modern Enterprise](https://www.spaceandtime.io/blog/verifiable-llms-for-the-modern-enterprise)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
 * (VentureBeat, 2019) [Why do 87% of data science projects never make it into production?](https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/)
@@ -373,6 +378,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Molnar, 2025) [Interpretable Machine Learning: A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
 * (Pelillo & Scantamburlo, 2021) [Machines We Trust: Perspectives on Dependable AI](https://www.amazon.com/Machines-We-Trust-Perspectives-Dependable-ebook/dp/B08P46HDYG)
 * (Tran, 2024) [Artificial Intelligence for Safety and Reliability Engineering: Methods, Applications, and Challenges](https://link.springer.com/book/10.1007/978-3-031-71495-5)
+* (Rierson, 2013) [Developing Safety-Critical Software: A Practical Guide for Aviation Software and DO-178C Compliance]()
 * (Varshney, 2021) [Trust in Machine Learning](https://www.manning.com/books/trust-in-machine-learning-cx)
 
 ## <a id="certifications"></a>📜 Certifications
@@ -401,6 +407,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (SCSC 2025) [Safety Critical Systems Symposium SSS'25](https://www.thescsc.org/e1099)
 * (SGAC 2023) [South Wales Safety Groups Alliance Conference and Exhibition](https://swwsafetygroup.co.uk/event/south-and-west-wales-safety-groups-alliance-conference-and-exhibition-always-think-risk/)
 * (SSS'24) [32nd annual Safety-Critical Systems Symposium](https://scsc.uk/e1007)
+* (WMC'2024) [Workshop on Machine-learning enabled safety-Critical systems](https://sites.google.com/view/wmc24)
 
 ## <a id="courses"></a>👩‍🏫 Courses
 
@@ -457,11 +464,13 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (DARPA) [AIQ: Artificial Intelligence Quantified](https://www.darpa.mil/research/programs/aiq-artificial-intelligence-quantified)
 * (Data, Responsible) [Foundations of responsible data management](https://dataresponsibly.github.io/)
 * (DEEL) [Dependable, Certifiable & Explainable Artificial Intelligence for Critical Systems](https://www.deel.ai/)
+* (DSG) [Dependable Systems Group](https://www.hw.ac.uk/about/our-schools/mathematical-and-computer-sciences/research/computer-science/dependable-systems-group-dsg)
 * (FUTURE-AI) [Best practices for trustworthy AI in medicine](https://future-ai.eu/)
 * (IRT Saint Exupéry) [AI for Critical Systems Competence Center](https://www.irt-saintexupery.com/ai-for-critical-systems-competence/)
 * (ITU) [AI for Good](https://aiforgood.itu.int/)
 * (Partnership on AI) [Safety Critical AI](https://partnershiponai.org/program/safety-critical-ai/)
 * (SAFE) [Stanford Center for AI Safety](https://aisafety.stanford.edu/)
+* (SAFEXPLAIN) [Safe and Explainable Critical Embedded Systems based on AI](https://safexplain.eu)
 * (SCSC) [Safety Critical Systems Club](https://scsc.uk/index.php)
 * (SISL) [Stanford Intelligent Systems Laboratory](https://sisl.stanford.edu/)
 * (SustainML) [Sustainable Machine Learning](https://sustainml.eu/)
@@ -643,9 +652,14 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Microsoft Developer, 2024) [How Microsoft Approaches AI Red Teaming](https://www.youtube.com/watch?v=zFRn_RMSPI4) with Tori Westerhoff and Pete Bryan
 * (MLOps Community, 2025) [Robustness, Detectability, and Data Privacy in AI](https://home.mlops.community/public/videos/robustness-detectability-and-data-privacy-in-ai) with Vinu Sadasivan and Demetrios Brinkmann
 * (NeurIPS, 2024) [AI Verification & Validation: Trends, Applications, and Challenges](https://slideslive.com/39031402/ai-verification-validation-trends-applications-and-challenges) with Lucas García
+* (RCLW02, 2025) [Calibrating Data-Driven Predictions for Safety-Critical Systems](https://www.youtube.com/watch?v=Zg69TTMd1FE) by Carla Ferreira
+* (SafeExplain, 2024) [Explainable AI for systems with functional safety requirements](https://www.youtube.com/watch?v=rJPbqjbN8QQ)
+* (Simons Institute, 2022) [Learning to Control Safety-Critical Systems](https://www.youtube.com/watch?v=Jpw1JeZBu8M) with Adam Wierman
 * (Stanford, 2022) [Stanford Seminar - Challenges in AI Safety: A Perspective from an Autonomous Driving Company](https://www.youtube.com/watch?v=N5ts_HdOLMU)
 * (Stanford, 2024) [Best of - AI and safety critical systems](https://www.youtube.com/watch?v=t5NN0ilvcIk)
 * (valgrAI, 2024) [Integrating machine learning into safety-critical systems](https://www.youtube.com/watch?v=HSxwnuxaCoo) with Thomas Dietterich
+  - Slides available [here](https://www.dropbox.com/scl/fi/b9grmh0rtyxx7tb28mw11/Tom-Dietterch-ml-for-safety-engineering-v1.pdf?rlkey=odd8wnzvhsssb0gqmdk9tk40x&e=1&dl=0)
+  - [Can We Make Machine Learning Safe For Safety-Critical Systems? (Tom Dietterich @ASU SCAI)](https://www.youtube.com/watch?v=mXi2VQao46A)
 
 ## <a id="whitepapers"></a>📄 Whitepapers
 
