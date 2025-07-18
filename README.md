@@ -633,6 +633,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`Mintplex-Labs/anything-llm`](https://github.com/Mintplex-Labs/anything-llm): all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, and more
 * [`ollama/ollama`](https://github.com/ollama/ollama): get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large LMs
 * [`promptfoo/promptfoo`](https://github.com/promptfoo/promptfoo): a developer-friendly local tool for testing LLM applications
+* [`pydantic/pydantic-ai`](https://github.com/pydantic/pydantic-ai): agent framework / shim to use Pydantic with LLMs
 * [`run-llama/llama_index`](https://github.com/run-llama/llama_index): the leading framework for building LLM-powered agents over your data
 * [`ScrapeGraphAI/Scrapegraph-ai`](https://github.com/ScrapeGraphAI/Scrapegraph-ai): a web scraping python library that uses LLM and direct graph logic to create scraping pipelines for websites and local documents
 * [`stanfordnlp/dspy`](https://github.com/stanfordnlp/dspy): the framework for programming - not prompting - language models
