@@ -444,6 +444,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (APT Research) [Artificial Intelligence/Machine Learning System Safety](https://www.apt-research.com/capabilities/artificial-intelligence-machine-learning-system-safety/)
 * (CAIDP) [Universal Guidelines for AI](https://www.caidp.org/universal-guidelines-for-ai/)
+* (CISA, NSA, FBI et al) [AI Data Security: Best Practices for Securing Data Used to Train and Operate AI Systems](https://www.cisa.gov/resources-tools/resources/ai-data-security-best-practices-securing-data-used-train-operate-ai-systems)
 * (DIU) [Reponsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines)
 * (ESA) [ECSS-E-HB-40-02A – Machine learning handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/)
 * (European Commission) [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
