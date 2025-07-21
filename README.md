@@ -257,6 +257,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Cummings, 2021) [Rethinking the Maturity of Artificial Intelligence in Safety-Critical Settings](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/7394)
 * (Dalrymple *et al.*, 2025) [Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/abs/2405.06624)
 * (Delseny *et al.*, 2021) [White Paper Machine Learning in Certified Systems](https://arxiv.org/abs/2103.10529)
+* (Dmitriev, Schumann & Holzapfel, 2022) [Toward Certification of Machine-Learning Systems for Low Criticality Airborne Applications](https://arxiv.org/abs/2209.13975)
+* (Dmitriev *et al.*, 2023) [Runway Sign Classifier: A DAL C Certifiable Machine Learning System](https://arxiv.org/abs/2310.06506)
 * (Dutta *et al.*, 2017) [Output range analysis for deep feedforward neural networks](https://arxiv.org/abs/1709.09130)
 * (Endres *et al.*, 2023) [Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions?](https://nl2postcond.github.io/)
 * (Farahmand & Neu, 2025) [AI Safety for Physical Infrastructures: A Collaborative and Interdisciplinary Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/ffe.14575)
