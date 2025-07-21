@@ -96,7 +96,7 @@ From making life-or-death decisions in the ICU to controlling UAVs, doing survei
 | **Use Case**                                 | **Brief Description**                                                                                   | **Industry Domain**              | **References** |
 |----------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|----------------|
 | **Predicting ICU Length of Stay**            | AI models use patient data to forecast ICU duration, improving resource allocation and care planning.   | Healthcare                       | [INFORMS](https://www.informs.org/News-Room/INFORMS-Releases/News-Releases/New-Study-Reveals-AI-s-Transformative-Impact-on-ICU-Care-with-Smarter-Predictions-and-Transparent-Insights), [Springer](https://link.springer.com/article/10.1007/s00134-023-07102-y) |
-| **AI in Radiation Therapy Planning**         | Optimizes dose targeting using historical patient models, improving treatment precision and safety.      | Healthcare                       | [Siemens](www.siemens-healthineers.com/perspectives/AI-cancer-care) [Healthineers](https://www.siemens-healthineers.com/perspectives/futureshaper-radiation-therapy-planning-ai) |
+| **AI in Radiation Therapy Planning**         | Optimizes dose targeting using historical patient models, improving treatment precision and safety.      | Healthcare                       | [Siemens](https://www.siemens-healthineers.com/perspectives/AI-cancer-care) [Healthineers](https://www.siemens-healthineers.com/perspectives/futureshaper-radiation-therapy-planning-ai) |
 | **Self-Driving Cars**                        | Powers perception, decision-making, and control systems for autonomous vehicles.                        | Transportation                   | [Built In](https://builtin.com/artificial-intelligence/artificial-intelligence-automotive-industry), [Rapid Innovation](https://www.rapidinnovation.io/post/ai-in-self-driving-cars) |
 | **Autonomous Drone Navigation**              | Enables drones to navigate complex terrain without GPS; supports rescue and defense operations.         | Aerospace / Defense              | [MDPI](https://www.mdpi.com/2504-446X/8/7/296), [Fly Eye](https://www.flyeye.io/how-ai-is-used-in-drones/) |
 | **AI-Based Conflict Detection in ATC**       | Forecasts aircraft trajectories to alert controllers of potential collision risks.                       | Aerospace / Defense              | [Raven Aero](https://raven.aero/news/ai-meets-aviation-smarter-air-traffic-control/), [AviationFile](https://www.aviationfile.com/artificial-intelligence-and-air-traffic-control/) |
@@ -424,6 +424,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Machine Learning in Production](https://mlip-cmu.github.io/) @ Carnegie-Mellon University
 * [Machine Learning Security](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State University
 * [Real-Time Mission-Critical Systems Design](https://www.coursera.org/learn/real-time-mission-critical-systems-design) @ University of Colorado Boulder / Coursera
+* [Reliable and Interpretable Artificial Intelligence](https://www.sri.inf.ethz.ch/teaching/riai2020) @ ETH Zürich
 * [Responsible AI](https://github.com/aws-samples/aws-machine-learning-university-responsible-ai) @ Amazon MLU
 * [Robustness in Machine Learning](https://jerryzli.github.io/robust-ml-fall19.html) @ University of Washington
 * [Safe and Interactive Robotics](https://dorsa.fyi/cs333/) @ Stanford
@@ -592,10 +593,6 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`explodinggradients/ragas`](https://github.com/explodinggradients/ragas): objective metrics, intelligent test generation, and data-driven insights for LLM apps
 * [`pytorchfi/pytorchfi`](https://github.com/pytorchfi/pytorchfi): a runtime fault injection tool for PyTorch 🔥
 
-### Miscellaneous
-
-* [`microsoft/robustlearn`](https://github.com/microsoft/robustlearn): a unified library for research on robust ML
-
 ### Oldies 🕰️
 
 * [`pralab/secml`](https://github.com/pralab/secml): Python library for the security evaluation of Machine Learning algorithms
@@ -630,6 +627,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [`latitude-dev/latitude-llm`](https://github.com/latitude-dev/latitude-llm): open-source prompt engineering platform to build, evaluate, and refine your prompts with AI
 * [`microsoft/data-formulator`](https://github.com/microsoft/data-formulator): transform data and create rich visualizations iteratively with AI 🪄
 * [`microsoft/prompty`](https://github.com/microsoft/prompty): an asset class and format for LLM prompts designed to enhance observability, understandability, and portability for developers
+* [`microsoft/robustlearn`](https://github.com/microsoft/robustlearn): a unified library for research on robust ML
 * [`Mintplex-Labs/anything-llm`](https://github.com/Mintplex-Labs/anything-llm): all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, and more
 * [`ollama/ollama`](https://github.com/ollama/ollama): get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large LMs
 * [`promptfoo/promptfoo`](https://github.com/promptfoo/promptfoo): a developer-friendly local tool for testing LLM applications
@@ -647,9 +645,10 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (ESSS, 2024) [AI Revolution Transforming Safety-Critical Systems EXPLAINED!](https://www.youtube.com/watch?v=jD8vHgpm0Zw) with Raghavendra Bhat
 * (IVA, 2023) [AI in Safety-Critical Systems](https://www.youtube.com/watch?v=KOEdRK69t9g)
-* (MathWorks, 2024) [Incorporating Machine Learning Models into Safety-Critical Systems](https://www.mathworks.com/videos/incorporating-machine-learning-models-into-safety-critical-systems-1711734247499.html) with Lucas García
+* (MathWorks, 2024a) [Incorporating Machine Learning Models into Safety-Critical Systems](https://www.mathworks.com/videos/incorporating-machine-learning-models-into-safety-critical-systems-1711734247499.html) with Lucas García
   - Slides available [here](https://content.mathworks.com/viewer/65762b5e4b6cb089fea1a04a)
-  - (NeurIPS, 2023) [From Theory to Practice: Incorporating ML Models into Safety-Critical Systems](https://slideslive.com/39015422/from-theory-to-practice-incorporating-ml-models-into-safetycritical-systems) // older version
+  - (NeurIPS, 2023) [From Theory to Practice: Incorporating ML Models into Safety-Critical Systems](https://neurips.cc/virtual/2023/expo-talk-panel/78251) // older version
+* (MathWorks, 2024b) [AI Verification & Validation: Trends, Applications, and Challenges](https://neurips.cc/virtual/2024/expo-talk-panel/100351)
 * (Microsoft Developer, 2024) [How Microsoft Approaches AI Red Teaming](https://www.youtube.com/watch?v=zFRn_RMSPI4) with Tori Westerhoff and Pete Bryan
 * (MLOps Community, 2025) [Robustness, Detectability, and Data Privacy in AI](https://home.mlops.community/public/videos/robustness-detectability-and-data-privacy-in-ai) with Vinu Sadasivan and Demetrios Brinkmann
 * (NeurIPS, 2024) [AI Verification & Validation: Trends, Applications, and Challenges](https://slideslive.com/39031402/ai-verification-validation-trends-applications-and-challenges) with Lucas García
