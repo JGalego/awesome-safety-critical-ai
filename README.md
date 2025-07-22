@@ -241,6 +241,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
 * (Amershi *et al.*, 2019) [Software Engineering for Machine Learning: A Case Study](https://ieeexplore.ieee.org/document/8804457/)
 * (Arpteg *et al.*, 2018) [Software Engineering Challenges of Deep Learning](https://arxiv.org/abs/1810.12034)
+* (Balduzzi *et al.*., 2021) [Neural Network Based Runway Landing Guidance for General Aviation Autoland](https://rosap.ntl.bts.gov/view/dot/62210)
 * (Bach *et al.*, 2024) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://ieeexplore.ieee.org/document/10620168)
 * (Barman *et al.*, 2024) [The Brittleness of AI-Generated Image Watermarking Techniques: Examining Their Robustness Against Visual Paraphrasing Attacks](https://arxiv.org/abs/2408.10446)
 * (Becker *et al.*, 2021) [AI at work – Mitigating safety and discriminatory risk with technical standards](https://www.interface-eu.org/publications/ai-work-mitigating-safety-and-discriminatory-risk-technical-standards)
@@ -443,8 +444,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * (APT Research) [Artificial Intelligence/Machine Learning System Safety](https://www.apt-research.com/capabilities/artificial-intelligence-machine-learning-system-safety/)
-* (CAIDP) [Universal Guidelines for AI](https://www.caidp.org/universal-guidelines-for-ai/)
-* (CISA, NSA, FBI et al) [AI Data Security: Best Practices for Securing Data Used to Train and Operate AI Systems](https://www.cisa.gov/resources-tools/resources/ai-data-security-best-practices-securing-data-used-train-operate-ai-systems)
+* (CAIDP) [Universal Guidelines for AI](https://www.caidp.org)
+* (CISA) [AI Data Security: Best Practices for Securing Data Used to Train and Operate AI Systems](https://www.cisa.gov/resources-tools/resources/ai-data-security-best-practices-securing-data-used-train-operate-ai-systems)
 * (DIU) [Reponsible AI Guidelines](https://www.diu.mil/responsible-ai-guidelines)
 * (ESA) [ECSS-E-HB-40-02A – Machine learning handbook](https://ecss.nl/home/ecss-e-hb-40-02a-15-november-2024/)
 * (European Commission) [Ethics guidelines for trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
@@ -670,6 +671,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (Fraunhofer) [Dependable AI: How to use Artificial Intelligence even in critical applications?](https://www.iese.fraunhofer.de/en/services/dependable-ai.html)
 * (IET) [The Application of Artificial Intelligence in Functional Safety](https://electrical.theiet.org/guidance-and-codes-of-practice/publications-by-category/artificial-intelligence/the-application-of-artificial-intelligence-in-functional-safety/)
+* (MathWorks) [Verify an Airborne Deep Learning System](https://www.mathworks.com/help/deeplearning/ug/verify-an-airborne-deep-learning-system.html)
 * (Thales) [The Challenges of using AI in Critical Systems](https://www.thalesgroup.com/en/worldwide/group/magazine/challenges-using-ai-critical-systems)
 
 ## <a id="working-groups"></a>👷🏼 Working Groups
