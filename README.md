@@ -17,6 +17,9 @@ This isn't just another (awesome) list. It's a call to action!
 ## <a id="toc"></a>Table of Contents
 
 * [🐇 Introduction](#introduction)
+  - [What is a Critical System?](#what-is-a-critical-system)
+  - [AI in Critical Systems](#ai-in-critical-systems)
+  - [The Bottom Line](#the-bottom-line)
 * [🌟 Editor's Choice](#top-picks)
 * [🏃 TLDR](#tldr)
 * [📝 Articles](#articles)
@@ -43,11 +46,11 @@ This isn't just another (awesome) list. It's a call to action!
 
 ## <a id="introduction"></a>🐇 Introduction
 
-### What is a critical system?
+### <a id="what-is-a-critical-system"></a>What is a critical system?
 
 > TL;DR Critical systems are built on trust - and trust is built on rock-solid engineering.
 
-Critical systems are those whose failure can lead to injury 🤕, loss of life ☠️, environmental harm 🌱🚱, infrastructure damage 🏗️💥, or mission failure 🎯.
+Critical systems are systems whose failure can lead to injury 🤕, loss of life ☠️, environmental harm 🌱🚱, infrastructure damage 🏗️💥, or mission failure 🎯.
 
 | **Application**                   | **Industry Vertical** | **Description**                       | **Failure Impact**                     |
 | --------------------------------- | --------------------- | ------------------------------------- | ------------------------------------------- |
@@ -58,9 +61,9 @@ Critical systems are those whose failure can lead to injury 🤕, loss of life �
 | **Industrial Automation Control** | Manufacturing         | Oversees production processes         | Malfunction can cause damage or injury      |
 | **Core Banking System**           | Finance               | Handles transactions and account data | Downtime can affect financial operations    |
 
-These are systems that **must** operate with high levels of safety, reliability and availability, often under *unclear* and *unpredictable* conditions.
+These systems are expected to operate with exceptionally high levels of safety, reliability and availability, often under *unclear* and *unpredictable* conditions.
 
-These kind of systems we tend to forget about... until something goes horribly wrong 🫣
+They're the kind of systems we rarely think about... until something goes terribly wrong 🫣
 
 <img src="assets/images/therac25.png" height="80px"/> <img src="assets/images/lufthansa2904.jpg" height="80px"/> <img src="assets/images/mars_climate_orbiter.jpg" height="80px"/> <img src="assets/images/patriot_missile_failure.jpg" height="80px"/> <img src="assets/images/knight_capital_loss.jpg" height="80px"/> <img src="assets/images/toyota_unintended_acceleration.png" height="80px"/>
 
@@ -77,11 +80,11 @@ These kind of systems we tend to forget about... until something goes horribly w
 | **Heartbleed Bug**              | `2014`      | Security vulnerability in SSL exposed private server data                       | Improper bounds checking in the heartbeat extension of OpenSSL                           | Cybersecurity / IT            | [Heartbleed](https://heartbleed.com/), [CNET](https://www.cnet.com/news/privacy/heartbleed-bug-what-you-need-to-know-faq/) |
 | **T-Mobile Sidekick Data Loss** | `2009`      | Users lost personal data during server migration                                | Software mishandling during data center transition led to irreversible loss              | Telecom / Cloud Services      | [TechCrunch](https://techcrunch.com/2009/10/13/sidekick-user-data-may-be-recovered-after-all/), [PCWorld](https://www.pcworld.com/article/520107/sidekick_data_loss_t_mobiles_unending_nightmare.html) |
 
-When the stakes are this high, conventional software engineering practices needs to be supplemented with rigorous verification, validation and certification processes that are designed to ensure the system's integrity.
+When the stakes are this high, conventional software engineering practices must be complemented by rigorous verification, validation and certification processes that are designed to ensure system integrity.
 
 <img src="assets/images/v_model.png" height="200px"/>
 
-In critical systems, there are no shortcuts - engineering rigour is everything.
+**Critical systems don't forgive shortcuts**. Only engineering rigour stands between order and disaster.
 
 ### AI in Critical Systems
 
@@ -89,9 +92,9 @@ In critical systems, there are no shortcuts - engineering rigour is everything.
 
 So, where does that leave us? **Is there room for AI in critical systems?**
 
-Well, this isn't really a thought experiment as we're already far beyond the realm of hypotheticals.
+This isn't just a theoretical question - we're already well beyond the realm of hypotheticals.
 
-From making life-or-death decisions in the ICU to controlling UAVs, doing surveillance and threat detection, and powering self-driving cars, intelligent systems are not just emerging in these areas, they are fully operational.
+From making life-or-death decisions in the ICU to controlling UAVs, performing surveillance and threat detection, and powering self-driving cars, intelligent systems aren't just emerging in these these domains - they're already fully operational.
 
 | **Use Case**                                 | **Brief Description**                                                                                   | **Industry Domain**              | **References** |
 |----------------------------------------------|----------------------------------------------------------------------------------------------------------|----------------------------------|----------------|
@@ -115,67 +118,51 @@ While its ability to learn patterns and make data-driven decisions is unmatched 
 
 Let's briefly recap some of the most important...
 
-#### Models can and will make mistakes
+#### 1. Models can and will make mistakes
 
 <img src="assets/images/broken_dish.jpg" height="100px"  width="20%"/>
 
-Better models may make fewer mistakes, but mistakes are generally *unavoidable*. These are not a sign of poor engineering, but an intrinsic feature of intelligence.
+Better models may make fewer mistakes, but mistakes are generally *unavoidable*.
+
+Mistakes are not a sign of poor engineering - they are an intrinsic feature of intelligence.
+
+Working with AI means accepting this uncertainty and designing systems that can handle it gracefully.
+
+#### 2. Mistakes can be strange and unpredictable
+
+<img src="assets/images/jackie_chan_confused.jpg" height="100px" width="20%"/>
+
+AI doesn't always fail in ways that make sense to us.
+
+It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
 
 Unlike traditional software, which follows explicit rules, AI learns from data and generalises. 
 
 Generalization allows models to make predictions beyond what they've seen so far, but it's ultimately imperfect because the real world is messy, ever-changing, and rarely fits nicely into learned patterns.
 
-Working with AI means accepting this uncertainty and designing systems that can handle it gracefully.
+#### 3. Model outputs are often probabilitic
 
-#### Models often make mistakes that seem strange and unpredictable
+<img src="assets/images/determinism.jpg" height="100px"  width="20%"/>
 
-<img src="assets/images/jackie_chan_confused.jpg" height="100px" width="20%"/>
+Traditional software is predictable: identical inputs yield identical outputs.
 
-AI doesn't always fail in ways that make sense to us. It might [misclassify a stop sign with a sticker as a speed limit sign](https://spectrum.ieee.org/slight-street-sign-modifications-can-fool-machine-learning-algorithms) or [switch treatment recommendations based on the user's language](https://www.newscientist.com/article/2486372-typos-and-slang-spur-ai-to-discourage-seeking-medical-care/).
+In contrast, ML models, especially those involving deep learning, can break this rule and exhibit **probabilistic** behavior.
 
-<img src="assets/images/stop_signs.jpg" height="200px">
+Their outputs are a function not only of the input features, but also of things like model architecture, learned weights, training data distribution, hyperparameters (e.g. learning rate, batch size), optimization methods, and more.
 
-These aren't bugs in the traditional sense. These are artefacts of how the model interprets patterns.
+That said, inference is often **deterministic**. Once trained, most models are capable of producing consistent outputs for a given input, assuming fixed weights and no funky runtime randomness.
 
-While humans tend to make errors that are consistent with a rational view of the world, AI might say that a school bus is actually an ostrich, or classify a benign tumour as malignant.
+This determinism means that systematic errors and biases are reproducible - models will consistently make the same mistakes.
 
-<img src="assets/images/noisy_school_bus.png" height="200px">
+Moreover, models trained on similar datasets often converge to similar representations, leading to shared failure modes and blind spots. So while ML systems may appear dynamic and random, their behavior can be quite predictable.
 
-These failures can be baffling and they demand robust monitoring and fallback strategies.
+#### 4. Data and models can change over time
 
-If not properly mitigated, they can render a system *useless*, or worse, **dangerous**.
-
-#### Model outputs can be probabilistic
-
-<img src="assets/images/determinism.jpg" height="100px" width="20%"/>
-
-Traditional software is designed to behave the same way every time.
-
-Same input, same output, *ceteris paribus*.
-
-By contrast, AI systems can improve or degrade based on new data.
-
-This means that today's behaviour might **not** match tomorrow's.
-
-Notice that we're using **might** instead of **will**. This is an important point: just because models **can** act randomly and generate probabilistic outputs, it doesn't mean they **have** to.
-
-While ML training can be **nondeterministic**, the resulting models are often **deterministic** during inference.
-
-Given the same input, these models will consistently produce the same outputs... and make the same mistakes.
-
-#### Data and models can change over time
-
-<img src="assets/images/time_changes.jpg" height="100px" width="20%"/>
+<img src="assets/images/time_changes.jpg" height="100px"  width="20%"/>
 
 Data and models are not static things. They'll evolve continuously due to changes in the environment, user behavior, hardware, regulations and more.
 
-Understanding and managing these changes is essential to maintain system safety, reliability, and performance.
-
-Let's look at an example...
-
-Imagine a supervised learning system trained to [detect early signs of pneumonia in chest X-rays](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
-
-<img src="assets/images/chest_xray_pneumonia.png" width="200px"/>
+Imagine you're building a supervised learning system to [detect early signs of pneumonia in chest X-rays](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
 
 Over time, several factors can cause both the data and the model to evolve:
 
@@ -189,27 +176,47 @@ Over time, several factors can cause both the data and the model to evolve:
 
 In safety-critical domains like medical imaging, the evolution of data and models is inevitable. As such, systems must be designed with this in mind, embedding mechanisms for monitoring, validation, and traceability at every stage.
 
-> A model that performs well today may become unsafe tomorrow if changes go undetected or unmanaged.
-
 By proactively addressing data and model drift, automating model updates and defining processes for dealing with external influences, teams can ensure that AI systems remain not only accurate but also trustworthy, transparent, and robust over time.
 
-#### Perfection is a mirage
+#### 5. Zero-error performance is expensive and often impossible
 
 <img src="assets/images/mirage.jpg" height="100px" width="20%"/>
 
-Achieving zero-error performance in AI is very expensive and, in many cases, **impossible**.
+Here's an uncomfortable truth: **no AI system will ever be perfect**.
 
-Instead, the goal should be to reduce risk to acceptable levels and build systems that can tolerate incorrect answers.
+No matter how sophisticated your architecture, how clean your data, or how rigorous your testing - your system will eventually encounter scenarios it can't handle.
 
-#### Always have a safety net
+The pursuit of perfection isn't just futile; it's dangerous because it creates a false sense of security. Perfection is a mirage.
 
-<img src="assets/images/safety_net.jpg" height="100px" width="20%"/>
+Instead of chasing the impossible, safety-critical AI demands a different mindset: **assume failure and design for it**.
 
-When AI fails - and it will - the overall system must be able to recover.
+This means embracing design principles that prioritize resilience, transparency, and human-centered control:
 
-This could be a human-in-the-loop, a rule-based override, or a safe fallback mode.
+* **Graceful Degradation:** When AI fails - and it will - what happens next? Does the system shut down safely, fall back to simpler heuristics, or alert human operators? The difference between a minor incident and a catastrophe often lies in how elegantly a system handles its own limitations.
 
-When it comes to critical systems, recovery is **never** an option.
+* **Human-AI Collaboration:** AI doesn't have to carry the entire burden. The most reliable critical systems often combine AI capabilities with human oversight, creating multiple layers of validation and intervention. Think of AI as a highly capable assistant, not an infallible decision-maker.
+
+* **Monitoring and Circuit Breakers:** Just as electrical systems have circuit breakers to prevent dangerous overloads, AI systems need mechanisms to detect when they're operating outside their safe boundaries. Confidence thresholds, anomaly detection, and performance monitoring aren't nice-to-haves - they're essential safety features.
+
+* **Failure Mode Analysis:** Traditional safety engineering asks `what could go wrong?` and designs accordingly. AI systems demand the same rigor. What happens when your model encounters adversarial inputs, when data quality degrades, or when edge cases compound in unexpected ways?
+
+The goal isn't to eliminate failure - it's to make failure *safe*, *detectable*, and *recoverable*. This isn't just good engineering practice; it's an architectural requirement that separates safe systems from disasters waiting to happen.
+
+#### The Bottom Line
+
+<img src="assets/images/obstacle.jpg" height="100px" width="20%"/>
+
+The challenges we've outlined aren't insurmountable obstacles; they're design constraints that demand respect, discipline, and *thoughtful* engineering. Each limitation - from unpredictable failures to shifting data landscapes - represents an opportunity to build more robust, transparent, and trustworthy systems.
+
+The question isn't *whether* AI belongs in critical systems - it's already there, making life-and-death decisions every day. The real question is: **Are we developing these systems with the rigor they deserve?**
+
+This collection exists because we believe the answer must be an emphatic **yes**. It's an open call to build AI systems that don't just perform well in the lab, but earn trust where it matters most.
+
+In critical systems, **good enough isn't good enough**. The stakes are too high for anything less than our best engineering.
+
+> *"Do you code with your loved ones in mind?"*
+>
+> ― Emily Durie-Johnson, [Strategies for Developing Safety-Critical Software in C++](https://www.youtube.com/watch?v=VJ6HrRtrbr8)
 
 ## <a id="top-picks"></a>🌟 Editor's Choice
 
