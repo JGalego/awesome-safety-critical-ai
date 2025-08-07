@@ -48,8 +48,6 @@ This isn't just another (awesome) list. It's a call to action!
 
 ### <a id="what-is-a-critical-system"></a>What is a critical system?
 
-> TL;DR Critical systems are built on trust - and trust is built on rock-solid engineering.
-
 Critical systems are systems whose failure can lead to injury 🤕, loss of life ☠️, environmental harm 🌱🚱, infrastructure damage 🏗️💥, or mission failure 🎯.
 
 | **Application**                   | **Industry Vertical** | **Description**                       | **Failure Impact**                     |
@@ -86,9 +84,9 @@ When the stakes are this high, conventional software engineering practices must 
 
 **Critical systems don't forgive shortcuts**. Only engineering rigour stands between order and disaster.
 
-### AI in Critical Systems
+> TL;DR Critical systems are built on trust - and trust is built on rock-solid engineering.
 
-> TL;DR When failure costs lives, AI must be engineered like a scalpel, not a sledgehammer.
+### AI in Critical Systems
 
 So, where does that leave us? **Is there room for AI in critical systems?**
 
@@ -202,6 +200,8 @@ This means embracing design principles that prioritize resilience, transparency,
 
 The goal isn't to eliminate failure - it's to make failure *safe*, *detectable*, and *recoverable*. This isn't just good engineering practice; it's an architectural requirement that separates safe systems from disasters waiting to happen.
 
+> TL;DR When failure costs lives, AI must be engineered like a scalpel, not a sledgehammer.
+
 #### The Bottom Line
 
 <img src="assets/images/obstacle.jpg" height="100px" width="20%"/>
@@ -225,6 +225,7 @@ In critical systems, **good enough isn't good enough**. The stakes are too high 
 * If you're just starting, here's our recommended reading list:
   - [ML in Production](https://mlip-cmu.github.io/book/) by Christian Kästner // Chapters 2 (From Models to Systems) and 7 (Planning for Mistakes)
   - [Building Intelligent Systems](https://www.amazon.com/Building-Intelligent-Systems-Learning-Engineering/dp/1484234316) by Geoff Hulten // Chapters 6 (Why Creating Intelligent Experiences is Hard), 7 (Balancing Intelligent Experiences) and 24 (Dealing with Mistakes)
+  - MJ's [The world and the machine](https://dl.acm.org/doi/10.1145/225014.225041), Kiri Wagstaff's [Machine Learning that Matters](https://arxiv.org/abs/1206.4656) and Varshney's [Engineering Safety in Machine Learning](https://arxiv.org/abs/1601.04126)
 * 🧰 An awesome set of [tools for production-ready ML](https://github.com/EthicalML/awesome-production-machine-learning)
     > **A word of caution** ☝️ Use them wisely and remember that *"a sword is only as good as the man [or woman] who wields it"*
 * 😈 A collection of scary [use cases](https://github.com/daviddao/awful-ai), [incidents](https://incidentdatabase.ai/) and [failures](https://avidml.org/) of AI, which will hopefully raise awareness to its misuses
