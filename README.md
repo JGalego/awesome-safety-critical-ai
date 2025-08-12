@@ -391,8 +391,12 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+* (Bass *et al.*, 2025) [Engineering AI Systems: Architecture and DevOps Essentials](https://www.oreilly.com/library/view/engineering-ai-systems/9780138261542/)
 * (Chen *et al.*, 2022) [Reliable Machine Learning: Applying SRE Principles to ML in Production](https://www.amazon.com/Reliable-Machine-Learning-Principles-Production/dp/1098106229)
+* (Crowe *et al.*, 2024) [Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines](https://www.amazon.com/Machine-Learning-Production-Systems-Engineering/dp/1098156013)
+* (Dix, 2025) [Artificial Intelligence: Humans at the Heart of Algorithms](https://www.taylorfrancis.com/books/mono/10.1201/9781003082880/artificial-intelligence-alan-dix)
 * (Hall, Curtis & Pandey, 2023) [Machine Learning for High-Risk Applications: Approaches to Responsible AI](https://www.oreilly.com/library/view/machine-learning-for/9781098102425/)
+* (Hopgood, 2021) [Intelligent Systems for Engineers and Scientists: A Practical Guide to Artificial Intelligence](https://www.taylorfrancis.com/books/mono/10.1201/9781003226277/intelligent-systems-engineers-scientists-adrian-hopgood)
 * (Huang, Jin & Ruan, 2023) [Machine Learning Safety](https://link.springer.com/book/10.1007/978-981-19-6814-3)
 * (Hulten, 2018) [Building Intelligent Systems: A Guide to Machine Learning Engineering](https://www.amazon.com/Building-Intelligent-Systems-Learning-Engineering/dp/1484234316)
 * (Huyen, 2022) [Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969?&_encoding=UTF8&tag=chiphuyen-20&linkCode=ur2&linkId=0a1dbab0e76f5996e29e1a97d45f14a5&camp=1789&creative=9325)
@@ -400,11 +404,17 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Joseph *et al.*, 2019) [Adversarial Machine Learning](https://www.amazon.com/Adversarial-Machine-Learning-Anthony-Joseph/dp/1107043468)
 * (Kastner, 2025) [Machine Learning in Production: From Models to Products](https://amazon.com/Machine-Learning-Production-Models-Products/dp/0262049724)
 * (Levenson, 1995) [Safeware: System Safety and Computers](https://dl.acm.org/doi/book/10.1145/202709)
+* (Martin, 2025) [We, Programmers: A Chronicle of Coders from Ada to AI](https://www.oreilly.com/library/view/we-programmers-a/9780135344248/)
 * (Molnar, 2025) [Interpretable Machine Learning: A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
 * (Pelillo & Scantamburlo, 2021) [Machines We Trust: Perspectives on Dependable AI](https://www.amazon.com/Machines-We-Trust-Perspectives-Dependable-ebook/dp/B08P46HDYG)
+* (Razmi, 2024) [AI Doctor: The Rise of Artificial Intelligence in Healthcare - A Guide for Users, Buyers, Builders, and Investors](https://www.amazon.com/Doctor-Artificial-Intelligence-Healthcare-Investors/dp/1394240163)
+* (Suen, Scheinker & Enns, 2022) [Artificial Intelligence for Healthcare: Interdisciplinary Partnerships for Analytics-driven Improvements in a Post-COVID World](https://www.cambridge.org/core/books/abs/artificial-intelligence-for-healthcare/artificial-intelligence-for-healthcare/04CE337F579D3CF1EEB58DD147261DE8)
+* (Topol, 2019) [Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again](https://www.amazon.com/Deep-Medicine-Artificial-Intelligence-Healthcare/dp/1541644638)
 * (Tran, 2024) [Artificial Intelligence for Safety and Reliability Engineering: Methods, Applications, and Challenges](https://link.springer.com/book/10.1007/978-3-031-71495-5)
 * (Rierson, 2013) [Developing Safety-Critical Software: A Practical Guide for Aviation Software and DO-178C Compliance]()
 * (Varshney, 2021) [Trust in Machine Learning](https://www.manning.com/books/trust-in-machine-learning-cx)
+* (Visengeriyeva, 2025) [The AI Engineer's Guide to Surviving the EU AI Act: Navigating the EU Regulatory Requirements](https://www.oreilly.com/library/view/the-ai-engineers/9781098172480/)
+* (Yampolskiy, 2018) [Artificial Intelligence Safety and Security](https://www.taylorfrancis.com/books/edit/10.1201/9781351251389/artificial-intelligence-safety-security-roman-yampolskiy)
 
 ## <a id="certifications"></a>📜 Certifications
 
