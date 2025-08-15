@@ -599,6 +599,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ### Model Fairness & Privacy
 
+* [`Dstack-TEE/dstack`](https://github.com/Dstack-TEE/dstack): TEE framework for private AI model deployment with hardware-level isolation using Intel TDX and NVIDIA Confidential Computing
 * [`fairlearn/fairlearn`](https://github.com/fairlearn/fairlearn): a Python package to assess and improve fairness of ML models
 * [`pytorch/opacus`](https://github.com/pytorch/opacus): a library that enables training PyTorch models with differential privacy
 * [`tensorflow/privacy`](https://github.com/tensorflow/privacy): a library for training ML models with privacy for training data
