@@ -262,6 +262,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Bondar, 2025) [Ukraine's Future Vision and Current Capabilities for Waging AI-Enabled Autonomous Warfare](https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare)
 * (Bloomfield & Rushby, 2025) [Where AI Assurance Might Go Wrong: Initial lessons from engineering of critical systems](https://arxiv.org/abs/2502.03467)
 * (Breck *et al.*, 2016) [What's your ML test score? A rubric for ML production systems](https://research.google/pubs/whats-your-ml-test-score-a-rubric-for-ml-production-systems/)
+* (Breiman, 2001) [Statistical Modeling: The Two Cultures](https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full)
 * (Bullwinkel *et al.*, 2025) [Lessons From Red Teaming 100 Generative AI Products](https://arxiv.org/abs/2501.07238)
 * (Burton & Herd, 2023) [Addressing uncertainty in the safety assurance of machine-learning](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1132580/full)
 * (Chihani, 2021) [Formal Methods for AI: Lessons from the past, promisses of the future](https://hal.science/hal-04479570)
@@ -291,6 +292,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Jamakatel *et al.*, 2024) [A Goal-Directed Dialogue System for Assistance in Safety-Critical Application](https://www.ijcai.org/proceedings/2024/870)
 * (Johnson, 2018) [The Increasing Risks of Risk Assessment: On the Rise of Artificial Intelligence and Non-Determinism in Safety-Critical Systems](https://www.dcs.gla.ac.uk/~johnson/papers/SCSC_18.pdf)
 * (Jovanovic *et al.*, 2022) [Private and Reliable Neural Network Inference](https://www.sri.inf.ethz.ch/blog/phoenix)
+* (Kapoor & Narayanan, 2023) [Leakage and the Reproducibility Crisis in ML-based Science](https://reproducible.cs.princeton.edu/)
 * (Khattak *et al.*, 2024) [AI-supported estimation of safety critical wind shear-induced aircraft go-around events utilizing pilot reports](https://www.cell.com/heliyon/fulltext/S2405-8440(24)04600-0)
 * (Kiseleva *et al.*, 2025) [The EU AI Act, Stakeholder Needs, and Explainable AI: Aligning Regulatory Compliance in a Clinical Decision Support System](https://arxiv.org/pdf/2505.20311)
 * (Kuwajima, Yasuoka & Nakae, 2020) [Engineering problems in machine learning systems](https://link.springer.com/article/10.1007/s10994-020-05872-w)
@@ -391,6 +393,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+* (Barocas, Hardt & Narayanan, 2023) [Fairness and Machine Learning](https://fairmlbook.org/)
 * (Bass *et al.*, 2025) [Engineering AI Systems: Architecture and DevOps Essentials](https://www.oreilly.com/library/view/engineering-ai-systems/9780138261542/)
 * (Chen *et al.*, 2022) [Reliable Machine Learning: Applying SRE Principles to ML in Production](https://www.amazon.com/Reliable-Machine-Learning-Principles-Production/dp/1098106229)
 * (Crowe *et al.*, 2024) [Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines](https://www.amazon.com/Machine-Learning-Production-Systems-Engineering/dp/1098156013)
@@ -452,22 +455,26 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [AI for Social Good](https://web.stanford.edu/class/cs21si/) @ Stanford
 * [AI Red Teaming](https://learn.microsoft.com/en-us/security/ai-red-team/) @ Microsoft
 * [Dependable AI Systems](https://courses.grainger.illinois.edu/ece598rki/fa2023/) @ University of Illinois Urbana-Champaign
+* [Ethics and policy in data science](https://docs.google.com/document/d/1GV97qqvjQNvyM2I01vuRaAwHe9pQAZ9pbP7KkKveg1o/edit) @ Cornell
+* [Ethics of Computing](https://www.cs.princeton.edu/courses/archive/fall23/cos350/) @ Princeton
+* [Fairness in machine learning](https://fairmlclass.github.io/) @ Berkeley
+* [Fairness in machine learning](https://docs.google.com/document/d/1XnbJXELA0L3CX41MxySdPsZ-HNECxPtAw4-kZRc7OPI/edit?usp=sharing) @ Princeton
 * [Introduction to AI Governance](http://web.stanford.edu/class/sts14/index.html) @ Stanford
 * [Introduction to AI Safety](https://web.stanford.edu/class/cs120/index.html) @ Stanford
-* [Limits to Prediction](https://msalganik.github.io/soc555-cos598J_s2024/) @ Princeton University
+* [Limits to Prediction](https://msalganik.github.io/soc555-cos598J_s2024/) @ Princeton
 * [Machine Learning for Healthcare](https://mlhcmit.github.io/) @ MIT
-* [Machine Learning in Production](https://mlip-cmu.github.io/) @ Carnegie-Mellon University
-* [Machine Learning Security](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State University
+* [Machine Learning in Production](https://mlip-cmu.github.io/) @ Carnegie-Mellon
+* [Machine Learning Security](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State
 * [Real-Time Mission-Critical Systems Design](https://www.coursera.org/learn/real-time-mission-critical-systems-design) @ University of Colorado Boulder / Coursera
 * [Reliable and Interpretable Artificial Intelligence](https://www.sri.inf.ethz.ch/teaching/riai2020) @ ETH Zürich
 * [Responsible AI](https://github.com/aws-samples/aws-machine-learning-university-responsible-ai) @ Amazon MLU
 * [Robustness in Machine Learning](https://jerryzli.github.io/robust-ml-fall19.html) @ University of Washington
 * [Safe and Interactive Robotics](https://dorsa.fyi/cs333/) @ Stanford
 * [Safety Critical Systems](https://safetysystems.theiet.org/) @ IET
-* [Safety Critical Systems](https://www.cs.ox.ac.uk/softeng/subjects/SCS.html) @ Oxford University
+* [Safety Critical Systems](https://www.cs.ox.ac.uk/softeng/subjects/SCS.html) @ Oxford
 * [Security and Privacy of Machine Learning](https://secml.github.io/) @ University of Virginia
 * [Trustworthy Artificial Intelligence](https://trustworthy-ml-course.github.io/) @ University of Michigan, Dearborn
-* [Trustworthy Machine Learning](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State University
+* [Trustworthy Machine Learning](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State
 * [Trustworthy Machine Learning](https://scalabletrustworthyai.github.io) @ University of Tübingen
 * [Validation of Safety Critical Systems](https://aa228v.stanford.edu/) @ Stanford
 
