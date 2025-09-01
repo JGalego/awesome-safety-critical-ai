@@ -411,6 +411,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Molnar, 2025) [Interpretable Machine Learning: A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
 * (Pelillo & Scantamburlo, 2021) [Machines We Trust: Perspectives on Dependable AI](https://www.amazon.com/Machines-We-Trust-Perspectives-Dependable-ebook/dp/B08P46HDYG)
 * (Razmi, 2024) [AI Doctor: The Rise of Artificial Intelligence in Healthcare - A Guide for Users, Buyers, Builders, and Investors](https://www.amazon.com/Doctor-Artificial-Intelligence-Healthcare-Investors/dp/1394240163)
+* (Spector *et al.*, 2022) [Data Science in Context: Foundations, Challenges, Opportunities](https://datascienceincontext.com/)
 * (Suen, Scheinker & Enns, 2022) [Artificial Intelligence for Healthcare: Interdisciplinary Partnerships for Analytics-driven Improvements in a Post-COVID World](https://www.cambridge.org/core/books/abs/artificial-intelligence-for-healthcare/artificial-intelligence-for-healthcare/04CE337F579D3CF1EEB58DD147261DE8)
 * (Topol, 2019) [Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again](https://www.amazon.com/Deep-Medicine-Artificial-Intelligence-Healthcare/dp/1541644638)
 * (Tran, 2024) [Artificial Intelligence for Safety and Reliability Engineering: Methods, Applications, and Challenges](https://link.springer.com/book/10.1007/978-3-031-71495-5)
