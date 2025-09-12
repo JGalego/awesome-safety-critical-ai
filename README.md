@@ -386,6 +386,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (SE4ML, 2025) [Machine Learning Engineering Practices in Recent Years: Trends and Challenges](https://se-ml.github.io/blog/2025/five-y/)
 * (Space and Time, 2024) [Verifiable LLMs for the Modern Enterprise](https://www.spaceandtime.io/blog/verifiable-llms-for-the-modern-enterprise)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
+* (Thinking Machines, 2025) [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
 * (VentureBeat, 2019) [Why do 87% of data science projects never make it into production?](https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/)
 * (Wiz, 2025) [What is AI Red Teaming?](https://www.wiz.io/academy/ai-red-teaming)
 
