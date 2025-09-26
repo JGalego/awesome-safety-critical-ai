@@ -521,6 +521,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Partnership on AI) [Safety Critical AI](https://partnershiponai.org/program/safety-critical-ai/)
 * (SAFE) [Stanford Center for AI Safety](https://aisafety.stanford.edu/)
 * (SAFEXPLAIN) [Safe and Explainable Critical Embedded Systems based on AI](https://safexplain.eu)
+* (SAIL) [Systems for Artificial Intelligence Lab](https://sysml.cs.princeton.edu/index.html)
 * (SCSC) [Safety Critical Systems Club](https://scsc.uk/index.php)
 * (SISL) [Stanford Intelligent Systems Laboratory](https://sisl.stanford.edu/)
 * (SRILAB) [Safe Artificial Intelligence](https://safeai.ethz.ch/)
