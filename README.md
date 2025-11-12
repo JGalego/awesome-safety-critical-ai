@@ -266,6 +266,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Bullwinkel *et al.*, 2025) [Lessons From Red Teaming 100 Generative AI Products](https://arxiv.org/abs/2501.07238)
 * (Burton & Herd, 2023) [Addressing uncertainty in the safety assurance of machine-learning](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1132580/full)
 * (Chihani, 2021) [Formal Methods for AI: Lessons from the past, promisses of the future](https://hal.science/hal-04479570)
+* (Clavière, Kirov & Cofer, 2025) [How to Verify Generalization Capability of a Neural Network with Formal Methods](https://dl.acm.org/doi/10.1007/978-3-031-99991-8_7)
 * (Cummings, 2021) [Rethinking the Maturity of Artificial Intelligence in Safety-Critical Settings](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/7394)
 * (Dalrymple *et al.*, 2025) [Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems](https://arxiv.org/abs/2405.06624)
 * (Delseny *et al.*, 2021) [White Paper Machine Learning in Certified Systems](https://arxiv.org/abs/2103.10529)
@@ -355,6 +356,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Xie *et al.*, 2020) [DeepHunter: a coverage-guided fuzz testing framework for deep neural networks](https://dl.acm.org/doi/10.1145/3293882.3330579)
 * (Yang, 2017) [The Role of Design in Creating Machine-Learning-Enhanced User Experience](https://cdn.aaai.org/ocs/15363/15363-68257-1-PB.pdf)
 * (Yu *et al.*, 2024) [A Survey on Failure Analysis and Fault Injection in AI Systems](https://arxiv.org/abs/2407.00125)
+* (Zhang *et al.*, 2018) [Efficient Neural Network Robustness Certification with General Activation Functions](https://arxiv.org/abs/1811.00866)
 * (Zhang & Li, 2020) [Testing and verification of neural-network-based safety-critical control software: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S0950584920300471)
 * (Zhang *et al.*, 2020) [Machine Learning Testing: Survey, Landscapes and Horizons](https://ieeexplore.ieee.org/document/9000651)
 * (Zhang *et al.*, 2024) [The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap](https://arxiv.org/abs/2412.06512)
@@ -702,6 +704,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
   - Slides available [here](https://content.mathworks.com/viewer/65762b5e4b6cb089fea1a04a)
   - (NeurIPS, 2023) [From Theory to Practice: Incorporating ML Models into Safety-Critical Systems](https://neurips.cc/virtual/2023/expo-talk-panel/78251) // older version
 * (MathWorks, 2024b) [AI Verification & Validation: Trends, Applications, and Challenges](https://neurips.cc/virtual/2024/expo-talk-panel/100351)
+* (MathWorks & Collins Aerospace, 2025) [Assuring Safety-Critical Systems with Machine Learning Components](https://eventsonline.mathworks.com/series/matlab-expo-2025-agenda/landing_page?bmid=17aaf6d4d78a) with Arthur Clavière, Giacomo Gentile and Lucas García
 * (Microsoft Developer, 2024) [How Microsoft Approaches AI Red Teaming](https://www.youtube.com/watch?v=zFRn_RMSPI4) with Tori Westerhoff and Pete Bryan
 * (MLOps Community, 2025) [Robustness, Detectability, and Data Privacy in AI](https://home.mlops.community/public/videos/robustness-detectability-and-data-privacy-in-ai) with Vinu Sadasivan and Demetrios Brinkmann
 * (NeurIPS, 2024) [AI Verification & Validation: Trends, Applications, and Challenges](https://slideslive.com/39031402/ai-verification-validation-trends-applications-and-challenges) with Lucas García
