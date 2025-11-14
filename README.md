@@ -365,6 +365,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+* (Beca, 2025) [Can Machine Learning Systems be Certified on Aircraft?](https://www.beca.com/ignite-your-thinking/ignite-your-thinking/march-2025/can-machine-learning-systems-be-certified-on-aircraft)
 * (Bits & Atoms, 2017) [Designing Effective Policies for Safety-Critical AI](https://bitsandatoms.co/effective-policies-for-safety-critical-ai/)
 * (Bits & Chips, 2024) [Verifying and validating AI in safety-critical systems](https://bits-chips.com/article/verifying-and-validating-ai-in-safety-critical-systems/)
 * (Clear Prop, 2023) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://pamirsevincel.substack.com/p/clear-prop-9-forum-79-paper-spotlight)
@@ -390,6 +391,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Safety4Sea, 2024) [The risks and benefits of AI translations in safety-critical industries](https://safety4sea.com/the-risks-and-benefits-of-ai-translations-in-safety-critical-industries/)
 * (SE4ML, 2025) [Machine Learning Engineering Practices in Recent Years: Trends and Challenges](https://se-ml.github.io/blog/2025/five-y/)
 * (Space and Time, 2024) [Verifiable LLMs for the Modern Enterprise](https://www.spaceandtime.io/blog/verifiable-llms-for-the-modern-enterprise)
+* (Susana Cox, 2025) [We Need To Talk About Real Engineering](https://disesdi.substack.com/p/we-need-to-talk-about-real-engineering)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
 * (Thinking Machines, 2025) [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
 * (VentureBeat, 2019) [Why do 87% of data science projects never make it into production?](https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/)
@@ -721,6 +723,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+* (Alan Turing Institute) [Defence AI Assurance: Identifying Promising Practice and A System Card Template for Defence](https://www.turing.ac.uk/news/publications/defence-ai-assurance-identifying-promising-practice-and-system-card-template)
 * (Fraunhofer) [Dependable AI: How to use Artificial Intelligence even in critical applications?](https://www.iese.fraunhofer.de/en/services/dependable-ai.html)
 * (IET) [The Application of Artificial Intelligence in Functional Safety](https://electrical.theiet.org/guidance-and-codes-of-practice/publications-by-category/artificial-intelligence/the-application-of-artificial-intelligence-in-functional-safety/)
 * (MathWorks) [Verify an Airborne Deep Learning System](https://www.mathworks.com/help/deeplearning/ug/verify-an-airborne-deep-learning-system.html)
@@ -796,6 +799,10 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 Our mission is to **build a better and safer world** by creating safe and reliable solutions for demanding industries like Space, Energy, Banking, Defence and Medical.
 
 We get to work every day with a variety of high-profile companies, such as Airbus, Alstom, BMW, ESA, NASA, Siemens, and Thales.
+
+We build AI systems that make a difference by applying AI where trust and impact matter the most.
+
+Our AI solutions are designed to meet the highest standards of safety, reliability, and ethical responsibility.
 
 If it's true that *"everything fails all the time"*, the stuff we do has to fail *less* often... or **not** at all.
 
