@@ -385,6 +385,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Learn Prompting, 2025) [What is AI Red Teaming?](https://learnprompting.org/blog/what-is-ai-red-teaming)
 * (Lynx, 2023) [How is AI being used in Aviation?](https://www.lynx.com/executive-blog/artificial-intelligence-in-avionics)
 * (MathWorks, 2023) [The Road to AI Certification: The importance of Verification and Validation in AI](https://blogs.mathworks.com/deep-learning/2023/07/11/the-road-to-ai-certification-the-importance-of-verification-and-validation-in-ai)
+* (Pivot to AI, 2025) [Vibe nuclear — let’s use AI shortcuts on reactor safety!](https://pivot-to-ai.com/2025/11/18/vibe-nuclear-lets-use-ai-shortcuts-on-reactor-safety/)
 * (Perforce, 2019) [Why SOTIF (ISO/PAS 21448) Is Key For Safety in Autonomous Driving](https://www.perforce.com/blog/qac/sotif-iso-pas-21448-autonomous-driving)
 * (Protect AI, 2025) [The Expanding Role of Red Teaming in Defending AI Systems](https://protectai.com/blog/expanding-role-red-teaming-defending-ai-systems)
 * (restack, 2025) [Safety In Critical AI Systems](https://www.restack.io/p/ai-application-safety-protocols-answer-safety-in-critical-ai-systems-cat-ai)
@@ -546,6 +547,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+* (AI Now Institute) [Fission for Algorithms: The Undermining of Nuclear Regulation in Service of AI](https://ainowinstitute.org/publications/fission-for-algorithms)
 * (Air Street Capital) [State of AI Report 2024](https://www.stateof.ai/)
 * (CLTC) [The Flight to Safety-Critical AI: Lessons in AI Safety from the Aviation Industry](https://cltc.berkeley.edu/publication/new-report-the-flight-to-safety-critical-ai-lessons-in-ai-safety-from-the-aviation-industry/)
 * (FLI) [AI Safety Index 2024](https://futureoflife.org/document/fli-ai-safety-index-2024/)
