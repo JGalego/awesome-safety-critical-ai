@@ -405,6 +405,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Barocas, Hardt & Narayanan, 2023) [Fairness and Machine Learning](https://fairmlbook.org/)
 * (Bass *et al.*, 2025) [Engineering AI Systems: Architecture and DevOps Essentials](https://www.oreilly.com/library/view/engineering-ai-systems/9780138261542/)
 * (Chen *et al.*, 2022) [Reliable Machine Learning: Applying SRE Principles to ML in Production](https://www.amazon.com/Reliable-Machine-Learning-Principles-Production/dp/1098106229)
+* (Christian, 2020) [The Alignment Problem: Machine Learning and Human Values](https://brianchristian.org/the-alignment-problem/)
 * (Crowe *et al.*, 2024) [Machine Learning Production Systems: Engineering Machine Learning Models and Pipelines](https://www.amazon.com/Machine-Learning-Production-Systems-Engineering/dp/1098156013)
 * (Dix, 2025) [Artificial Intelligence: Humans at the Heart of Algorithms](https://www.taylorfrancis.com/books/mono/10.1201/9781003082880/artificial-intelligence-alan-dix)
 * (Hall, Curtis & Pandey, 2023) [Machine Learning for High-Risk Applications: Approaches to Responsible AI](https://www.oreilly.com/library/view/machine-learning-for/9781098102425/)
