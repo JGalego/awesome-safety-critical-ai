@@ -551,6 +551,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (AI Now Institute) [Fission for Algorithms: The Undermining of Nuclear Regulation in Service of AI](https://ainowinstitute.org/publications/fission-for-algorithms)
 * (Air Street Capital) [State of AI Report 2024](https://www.stateof.ai/)
 * (CLTC) [The Flight to Safety-Critical AI: Lessons in AI Safety from the Aviation Industry](https://cltc.berkeley.edu/publication/new-report-the-flight-to-safety-critical-ai-lessons-in-ai-safety-from-the-aviation-industry/)
+* (EASA & Daedalean, 2024) [Concepts of Design Assurance for Neural Networks (CoDANN)](https://www.easa.europa.eu/en/document-library/general-publications/concepts-design-assurance-neural-networks-codann)
 * (FLI) [AI Safety Index 2024](https://futureoflife.org/document/fli-ai-safety-index-2024/)
 * (Google) [Responsible AI Progress Report 2025](https://ai.google/static/documents/ai-responsibility-update-published-february-2025.pdf)
 * (Gov.UK) [International AI Safety Report 2025](https://www.gov.uk/government/publications/international-ai-safety-report-2025)
@@ -705,11 +706,13 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (ESSS, 2024) [AI Revolution Transforming Safety-Critical Systems EXPLAINED!](https://www.youtube.com/watch?v=jD8vHgpm0Zw) with Raghavendra Bhat
 * (IVA, 2023) [AI in Safety-Critical Systems](https://www.youtube.com/watch?v=KOEdRK69t9g)
+* (MathWorks, 2023) [Understanding and Verifying Your AI Models](https://www.mathworks.com/videos/understanding-and-verifying-your-ai-models-1683545477107.html) with Lucas García
 * (MathWorks, 2024a) [Incorporating Machine Learning Models into Safety-Critical Systems](https://www.mathworks.com/videos/incorporating-machine-learning-models-into-safety-critical-systems-1711734247499.html) with Lucas García
   - Slides available [here](https://content.mathworks.com/viewer/65762b5e4b6cb089fea1a04a)
   - (NeurIPS, 2023) [From Theory to Practice: Incorporating ML Models into Safety-Critical Systems](https://neurips.cc/virtual/2023/expo-talk-panel/78251) // older version
 * (MathWorks, 2024b) [AI Verification & Validation: Trends, Applications, and Challenges](https://neurips.cc/virtual/2024/expo-talk-panel/100351)
-* (MathWorks & Collins Aerospace, 2025) [Assuring Safety-Critical Systems with Machine Learning Components](https://eventsonline.mathworks.com/series/matlab-expo-2025-agenda/landing_page?bmid=17aaf6d4d78a) with Arthur Clavière, Giacomo Gentile and Lucas García
+* (MathWorks & Collins Aerospace, 2025) [Ensuring Machine Learning Generalization in Avionics Using Formal Methods
+](https://www.mathworks.com/videos/ensuring-machine-learning-generalization-in-avionics-using-formal-methods-1762251892095.html) with Arthur Clavière
 * (Microsoft Developer, 2024) [How Microsoft Approaches AI Red Teaming](https://www.youtube.com/watch?v=zFRn_RMSPI4) with Tori Westerhoff and Pete Bryan
 * (MLOps Community, 2025) [Robustness, Detectability, and Data Privacy in AI](https://home.mlops.community/public/videos/robustness-detectability-and-data-privacy-in-ai) with Vinu Sadasivan and Demetrios Brinkmann
 * (NeurIPS, 2024) [AI Verification & Validation: Trends, Applications, and Challenges](https://slideslive.com/39031402/ai-verification-validation-trends-applications-and-challenges) with Lucas García
