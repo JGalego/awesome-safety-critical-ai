@@ -515,6 +515,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [Trustworthy Machine Learning](https://secure-ai.systems/courses/MLSec/W22/index.html) @ Oregon State
 * [Trustworthy Machine Learning](https://scalabletrustworthyai.github.io) @ University of Tübingen
 * [Validation of Safety Critical Systems](https://aa228v.stanford.edu/) @ Stanford
+* [Practical AI Security Course](https://academy.8ksec.io/course/practical-ai-security) @ 8kSec Online Academy
 
 ## <a id="guidelines"></a>📙 Guidelines
 
