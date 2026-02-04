@@ -300,6 +300,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Hou & Sun, 2025) [A Hybrid Deep Learning Architecture for Enhanced Vertical Wind and FBAR Estimation in Airborne Radar Systems](https://www.mdpi.com/2226-4310/12/8/679)
 * (Houben *et al.*, 2022) [Inspect, Understand, Overcome: A Survey of Practical Methods for AI Safety](https://link.springer.com/chapter/10.1007/978-3-031-01233-4_1)
 * (Jackson, 1995) [The world and the machine](https://dl.acm.org/doi/10.1145/225014.225041)
+* (Jain, 2025) [A Unified AI System For Data Quality Control and DataOps Management in Regulated Environments](https://arxiv.org/abs/2512.05559)
 * (Jamakatel *et al.*, 2024) [A Goal-Directed Dialogue System for Assistance in Safety-Critical Application](https://www.ijcai.org/proceedings/2024/870)
 * (Jaß & Thomas, 2025) [Using N-Version Architectures for Railway Segmentation with Deep Neural Networks](https://www.mdpi.com/2504-4990/7/2/49)
 * (Johnson, 2018) [The Increasing Risks of Risk Assessment: On the Rise of Artificial Intelligence and Non-Determinism in Safety-Critical Systems](https://www.dcs.gla.ac.uk/~johnson/papers/SCSC_18.pdf)
