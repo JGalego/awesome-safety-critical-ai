@@ -248,6 +248,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 * (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
 * (Amershi *et al.*, 2019) [Software Engineering for Machine Learning: A Case Study](https://ieeexplore.ieee.org/document/8804457/)
+* (Amrani, Lúcio & Bibal, 2018) [ML + FV = <3? A Survey on the Application of Machine Learning to Formal Verification](https://arxiv.org/abs/1806.03600)
 * (Arpteg *et al.*, 2018) [Software Engineering Challenges of Deep Learning](https://arxiv.org/abs/1810.12034)
 * (Balduzzi *et al.*., 2021) [Neural Network Based Runway Landing Guidance for General Aviation Autoland](https://rosap.ntl.bts.gov/view/dot/62210)
 * (Bach *et al.*, 2024) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://ieeexplore.ieee.org/document/10620168)
@@ -363,6 +364,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Stoica *et al.*, 2017) [A Berkeley View of Systems Challenges for AI](https://arxiv.org/abs/1712.05855)
 * (Strubell, Ganesh & McCallum, 2019) [Energy and Policy Considerations for Deep Learning in NLP](https://arxiv.org/abs/1906.02243)
 * (Tambon *et al.*, 2021) [How to Certify Machine Learning Based Safety-critical Systems? A Systematic Literature Review](https://arxiv.org/abs/2107.12045)
+* (Tegmark & Omohundro, 2023) [Provably safe systems: the only path to controllable AGI](https://arxiv.org/abs/2309.01933)
 * (Torens *et al.*, 2024) [From Operational Design Domain to Runtime Monitoring of AI-based Aviation Systems](https://elib.dlr.de/212160/1/DASC___ODD_Generation_and_Validation___Full_Paper.pdf)
 * (Urban & Miné, 2021) [A Review of Formal Methods applied to Machine Learning](https://arxiv.org/abs/2104.02466)
 * (Uuk *et al.*, 2025) [Effective Mitigations for Systemic Risks from General-Purpose AI](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5021463)
@@ -445,6 +447,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Kastner, 2025) [Machine Learning in Production: From Models to Products](https://amazon.com/Machine-Learning-Production-Models-Products/dp/0262049724)
 * (Koopman, 2025) [Embodied AI Safety: Reimagining safety engineering for artificial intelligence in physical systems](https://philkoopman.substack.com/p/my-new-book-embodied-ai-safety)
 * (Levenson, 1995) [Safeware: System Safety and Computers](https://dl.acm.org/doi/book/10.1145/202709)
+* (Levenson, 2023) [Engineering a Safer World: Systems Thinking Applied to Safety](https://mitpress.mit.edu/9780262533690/engineering-a-safer-world/)
 * (Martin, 2025) [We, Programmers: A Chronicle of Coders from Ada to AI](https://www.oreilly.com/library/view/we-programmers-a/9780135344248/)
 * (Molnar, 2025) [Interpretable Machine Learning: A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
 * (Pelillo & Scantamburlo, 2021) [Machines We Trust: Perspectives on Dependable AI](https://www.amazon.com/Machines-We-Trust-Perspectives-Dependable-ebook/dp/B08P46HDYG)
