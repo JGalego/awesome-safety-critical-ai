@@ -484,9 +484,12 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (MLOps Community) [AI in Production 2024](https://home.mlops.community/public/collections/ai-in-production-2024-02-18)
 * (MLOps Community) [LLMs in Production 2023](https://home.mlops.community/public/collections/llms-in-production-conference-part-iii-2023)
 * (Robust Intelligence) [ML:Integrity 2022](https://www.mlintegrityconference.com/)
+* (SAIV'24) [7th International Symposium on AI Verification](https://aiverification.org/2024/)
 * (SCSC 2025) [Safety Critical Systems Symposium SSS'25](https://www.thescsc.org/e1099)
 * (SGAC 2023) [South Wales Safety Groups Alliance Conference and Exhibition](https://swwsafetygroup.co.uk/event/south-and-west-wales-safety-groups-alliance-conference-and-exhibition-always-think-risk/)
 * (SSS'24) [32nd annual Safety-Critical Systems Symposium](https://scsc.uk/e1007)
+* (VerifAI) [VerifAI: AI Verification in the Wild @ ICLR 2026](https://verifai-workshop.github.io/)
+* (WFVML'24) [3rd Workshop on Formal Verification and Machine Learning](https://www.ml-verification.com/)
 * (WMC'2024) [Workshop on Machine-learning enabled safety-Critical systems](https://sites.google.com/view/wmc24)
 
 ## <a id="courses"></a>👩‍🏫 Courses
