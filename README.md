@@ -289,6 +289,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Gauerhof, Munk & Burton, 2018) [Structuring validation targets of a machine learning function applied to automated driving](https://link.springer.com/chapter/10.1007/978-3-319-99130-6_4)
 * (Gebru *et al.*, 2018) [Datasheets for Datasets](https://arxiv.org/abs/1803.09010)
 * (Gehr *et al.*, 2018) [AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation](https://www.sri.inf.ethz.ch/publications/gehr2018ai)
+* (George *et al.*, 2026) [TorchLean: Formalizing Neural Networks in Lean](https://arxiv.org/abs/2602.22631)
 * (Guldimann *et al.*, 2024) [COMPL-AI Framework: A Technical Interpretation and LLM Benchmarking Suite for the EU Artificial Intelligence Act](https://www.sri.inf.ethz.ch/publications/guldimann2024euaia)
 * (Gursel *et al.*, 2025) [The role of AI in detecting and mitigating human errors in safety-critical industries: A review](https://www.sciencedirect.com/science/article/abs/pii/S0951832024007531)
 * (Habli, Lawton & Porter, 2020) [Artificial intelligence in health care: accountability and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC7133468/)
