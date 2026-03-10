@@ -247,7 +247,10 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 <small>[🔼 Back to top](#toc)</small>
 
 * (Adedjouma *et al.*, 2024) [Engineering Dependable AI Systems](https://hal.science/hal-03700300v1)
+* (Alshiekh *et al.*, 2017) [Safe Reinforcement Learning via Shielding](https://arxiv.org/abs/1708.08611)
+* (Amershi *et al.*, 2014) [Power to the People: The Role of Humans in Interactive Machine Learning](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2513)
 * (Amershi *et al.*, 2019) [Software Engineering for Machine Learning: A Case Study](https://ieeexplore.ieee.org/document/8804457/)
+* (Ames *et al.*, 2019) [Control Barrier Functions: Theory and Applications](http://ames.caltech.edu/ames2019control.pdf)
 * (Amrani, Lúcio & Bibal, 2018) [ML + FV = <3? A Survey on the Application of Machine Learning to Formal Verification](https://arxiv.org/abs/1806.03600)
 * (Arpteg *et al.*, 2018) [Software Engineering Challenges of Deep Learning](https://arxiv.org/abs/1810.12034)
 * (Balduzzi *et al.*., 2021) [Neural Network Based Runway Landing Guidance for General Aviation Autoland](https://rosap.ntl.bts.gov/view/dot/62210)
@@ -263,12 +266,15 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Bojarski *et al.*, 2016) [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316)
 * (Bolchini, Cassano & Miele, 2024) [Resilience of Deep Learning applications: a systematic literature review of analysis and hardening techniques](https://arxiv.org/abs/2309.16733)
 * (Bondar, 2025) [Ukraine's Future Vision and Current Capabilities for Waging AI-Enabled Autonomous Warfare](https://www.csis.org/analysis/ukraines-future-vision-and-current-capabilities-waging-ai-enabled-autonomous-warfare)
+* (Borg *et al.*, 2022) [Ergo, SMIRK is Safe: A Safety Case for a Machine Learning Component in a Pedestrian Automatic Emergency Brake System](https://arxiv.org/abs/2204.07874)
 * (Bloomfield & Rushby, 2025) [Where AI Assurance Might Go Wrong: Initial lessons from engineering of critical systems](https://arxiv.org/abs/2502.03467)
 * (Breck *et al.*, 2016) [What's your ML test score? A rubric for ML production systems](https://research.google/pubs/whats-your-ml-test-score-a-rubric-for-ml-production-systems/)
 * (Breiman, 2001) [Statistical Modeling: The Two Cultures](https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full)
+* (Brooks, 1989) [How to Build Complete Creatures Rather than Isolated Cognitive Simulators](https://people.csail.mit.edu/brooks/papers/how-to-build.pdf)
 * (Bullwinkel *et al.*, 2025) [Lessons From Red Teaming 100 Generative AI Products](https://arxiv.org/abs/2501.07238)
 * (Burton & Herd, 2023) [Addressing uncertainty in the safety assurance of machine-learning](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2023.1132580/full)
 * (Chance *et al.*, 2023) [Assessing Trustworthiness of Autonomous Systems](https://arxiv.org/abs/2305.03411)
+* (Chen & Avizienis, 1978) [N-version programming: A fault-tolerance approach to reliability of software operation](https://www.inf.pucrs.br/~zorzo/cs/n-versionprogramming.pdf)
 * (Chihani, 2021) [Formal Methods for AI: Lessons from the past, promisses of the future](https://hal.science/hal-04479570)
 * (Clavière, 2023) [Safety verification of neural network based systems using formal methods](https://hal.science/tel-05023811)
 * (Clavière, Kirov & Cofer, 2025) [How to Verify Generalization Capability of a Neural Network with Formal Methods](https://dl.acm.org/doi/10.1007/978-3-031-99991-8_7)
@@ -286,6 +292,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Farahmand & Neu, 2025) [AI Safety for Physical Infrastructures: A Collaborative and Interdisciplinary Approach](https://onlinelibrary.wiley.com/doi/full/10.1111/ffe.14575)
 * (Faria, 2018) [Machine learning safety: An overview](https://scsc.uk/e503prog)
 * (Feather & Pinto, 2023) [Assurance for Autonomy – JPL's past research, lessons learned, and future directions](https://arxiv.org/abs/2305.11902)
+* (Fisac *et al.*, 2017) [A General Safety Framework for Learning-Based Control in Uncertain Robotic Systems](https://arxiv.org/abs/1705.01292)
+* (Fulton & Platzer, 2018) [Safe Reinforcement Learning via Formal Methods: Toward Safe Control Through Proof and Learning](https://ojs.aaai.org/index.php/AAAI/article/view/12107)
 * (Gauerhof, Munk & Burton, 2018) [Structuring validation targets of a machine learning function applied to automated driving](https://link.springer.com/chapter/10.1007/978-3-319-99130-6_4)
 * (Gebru *et al.*, 2018) [Datasheets for Datasets](https://arxiv.org/abs/1803.09010)
 * (Gehr *et al.*, 2018) [AI2: Safety and Robustness Certification of Neural Networks with Abstract Interpretation](https://www.sri.inf.ethz.ch/publications/gehr2018ai)
@@ -295,6 +303,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Habli, Lawton & Porter, 2020) [Artificial intelligence in health care: accountability and safety](https://pmc.ncbi.nlm.nih.gov/articles/PMC7133468/)
 * (Haroun *et al.*, 2023) [Machine learning requirements for the airworthiness of structural health monitoring systems in aircraft](https://dspace.lib.cranfield.ac.uk/items/e3a605b3-2a67-4880-bd43-723e8a34ce6c)
 * (Hasani *et al.*, 2022) [Trustworthy Artificial Intelligence in Medical Imaging](https://pmc.ncbi.nlm.nih.gov/articles/PMC8785402/)
+* (Hawkins *et al.*, 2021) [Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS)](https://arxiv.org/abs/2102.01564)
+* (Hendrycks & Gimpel, 2017) [A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks](https://arxiv.org/abs/1610.02136)
 * (Hennigen *et al.*, 2023) [Towards Verifiable Text Generation with Symbolic References](https://arxiv.org/abs/2311.09188)
 * (Holzinger *et al.*, 2017) [What do we need to build explainable AI systems for the medical domain?](https://arxiv.org/abs/1712.09923)
 * (Höhndorf *et al.*, 2024) [Artificial Intelligence Verification Based on Operational Design Domain (ODD) Characterizations Utilizing Subset Simulation](https://ieeexplore.ieee.org/abstract/document/10749586/)
@@ -333,6 +343,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Mir & Perinpanayagam, 2022) [Certification of machine learning algorithms for safe-life assessment of landing gear](https://www.frontiersin.org/journals/astronomy-and-space-sciences/articles/10.3389/fspas.2022.896877/full)
 * (Mitchell *et al.*, 2019) [Model cards for model reporting](https://arxiv.org/abs/1810.03993)
 * (Nahar *et al.*, 2022) [Collaboration challenges in building ML-enabled systems: communication, documentation, engineering, and process](https://dl.acm.org/doi/10.1145/3510003.3510209)
+* (Nesti *et al.*, 2025) [The Use of the Simplex Architecture to Enhance Safety in Deep-Learning-Powered Autonomous Systems](https://arxiv.org/abs/2509.21014)
 * (Ozkaya, 2020) [What Is Really Different in Engineering AI-Enabled Systems?](https://ieeexplore.ieee.org/document/9121629)
 * (Papernot *et al.*, 2018) [SoK: Security and Privacy in Machine Learning](https://ieeexplore.ieee.org/document/8406613)
 * (Passi & Sengers, 2020) [Making data science systems work](https://journals.sagepub.com/doi/10.1177/2053951720939605)
@@ -340,6 +351,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Pattabiraman, Li & Chen, 2020) [Error Resilient Machine Learning for Safety-Critical Systems: Position Paper](https://ieeexplore.ieee.org/document/9159749)
 * (Pereira & Thomas, 2024) [Challenges of Machine Learning Applied to Safety-Critical Cyber-Physical Systems](https://www.mdpi.com/2504-4990/2/4/31)
 * (Perez-Cerrolaza *et al.*, 2024) [Artificial Intelligence for Safety-Critical Systems in Industrial and Transportation Domains: A Survey](https://dl.acm.org/doi/10.1145/3626314)
+* (Phan *et al.*, 2019) [Neural Simplex Architecture](https://arxiv.org/abs/1908.00528)
 * (Phelps & Ranson, 2023) [Of Models and Tin Men: A Behavioural Economics Study of Principal-Agent Problems in AI Alignment using Large-Language Models](https://arxiv.org/abs/2307.11137)
 * (Picardi *et al.*, 2020) [Assurance Argument Patterns and Processes for Machine Learning in Safety-Related Systems](https://ceur-ws.org/Vol-2560/paper17.pdf)
 * (Pushkarna, Zaldivar & Kjartansson, 2022) [Data Cards: Purposeful and Transparent Dataset Documentation for Responsible AI](https://arxiv.org/abs/2204.01075)
@@ -387,6 +399,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Zhang & Li, 2020) [Testing and verification of neural-network-based safety-critical control software: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S0950584920300471)
 * (Zhang *et al.*, 2020) [Machine Learning Testing: Survey, Landscapes and Horizons](https://ieeexplore.ieee.org/document/9000651)
 * (Zhang *et al.*, 2024) [The Fusion of Large Language Models and Formal Methods for Trustworthy AI Agents: A Roadmap](https://arxiv.org/abs/2412.06512)
+* (Zhong *et al.*, 2021) [Safe-visor Architecture for Sandboxing (AI-based) Unverified Controllers in Stochastic Cyber-Physical Systems](https://arxiv.org/abs/2102.05490)
 
 ## <a id="blogs"></a>✍️ Blogs / News
 
@@ -453,6 +466,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Molnar, 2025) [Interpretable Machine Learning: A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
 * (Pelillo & Scantamburlo, 2021) [Machines We Trust: Perspectives on Dependable AI](https://www.amazon.com/Machines-We-Trust-Perspectives-Dependable-ebook/dp/B08P46HDYG)
 * (Razmi, 2024) [AI Doctor: The Rise of Artificial Intelligence in Healthcare - A Guide for Users, Buyers, Builders, and Investors](https://www.amazon.com/Doctor-Artificial-Intelligence-Healthcare-Investors/dp/1394240163)
+* (Schneiderman, 2022) [Human-Centered AI](https://academic.oup.com/book/41126)
 * (Spector *et al.*, 2022) [Data Science in Context: Foundations, Challenges, Opportunities](https://datascienceincontext.com/)
 * (Suen, Scheinker & Enns, 2022) [Artificial Intelligence for Healthcare: Interdisciplinary Partnerships for Analytics-driven Improvements in a Post-COVID World](https://www.cambridge.org/core/books/abs/artificial-intelligence-for-healthcare/artificial-intelligence-for-healthcare/04CE337F579D3CF1EEB58DD147261DE8)
 * (Topol, 2019) [Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again](https://www.amazon.com/Deep-Medicine-Artificial-Intelligence-Healthcare/dp/1541644638)
@@ -596,6 +610,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (McKinsey) [Superagency in the workplace: Empowering people to unlock AI's full potential](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work)
 * (Microsoft) [Responsible AI Transparency Report 2024](https://www.microsoft.com/en-us/corporate-responsibility/responsible-ai-transparency-report)
 * (NASA) [Examining Proposed Uses of LLMs to Produce or Assess Assurance Arguments](https://ntrs.nasa.gov/api/citations/20250001849/downloads/NASA-TM-20250001849.pdf)
+* (National Academies) [Machine Learning for Safety-Critical Applications: Opportunities, Challenges, and a Research Agenda 2025](https://www.nationalacademies.org/publications/27970)
 * (PwC) [US Responsible AI Survey](https://www.pwc.com/us/en/tech-effect/ai-analytics/responsible-ai-survey.html)
 * (rosap) [Assurance of Machine Learning-Based Aerospace Systems: Towards an Overarching Properties-Driven Approach](https://rosap.ntl.bts.gov/view/dot/68923)
 
@@ -772,6 +787,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Fraunhofer) [Dependable AI: How to use Artificial Intelligence even in critical applications?](https://www.iese.fraunhofer.de/en/services/dependable-ai.html)
 * (IET) [The Application of Artificial Intelligence in Functional Safety](https://electrical.theiet.org/guidance-and-codes-of-practice/publications-by-category/artificial-intelligence/the-application-of-artificial-intelligence-in-functional-safety/)
 * (MathWorks) [Verify an Airborne Deep Learning System](https://www.mathworks.com/help/deeplearning/ug/verify-an-airborne-deep-learning-system.html)
+* (Parasoft) [How to Ensure Safe & Secure Software for AI/ML-Driven Embedded Systems](https://www.parasoft.com/white-paper/ensure-safety-ai-embedded-systems)
 * (Thales) [The Challenges of using AI in Critical Systems](https://www.thalesgroup.com/en/worldwide/group/magazine/challenges-using-ai-critical-systems)
 
 ## <a id="working-groups"></a>👷🏼 Working Groups
