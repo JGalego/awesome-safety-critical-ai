@@ -408,7 +408,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Acubed, 2023) [Airbus Validates Computer Vision-Based Technologies to Increase Safety Through Automation](https://acubed.airbus.com/blog/wayfinder/airbus-validates-computer-vision-based-technologies-to-increase-safety-through-automation/)
 * (Amazon Science, 2020) [How to integrate formal proofs into software development](https://www.amazon.science/blog/how-to-integrate-formal-proofs-into-software-development)
 * (Beca, 2025) [Can Machine Learning Systems be Certified on Aircraft?](https://www.beca.com/ignite-your-thinking/ignite-your-thinking/march-2025/can-machine-learning-systems-be-certified-on-aircraft)
-* (Bits & Atoms, 2017) [Designing Effective Policies for Safety-Critical AI](https://bitsandatoms.co/effective-policies-for-safety-critical-ai/)
+* (Bits & Atoms, 2017) [Designing Effective Policies for Safety-Critical AI](https://web.archive.org/web/20201201000000*/bitsandatoms.co/effective-policies-for-safety-critical-ai/)
 * (Bits & Chips, 2024) [Verifying and validating AI in safety-critical systems](https://bits-chips.com/article/verifying-and-validating-ai-in-safety-critical-systems/)
 * (Clear Prop, 2023) [Unpacking Human-AI Interaction in Safety-Critical Industries: A Systematic Literature Review](https://pamirsevincel.substack.com/p/clear-prop-9-forum-79-paper-spotlight)
 * (CleverHans Lab, 2016) [Breaking things is easy](https://cleverhans.io/security/privacy/ml/2016/12/16/breaking-things-is-easy.html)
