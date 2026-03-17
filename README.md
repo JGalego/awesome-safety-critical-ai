@@ -600,11 +600,15 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 ## <a id="patents"></a>💡 Patents
 
+<small>[🔼 Back to top](#toc)</small>
+
 * `US10809735B2`: [System and method for a framework of robust and safe reinforcement learning application in real world autonomous vehicle application](https://patents.google.com/patent/US10809735B2)
 * `US10962972B2`: [Safety architecture for autonomous vehicles](https://patents.google.com/patent/US10962972B2/en)
 * `US11644834B2`: [Systems and methods for safe and reliable autonomous vehicles](https://patents.google.com/patent/US11644834B2)
 
 ## <a id="roadmaps"></a>🛣️ Roadmaps
+
+<small>[🔼 Back to top](#toc)</small>
 
 * (CISA) [Roadmap for Artificial Intelligence](https://www.cisa.gov/ai): a whole-of-agency plan aligned with national AI strategy
 * (EASA) [Artificial Intelligence Roadmap](https://www.easa.europa.eu/en/domains/research-innovation/ai): a human-centric approach to AI in aviation
