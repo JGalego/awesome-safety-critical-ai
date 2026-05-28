@@ -691,6 +691,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 ### Model Evaluation
 
 * [`confident-ai/deepeval`](https://github.com/confident-ai/deepeval): a simple-to-use, open-source LLM evaluation framework, for evaluating and testing LLM systems
+* [`future-agi/ai-evaluation`](https://github.com/future-agi/ai-evaluation): an open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge augmentation, and guardrail scanners (jailbreak, PII, prompt-injection); AutoEval pipelines with CI/CD support
 * [`RobustBench/robustbench`](https://github.com/RobustBench/robustbench): a standardized adversarial robustness benchmark
 * [`trust-ai/SafeBench`](https://github.com/trust-ai/SafeBench): a benchmark for evaluating Autonomous Vehicles in safety-critical scenarios
 
