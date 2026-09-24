@@ -846,6 +846,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * [MITRE ATLAS](https://atlas.mitre.org/): navigate threats to AI systems through real-world insights
 * [ML Safety](https://www.mlsafety.org/): the ML research community focused on reducing risks from AI systems
 * [MLSecOps](https://mlsecops.com/) by Protect AI
+* [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive): open database of real-world AI agent security incidents, each record backed by a primary source and flagged for whether harm actually occurred or was only demonstrated
 * [OWASP's Top 10 LLM Applications & Generative AI](https://genai.owasp.org/)
 * [Paul Niquette's Software Does Not Fail essay](http://www.niquette.com/paul/issue/softwr02.htm)
 * [RobustML](https://robust-ml.github.io/): community-run hub for learning about robust ML
