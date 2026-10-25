@@ -859,6 +859,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
   * [Microsoft](https://blogs.microsoft.com/blog/2024/09/24/microsoft-trustworthy-ai-unlocking-human-potential-starts-with-trust/)
   * [NIST](https://www.nist.gov/trustworthy-and-responsible-ai)
   * [NVIDIA](https://www.nvidia.com/en-us/ai-data-science/trustworthy-ai/)
+* [The Machine Record](https://themachinerecord.com): independent public register of incidents involving commercial robots and robotaxis, each followed to investigation, recall, lawsuit or fine, CC BY 4.0 with open API
 
 ## <a id="meta"></a>🏁 Meta
 
