@@ -449,6 +449,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Taranis, 2025) [Datacenters in space are a terrible, horrible, no good idea](https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
 * (Thinking Machines, 2025) [Defeating Nondeterminism in LLM Inference](https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/)
+* (Trigpoint, 2026) [Ironies of Automation: Trigpoint Sourced Summary](https://trigpoint.pub/collections/hai/ironies-of-automation) - Design the human out, and the hardest leftover work still lands on the human.
 * (VentureBeat, 2019) [Why do 87% of data science projects never make it into production?](https://venturebeat.com/ai/why-do-87-of-data-science-projects-never-make-it-into-production/)
 * (Wiz, 2025) [What is AI Red Teaming?](https://www.wiz.io/academy/ai-red-teaming)
 
