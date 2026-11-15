@@ -480,6 +480,8 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Schneiderman, 2022) [Human-Centered AI](https://academic.oup.com/book/41126)
 * (Spector *et al.*, 2022) [Data Science in Context: Foundations, Challenges, Opportunities](https://datascienceincontext.com/)
 * (Suen, Scheinker & Enns, 2022) [Artificial Intelligence for Healthcare: Interdisciplinary Partnerships for Analytics-driven Improvements in a Post-COVID World](https://www.cambridge.org/core/books/abs/artificial-intelligence-for-healthcare/artificial-intelligence-for-healthcare/04CE337F579D3CF1EEB58DD147261DE8)
+* (Tegomoh, 2026) [The Biosecurity Handbook](https://biosecurityhandbook.com/)
+* (Tegomoh, 2026) [The Physician AI Handbook](https://physicianaihandbook.com/)
 * (Topol, 2019) [Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again](https://www.amazon.com/Deep-Medicine-Artificial-Intelligence-Healthcare/dp/1541644638)
 * (Tran, 2024) [Artificial Intelligence for Safety and Reliability Engineering: Methods, Applications, and Challenges](https://link.springer.com/book/10.1007/978-3-031-71495-5)
 * (Rierson, 2013) [Developing Safety-Critical Software: A Practical Guide for Aviation Software and DO-178C Compliance]()
