@@ -24,6 +24,7 @@ Two workflows help the maintainers. Neither changes the list on its own.
 
 * **Scout** runs every Monday. It collects recent papers, repositories and blog posts, drops anything already listed, screens out filler, marketing and out-of-scope items with a Gemini model, and opens one issue labelled `scout` for the maintainers to triage.
 * **Draft** runs when a maintainer comments `/draft <url>` on a scout issue. It drafts one entry (an article from arXiv, a tool from GitHub, or a blog post), checks it against the rules above, and opens a pull request with only that line added, or comments with the reason it declined. `/draft all` does the same for every candidate in the issue, up to 10, one pull request each. A person must still check every claim before merging.
+* **Review commands** let a maintainer comment `/reject <reason>` on a pull request, where the reason is `out-of-scope`, `duplicate`, `low-quality`, or `not-yet`. It labels the pull request with the reason, closes it, and deletes its branch. Scout never reports a candidate again once its `scout` pull request is closed.
 
 AI tools may help you draft a contribution, but check every link and claim yourself. Pull requests that look like unreviewed AI output will be closed.
 

@@ -1,0 +1,51 @@
+name: Review commands
+
+# Maintainers judge a pull request by commenting on it.
+#
+#   /reject <reason> [note]   reason is out-of-scope, duplicate, low-quality, or not-yet.
+#                             Labels the pull request with the reason, comments, closes it,
+#                             and deletes its branch. Scout never reports a candidate that
+#                             has a closed `scout` pull request, so it will not come back.
+#
+# The comment body is untrusted: it reaches the shell only through the environment.
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  reject:
+    if: >-
+      github.event.issue.pull_request != null &&
+      startsWith(github.event.comment.body, '/reject') &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Reject the pull request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          PR: ${{ github.event.issue.number }}
+          COMMENT_ID: ${{ github.event.comment.id }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+        run: |
+          gh api "repos/$REPO/issues/comments/$COMMENT_ID/reactions" -f content=eyes >/dev/null
+          first_line=$(printf '%s\n' "$COMMENT_BODY" | head -n 1)
+          args=${first_line#/reject}
+          read -r word note <<< "$args"
+          case "$word" in
+            out-of-scope|duplicate|low-quality|not-yet) label=$word ;;
+            *) label=rejected; note="$args" ;;
+          esac
+          note=$(printf '%s' "$note" | sed 's/^[[:space:]]*//')
+          gh label create "$label" --repo "$REPO" --color b60205 --description "Closed by a maintainer: $label" --force >/dev/null
+          gh pr edit "$PR" --repo "$REPO" --add-label "$label"
+          body="Closed as **$label**."
+          [ -n "$note" ] && body="$body $note"
+          gh pr close "$PR" --repo "$REPO" --comment "$body" --delete-branch || gh pr close "$PR" --repo "$REPO" --comment "$body"
