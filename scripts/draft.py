@@ -290,7 +290,10 @@ SCOPE = (
     "fill in its entry.\n\n"
     "Set fits=false, with a one-sentence reason, if the page is marketing, a product announcement, funding news, "
     "filler, a listicle, padded writing with bizspeak, general AI ethics or hype with no engineering substance, or "
-    "has no checkable artifact such as code, data, a method, or a source. When in doubt set fits=false."
+    "has no checkable artifact such as code, data, a method, or a source; is machine learning applied to a "
+    "domain with no safety, assurance, or reliability angle; or only mentions safety in passing. When in doubt "
+    "set fits=false. When fits is true, evidence must be an exact quote of 20 to 200 characters copied from the "
+    "page text that shows it is about safety, assurance, or reliability of AI systems; when fits is false, use null."
 )
 
 
@@ -307,10 +310,10 @@ def build_messages(page: Page, subsections: list[str]) -> list[dict]:
         extra = (
             "Give the name of the publication or site that hosts the post, as short as it is usually written, "
             "and the post's title copied from the page.\n\n"
-            'Reply with JSON only: {"fits": bool, "reason": str, "source": str, "title": str}.'
+            'Reply with JSON only: {"fits": bool, "reason": str, "evidence": str|null, "source": str, "title": str}.'
         )
     else:
-        extra = 'This is a paper. Reply with JSON only: {"fits": bool, "reason": str}.'
+        extra = 'This is a paper. Reply with JSON only: {"fits": bool, "reason": str, "evidence": str|null}.'
     return [
         {"role": "system", "content": SCOPE + "\n\n" + extra},
         {"role": "user", "content": f"URL: {page.url}\nTitle: {page.title}\n\nPage text:\n{page.text[:6000]}"},
@@ -370,6 +373,13 @@ def draft(readme: str, page: Page, answer: dict, known: set[str]) -> Result:
         return result
     if normalize(page.url) in known:
         result.problems.append("This URL is already in the README, an open PR, or an earlier scout issue.")
+        return result
+
+    evidence = " ".join(str(answer.get("evidence") or "").split())
+    if len(evidence) < 20 or " ".join(evidence.casefold().split()) not in " ".join(page.text.casefold().split()):
+        result.problems.append(
+            "The model gave no quote from the page showing it is about safety-critical AI, or the quote is not on the page."
+        )
         return result
 
     description = ""

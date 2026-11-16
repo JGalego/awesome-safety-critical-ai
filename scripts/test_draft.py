@@ -36,7 +36,7 @@ README = """# T
 
 
 def page(kind, url, title, text="", **kw):
-    return d.Page(url, title, text or title, "2026", kind, **kw)
+    return d.Page(url, title, text or f"{title}. A study of safety assurance for machine learning.", "2026", kind, **kw)
 
 
 class StructureTests(unittest.TestCase):
@@ -59,7 +59,7 @@ class StructureTests(unittest.TestCase):
 class DraftTests(unittest.TestCase):
     def test_article_goes_in_alphabetical_position(self):
         p = page(d.ARTICLES, "https://arxiv.org/abs/2611.00001", "Runtime Monitoring of Nets", authors=["A Brown", "B Li"])
-        r = d.draft(README, p, {"fits": True}, set())
+        r = d.draft(README, p, {"fits": True, "evidence": p.text}, set())
         self.assertTrue(r.ok, r.problems)
         self.assertEqual(r.entry, "* (Brown & Li, 2026) [Runtime Monitoring of Nets](https://arxiv.org/abs/2611.00001)")
         lines = r.lines
@@ -68,50 +68,57 @@ class DraftTests(unittest.TestCase):
 
     def test_article_without_authors_is_rejected(self):
         p = page(d.ARTICLES, "https://arxiv.org/abs/2611.00001", "T")
-        self.assertFalse(d.draft(README, p, {"fits": True}, set()).ok)
+        self.assertFalse(d.draft(README, p, {"fits": True, "evidence": p.text}, set()).ok)
 
     def test_blog_checks_title_and_source(self):
         text = "Why Assurance Cases Matter. A post on the Example Journal about assurance cases."
         p = page(d.BLOGS, "https://example.org/post", "Why Assurance Cases Matter", text)
-        ok = d.draft(README, p, {"fits": True, "title": "Why Assurance Cases Matter", "source": "Example Journal"}, set())
+        ok = d.draft(README, p, {"fits": True, "evidence": p.text, "title": "Why Assurance Cases Matter", "source": "Example Journal"}, set())
         self.assertTrue(ok.ok, ok.problems)
         self.assertEqual(ok.entry, "* (Example Journal, 2026) [Why Assurance Cases Matter](https://example.org/post)")
-        bad = d.draft(README, p, {"fits": True, "title": "Invented Title", "source": "Example Journal"}, set())
+        bad = d.draft(README, p, {"fits": True, "evidence": p.text, "title": "Invented Title", "source": "Example Journal"}, set())
         self.assertFalse(bad.ok)
-        bad = d.draft(README, p, {"fits": True, "title": "Why Assurance Cases Matter", "source": "Nowhere Weekly"}, set())
+        bad = d.draft(README, p, {"fits": True, "evidence": p.text, "title": "Why Assurance Cases Matter", "source": "Nowhere Weekly"}, set())
         self.assertFalse(bad.ok)
 
     def test_blog_source_may_match_the_host(self):
-        p = page(d.BLOGS, "https://www.acubed.com/blog/x", "A Post Title", "A Post Title")
-        r = d.draft(README, p, {"fits": True, "title": "A Post Title", "source": "Acubed"}, set())
+        p = page(d.BLOGS, "https://www.acubed.com/blog/x", "A Post Title")
+        r = d.draft(README, p, {"fits": True, "evidence": p.text, "title": "A Post Title", "source": "Acubed"}, set())
         self.assertTrue(r.ok, r.problems)
 
     def test_tool_entry_and_position(self):
         p = page(d.TOOLS, "https://github.com/great-expectations/great_expectations", "great-expectations/great_expectations",
-                 "great-expectations/great_expectations. data quality checks for 50 pipelines")
-        a = {"fits": True, "subsection": "Data Management", "description": "data quality checks for 50 pipelines"}
+                 "great-expectations/great_expectations. data quality checks for 50 pipelines in production")
+        a = {"fits": True, "evidence": p.text, "subsection": "Data Management", "description": "data quality checks for 50 pipelines"}
         r = d.draft(README, p, a, set())
         self.assertTrue(r.ok, r.problems)
         self.assertEqual(r.entry, "* [`great-expectations/great_expectations`](https://github.com/great-expectations/great_expectations): data quality checks for 50 pipelines")
         self.assertLess(r.lines.index(r.entry), r.lines.index("* [`pydantic/pydantic`](https://github.com/pydantic/pydantic): data validation"))
 
     def test_tool_description_rules(self):
-        p = page(d.TOOLS, "https://github.com/a/lib", "a/lib", "a/lib. checks")
+        p = page(d.TOOLS, "https://github.com/a/lib", "a/lib", "a/lib. checks the safety assurance of machine learning")
         for desc in ("Capitalized start", "ends with a period.", "a blazing fast thing", "checks 99 things"):
-            a = {"fits": True, "subsection": "Data Management", "description": desc}
+            a = {"fits": True, "evidence": p.text, "subsection": "Data Management", "description": desc}
             self.assertFalse(d.draft(README, p, a, set()).ok, desc)
 
     def test_tool_in_hand_curated_subsection_is_rejected(self):
-        p = page(d.TOOLS, "https://github.com/a/lib", "a/lib", "a/lib. checks")
-        a = {"fits": True, "subsection": "Oldies 🕰️", "description": "checks things"}
+        p = page(d.TOOLS, "https://github.com/a/lib", "a/lib", "a/lib. checks the safety assurance of machine learning")
+        a = {"fits": True, "evidence": p.text, "subsection": "Oldies 🕰️", "description": "checks things"}
         self.assertFalse(d.draft(README, p, a, set()).ok)
+
+    def test_scope_evidence_is_required_and_must_be_on_the_page(self):
+        p = page(d.BLOGS, "https://example.org/post", "A Post Title")
+        for label, ev in {"missing": None, "short": "Safety.", "not on page": "This quote was never on the page at all."}.items():
+            r = d.draft(README, p, {"fits": True, "evidence": ev, "title": "A Post Title", "source": "Example"}, set())
+            self.assertFalse(r.ok, label)
+            self.assertIn("quote", r.problems[0])
 
     def test_declined_known_and_page_problems(self):
         p = page(d.BLOGS, "https://example.org/post", "T")
         self.assertIn("declined", d.draft(README, p, {"fits": False, "reason": "filler"}, set()).problems[0])
-        self.assertFalse(d.draft(README, p, {"fits": True}, {d.normalize(p.url)}).ok)
+        self.assertFalse(d.draft(README, p, {"fits": True, "evidence": p.text}, {d.normalize(p.url)}).ok)
         p.problems = ["The repository is archived."]
-        self.assertEqual(d.draft(README, p, {"fits": True}, set()).problems, ["The repository is archived."])
+        self.assertEqual(d.draft(README, p, {"fits": True, "evidence": p.text}, set()).problems, ["The repository is archived."])
 
     def test_parse_answer_and_comment(self):
         self.assertEqual(d.parse_answer('x {"fits": true, "reason": "r"} y')["reason"], "r")
@@ -131,7 +138,7 @@ class DraftTests(unittest.TestCase):
         self.assertIsNotNone(d.top_section(lines, d.BLOGS))
         self.assertGreater(len(d.tool_subsections(lines)), 5)
         p = page(d.ARTICLES, "https://arxiv.org/abs/2611.00001", "A Paper", authors=["A Zed"])
-        r = d.draft(real, p, {"fits": True}, set())
+        r = d.draft(real, p, {"fits": True, "evidence": p.text}, set())
         self.assertTrue(r.ok, r.problems)
         self.assertEqual(len(r.lines), len(lines) + 1)
 
