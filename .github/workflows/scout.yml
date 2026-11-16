@@ -1,0 +1,72 @@
+name: Scout
+
+# Weekly search for new references. scripts/scout.py gathers candidates from
+# arXiv, GitHub, and the blogs in the list, drops anything already listed or
+# reported, and has a Gemini model screen out filler, marketing, and
+# out-of-scope items. The result opens one issue for a maintainer to triage.
+# Nothing is added to the list automatically.
+#
+# One-time setup: create a `scout` label and add a SCOUT_API_KEY secret (a
+# Gemini API key from Google AI Studio). Optionally set SCOUT_MODEL (one model,
+# or a comma-separated fallback list; run the Probe models workflow to see what
+# works) and
+# SCOUT_API_URL repository variables to use another model or any other
+# OpenAI-compatible endpoint. The free tier is rate limited, so the script sends
+# candidates in small batches with pauses, and falls back to an unfiltered
+# report if the model is unreachable or the key is missing.
+
+on:
+  schedule:
+    - cron: "0 7 * * 1" # weekly, on Monday
+  workflow_dispatch:
+    inputs:
+      days:
+        description: How many days back to look
+        default: "10"
+      no_model:
+        description: Skip the model filter
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: scout
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Self-test the scout
+        run: python3 -m unittest discover -s scripts
+
+      - name: Find candidates
+        id: scout
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          SCOUT_API_KEY: ${{ secrets.SCOUT_API_KEY }}
+          SCOUT_API_URL: ${{ vars.SCOUT_API_URL }}
+          SCOUT_MODEL: ${{ vars.SCOUT_MODEL }}
+        run: |
+          python3 scripts/scout.py --out scout-report.md \
+            --days "${{ inputs.days || '10' }}" ${{ inputs.no_model && '--no-model' || '' }}
+
+      - name: Open an issue if there is anything to review
+        if: steps.scout.outputs.candidates != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create --label scout \
+            --title "Scout: ${{ steps.scout.outputs.candidates }} candidates ($(date +%Y-%m-%d))" \
+            --body-file scout-report.md
+
+      - name: Summarize the run
+        if: always()
+        run: cat scout-report.md >> "$GITHUB_STEP_SUMMARY" || true

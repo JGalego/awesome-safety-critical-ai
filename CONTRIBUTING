@@ -18,6 +18,15 @@ When proposing a new reference or section, please keep the following in mind:
 * Tools should not be listed in more than one section.
 * Tools should not be archived and must have been actively maintained within the last 6 months.
 
+## Automation 🤖
+
+Two workflows help the maintainers. Neither changes the list on its own.
+
+* **Scout** runs every Monday. It collects recent papers, repositories and blog posts, drops anything already listed, screens out filler, marketing and out-of-scope items with a Gemini model, and opens one issue labelled `scout` for the maintainers to triage.
+* **Draft** runs when a maintainer comments `/draft <url>` on a scout issue. It drafts one entry (an article from arXiv, a tool from GitHub, or a blog post), checks it against the rules above, and opens a pull request with only that line added, or comments with the reason it declined. A person must still check every claim before merging.
+
+AI tools may help you draft a contribution, but check every link and claim yourself. Pull requests that look like unreviewed AI output will be closed.
+
 ## Review Process 📝
 
 **Initial Feedback:** When a pull request (PR) or issue is created, initial feedback will be provided by the maintainers.

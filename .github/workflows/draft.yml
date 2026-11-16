@@ -1,0 +1,94 @@
+name: Draft
+
+# A maintainer comments `/draft <url>` on a scout issue. scripts/draft.py
+# fetches that page, has a Gemini model write one entry, checks the
+# entry mechanically against CONTRIBUTING, and opens a pull request with
+# only that line added. If a check fails, the issue gets a comment saying why
+# and nothing is opened. Every PR still needs a person to check it.
+#
+# Pull requests opened with GITHUB_TOKEN do not trigger other workflows, so
+# lint and links will not run on them until a maintainer pushes to the branch
+# or closes and reopens the pull request.
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: draft
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    if: >-
+      github.event.issue.pull_request == null &&
+      startsWith(github.event.comment.body, '/draft') &&
+      contains(github.event.issue.labels.*.name, 'scout') &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Acknowledge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api "repos/${{ github.repository }}/issues/comments/${{ github.event.comment.id }}/reactions" -f content=eyes
+
+      - name: Self-test the scripts
+        run: python3 -m unittest discover -s scripts
+
+      # The comment and issue bodies are untrusted: they reach the script only
+      # through the environment, never through shell interpolation.
+      - name: Draft the entry
+        id: draft
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          SCOUT_API_KEY: ${{ secrets.SCOUT_API_KEY }}
+          SCOUT_API_URL: ${{ vars.SCOUT_API_URL }}
+          SCOUT_MODEL: ${{ vars.SCOUT_MODEL }}
+          COMMENT_BODY: ${{ github.event.comment.body }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: python3 scripts/draft.py --report draft-report.md --issue "#${{ github.event.issue.number }}"
+
+      - name: Open a pull request
+        id: pr
+        if: steps.draft.outputs.status == 'ok'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: ${{ steps.draft.outputs.branch }}
+          TITLE: ${{ steps.draft.outputs.title }}
+        run: |
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            BRANCH="$BRANCH-${{ github.run_number }}"
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add README.md
+          git commit -m "$TITLE"
+          git push -u origin "$BRANCH"
+          url=$(gh pr create --title "$TITLE" --body-file draft-report.md --label scout --base main --head "$BRANCH")
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      - name: Report back on the issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATUS: ${{ steps.draft.outputs.status }}
+          PR_URL: ${{ steps.pr.outputs.url }}
+        run: |
+          if [ "$STATUS" = "ok" ] && [ -n "$PR_URL" ]; then
+            body="Opened $PR_URL. Please check it against the source before merging."
+          elif [ -s draft-report.md ] && [ "$STATUS" = "rejected" ]; then
+            body=$(cat draft-report.md)
+          else
+            body="The draft job failed. See the [run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})."
+          fi
+          gh issue comment "${{ github.event.issue.number }}" --body "$body"
