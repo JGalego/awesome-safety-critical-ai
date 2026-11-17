@@ -445,6 +445,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 * (Safety4Sea, 2024) [The risks and benefits of AI translations in safety-critical industries](https://safety4sea.com/the-risks-and-benefits-of-ai-translations-in-safety-critical-industries/)
 * (SE4ML, 2025) [Machine Learning Engineering Practices in Recent Years: Trends and Challenges](https://se-ml.github.io/blog/2025/five-y/)
 * (Space and Time, 2024) [Verifiable LLMs for the Modern Enterprise](https://www.spaceandtime.io/blog/verifiable-llms-for-the-modern-enterprise)
+* (Standard Compute, 2026) [EN 18286, the first EU AI Act harmonised standard, explained](https://standardcompute.com/eu-ai-act-harmonised-standard-en-18286)
 * (Susana Cox, 2025) [We Need To Talk About Real Engineering](https://disesdi.substack.com/p/we-need-to-talk-about-real-engineering)
 * (Taranis, 2025) [Datacenters in space are a terrible, horrible, no good idea](https://taranis.ie/datacenters-in-space-are-a-terrible-horrible-no-good-idea/)
 * (think AI, 2024) [Artificial Intelligence in Safety-Critical Systems](https://medium.com/think-ai/ai-in-safety-critical-systems-6b778f26c965)
