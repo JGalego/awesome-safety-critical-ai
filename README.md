@@ -828,6 +828,7 @@ If you're in a hurry or just don't like reading, here's a podcast-style breakdow
 
 <small>[🔼 Back to top](#toc)</small>
 
+* [AI Governance Templates](https://github.com/nosistech/governance-templates): open AI use policy, tool register, vendor questionnaire and incident playbook for small and mid-size organizations, including a healthcare clinic example where patient safety comes first
 * [AI Incident Database](https://incidentdatabase.ai/): dedicated to indexing the collective history of harms or near harms realized in the real world by the deployment of AI systems
 * [AI Safety](https://www.aisafety.com/): the hub for AI safety resources
 * [AI Safety Landscape](https://futureoflife.org/landscape/): AI safety research agendas
